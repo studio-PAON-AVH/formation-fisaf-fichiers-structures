@@ -1,0 +1,13 @@
+slides:
+  title: "Formation FISAF – Fichiers Structurés"
+  theme: "white"
+  highlight_theme: "github"
+
+index:
+  title: "Formation FISAF – Fichiers Structurés pour la Transcription et l'Édition Numérique Adaptée"
+
+revealjs:
+  history: true
+  slideNumber: "c/t"
+  center: true
+  transition: "slide"
