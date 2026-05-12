@@ -6,6 +6,9 @@ title: "Jour 2 – Après-midi : EPUB accessibles en pratique"
 
 ## Produire des EPUBs accessibles
 
+Notes:
+Bienvenue dans cette dernière session de la formation. Cet après-midi est entièrement consacré à la pratique : nous allons produire des EPUBs accessibles, les tester et les valider.
+
 ---
 
 ## Au programme cet après-midi
@@ -21,11 +24,17 @@ title: "Jour 2 – Après-midi : EPUB accessibles en pratique"
    - Créer un EPUB Media Overlay
 4. Contrôler et valider un EPUB
 
+Notes:
+Cet après-midi comprend quatre parties. Nous commençons par voir comment récupérer un fichier Word à partir d'un EPUB existant, puis nous revoyons la structuration dans Word avant de nous concentrer sur la production d'EPUBs accessibles avec deux outils différents. Nous terminerons par la validation technique et d'accessibilité.
+
 ---
 
 # Partie 1
 
 ## Convertir un EPUB vers Word
+
+Notes:
+Cette première partie couvre la conversion dans le sens inverse : partir d'un EPUB existant pour obtenir un fichier Word modifiable. C'est utile lorsqu'on reçoit un EPUB sans le fichier Word source.
 
 ---
 
@@ -45,6 +54,9 @@ title: "Jour 2 – Après-midi : EPUB accessibles en pratique"
 
 ⚠️ La qualité dépend de la structure de l'EPUB source
 
+Notes:
+La conversion EPUB vers DOCX via Calibre fonctionne bien pour les EPUBs bien structurés. Le résultat peut nécessiter des ajustements, notamment pour les styles qui ne correspondent pas exactement aux styles Word natifs. Pour les EPUBs Fixed Layout ou avec des mises en page complexes, la conversion sera moins fidèle.
+
 ---
 
 ## 1.b – Via WordToEPUB du DAISY Consortium
@@ -58,6 +70,9 @@ title: "Jour 2 – Après-midi : EPUB accessibles en pratique"
 **Il peut aussi reconvertir un EPUB en Word :**
 1. Exporter l'EPUB en DOCX via les outils internes
 2. Réutiliser la source Word si disponible
+
+Notes:
+WordToEPUB traite les fichiers localement dans votre navigateur, ce qui garantit la confidentialité de vos documents : aucun fichier n'est envoyé vers un serveur distant. C'est un avantage important pour les structures qui traitent des documents sous droit d'auteur. Son principal usage est la conversion Word → EPUB, mais il peut aussi aider à extraire le contenu d'un EPUB.
 
 ---
 
@@ -76,11 +91,17 @@ Flux de travail recommandé :
     [Source Word mise à jour] ← [Retour si nécessaire]
 ```
 
+Notes:
+La conservation du fichier Word source est une règle d'or de la production d'EPUBs. Toute modification ultérieure (correction d'erreur, mise à jour du contenu, reconversion dans un nouveau format) sera beaucoup plus simple et fiable à partir du Word structuré que depuis l'EPUB. Il est recommandé de versionner les fichiers sources et de les archiver systématiquement.
+
 ---
 
 # Partie 2
 
 ## Retour à la structuration dans Word
+
+Notes:
+Avant de générer nos EPUBs, rappelons les règles de structuration dans Word. La qualité de l'EPUB produit dépend directement de la qualité de la structuration du fichier source.
 
 ---
 
@@ -96,6 +117,9 @@ Les éléments essentiels pour un EPUB de qualité :
 | **Images** | Texte alternatif obligatoire |
 | **Tableaux** | Ligne d'en-tête définie |
 | **Notes de bas de page** | Via l'outil Word dédié |
+
+Notes:
+Ces règles sont identiques à celles que nous avons vues hier pour la production de DTBook. C'est une force de l'approche WYSIWYM : un document bien structuré dans Word peut être converti en DTBook, en EPUB ou dans d'autres formats avec une bonne qualité. La structuration est faite une seule fois et sert pour tous les formats de sortie.
 
 ---
 
@@ -113,6 +137,9 @@ Les éléments essentiels pour un EPUB de qualité :
 
 Ces métadonnées seront intégrées dans l'EPUB généré.
 
+Notes:
+Les métadonnées Word sont récupérées par les outils de conversion et intégrées dans les fichiers de métadonnées de l'EPUB (content.opf). Il est important de les renseigner correctement avant la conversion. Le titre et la langue sont les plus critiques pour l'accessibilité : le titre sera affiché dans la liseuse et la langue est nécessaire pour la synthèse vocale.
+
 ---
 
 ## Métadonnées d'accessibilité supplémentaires
@@ -125,11 +152,17 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 - **Résumé d'accessibilité** : description des mesures prises
 - **Conformité** : EPUB Accessibility 1.1 – WCAG 2.1 niveau AA
 
+Notes:
+Ces métadonnées supplémentaires sont spécifiques à l'accessibilité EPUB. Elles permettent d'indiquer précisément comment le livre peut être lu (mode textuel seulement, ou aussi visuel/auditif), quelles fonctionnalités d'accessibilité il supporte, et à quel niveau de conformité WCAG il répond. WordToEPUB et SaveAsDAISY proposent des interfaces guidées pour renseigner ces informations.
+
 ---
 
 # Partie 3
 
 ## Générer un EPUB accessible *(exercices)*
+
+Notes:
+Passons maintenant à la pratique. Nous allons générer des EPUBs accessibles avec deux outils différents, puis créer un EPUB avec synchronisation audio.
 
 ---
 
@@ -148,6 +181,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 
 ✅ Avantage : simple, en ligne, très accessible
 
+Notes:
+WordToEPUB est l'outil le plus simple pour produire un EPUB 3 accessible à partir de Word. Il gère automatiquement la structure de l'EPUB, la table des matières, et propose un assistant pour les métadonnées d'accessibilité. Seule limitation : il ne supporte pas les Media Overlays (synchronisation audio). Pour les livres audio structurés, il faudra utiliser SaveAsDAISY.
+
 ---
 
 ## 🛠️ Exercice 4
@@ -162,6 +198,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 6. Tester la navigation (table des matières, titres)
 
 **Durée : 20 minutes**
+
+Notes:
+Pour cet exercice, utilisez le fichier exercice4.docx fourni. Après la conversion, testez soigneusement l'EPUB dans Thorium Reader : vérifiez que la table des matières est complète et navigable, que les titres sont bien hiérarchisés, et que les images s'affichent correctement avec leur texte alternatif. Nous utiliserons cet EPUB dans les exercices de validation qui suivent.
 
 ---
 
@@ -179,6 +218,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 5. Choisir le dossier de destination
 6. Lancer l'export
 
+Notes:
+SaveAsDAISY produit également des EPUBs 3 accessibles directement depuis Word. La configuration est similaire à WordToEPUB mais l'interface est intégrée dans Word. Un avantage de SaveAsDAISY est la possibilité de sauvegarder les paramètres de configuration pour les réutiliser lors de conversions ultérieures.
+
 ---
 
 ## Comparatif WordToEPUB vs SaveAsDAISY
@@ -192,6 +234,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 | **DTBook** | ❌ | ✅ |
 | **Facilité d'utilisation** | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 
+Notes:
+Le choix entre WordToEPUB et SaveAsDAISY dépend de vos besoins. WordToEPUB est plus simple et ne nécessite aucune installation, ce qui en fait un bon point d'entrée. SaveAsDAISY est plus complet : il supporte les Media Overlays pour les livres audio structurés et peut aussi exporter en DTBook. Pour une production régulière de livres adaptés avec audio, SaveAsDAISY est recommandé.
+
 ---
 
 ## 3.c – Créer un EPUB Media Overlay avec SaveAsDAISY
@@ -203,6 +248,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 2. Enregistrer une narration audio (ou utiliser une synthèse vocale)
 3. Dans SaveAsDAISY : **Exporter EPUB avec Media Overlay**
 4. L'audio se synchronise mot à mot ou phrase par phrase
+
+Notes:
+Les EPUB Media Overlay sont une fonctionnalité puissante d'EPUB 3 qui permet de synchroniser le texte avec un enregistrement audio. Lors de la lecture, le texte est mis en surbrillance au fur et à mesure de la narration, à la manière d'un karaoké. C'est particulièrement bénéfique pour les personnes dyslexiques et pour l'apprentissage des langues. SaveAsDAISY automatise la création du fichier SMIL de synchronisation.
 
 ---
 
@@ -220,6 +268,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 
 **Usage :** livres audio structurés, ouvrages pour lecteurs avec difficultés de lecture
 
+Notes:
+Le fichier SMIL (Synchronized Multimedia Integration Language) est le cœur du Media Overlay. Il contient les références temporelles qui associent chaque segment audio à l'élément XHTML correspondant. SaveAsDAISY génère automatiquement ces fichiers SMIL lors de l'export. Le résultat est lisible dans Thorium Reader et EasyReader, les deux liseuses qui supportent les Media Overlays.
+
 ---
 
 ## 🛠️ Exercice 5
@@ -235,11 +286,17 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 
 **Durée : 25 minutes**
 
+Notes:
+Pour cet exercice, vous disposez d'un document Word et d'un fichier audio enregistré à l'avance. Après la génération de l'EPUB, testez la lecture synchronisée dans Thorium Reader : activez l'option de lecture audio et observez comment le texte est mis en surbrillance. Vérifiez également que la navigation par chapitre fonctionne avec la synchronisation audio.
+
 ---
 
 # Partie 4
 
 ## Contrôler et valider un EPUB
+
+Notes:
+La production d'un EPUB ne s'arrête pas à la conversion. Il est indispensable de valider le fichier produit pour s'assurer qu'il est techniquement correct (EPUBCheck) et accessible (ACE). Cette étape de validation fait partie intégrante du workflow de production.
 
 ---
 
@@ -255,6 +312,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 **Utilisation en ligne :**
 - 🌐 [validator.idpf.org](https://validator.idpf.org/) *(IDPF/W3C)*
 
+Notes:
+EPUBCheck est l'outil de référence pour la validation technique des EPUBs. Il est utilisé par les éditeurs, les bibliothèques et les distributeurs pour vérifier la conformité des fichiers avant publication. Un EPUB qui ne passe pas EPUBCheck sans erreur peut poser des problèmes dans certaines liseuses ou lors de la distribution. EPUBCheck ne vérifie pas l'accessibilité (c'est le rôle d'ACE), mais seulement la conformité technique au standard EPUB.
+
 ---
 
 ## EPUBCheck – Types d'erreurs détectées
@@ -267,6 +327,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 | **Info** | Caractéristique EPUB 3 utilisée |
 
 **Objectif :** 0 erreur, 0 avertissement (ou justifiés)
+
+Notes:
+Les erreurs fatales empêchent complètement la lecture de l'EPUB. Les erreurs signalent des non-conformités qui doivent être corrigées. Les avertissements indiquent des pratiques déconseillées qui peuvent poser problème sur certaines liseuses. L'objectif est d'obtenir un rapport EPUBCheck sans erreur ni avertissement, ou en pouvant justifier chaque avertissement restant.
 
 ---
 
@@ -283,6 +346,9 @@ Ces métadonnées seront intégrées dans l'EPUB généré.
 4. Identifier les corrections à apporter
 
 **Durée : 15 minutes**
+
+Notes:
+Pour cet exercice, utilisez l'EPUB que vous avez produit lors de l'exercice 4. Si le validateur en ligne n'est pas disponible, EPUBCheck peut être exécuté en ligne de commande : `java -jar epubcheck.jar monlivre.epub`. Analysez le rapport et identifiez les types d'erreurs. Pour les erreurs liées à la structure, la correction devra souvent être faite dans le fichier Word source, suivi d'une nouvelle conversion.
 
 ---
 
@@ -301,6 +367,9 @@ npm install -g @daisy/ace
 ace --version
 ```
 
+Notes:
+ACE (Accessibility Checker for EPUB) est le complément d'EPUBCheck pour l'accessibilité. Là où EPUBCheck vérifie la conformité technique, ACE vérifie les critères WCAG et EPUB Accessibility 1.1. ACE est disponible en ligne de commande via npm (Node.js) et génère un rapport HTML très lisible qui détaille chaque violation avec des explications et des recommandations de correction. Il existe aussi une interface graphique ACE App.
+
 ---
 
 ## ACE – Ce qu'il vérifie
@@ -316,6 +385,9 @@ ace --version
 | **Navigation** | Table des matières disponible |
 | **Contraste** | Ratio de contraste suffisant |
 
+Notes:
+ACE vérifie automatiquement une liste de critères WCAG applicables aux EPUBs. Ces vérifications couvrent les problèmes les plus courants dans les EPUBs mal produits : images sans texte alternatif, structure de titres incohérente, langue non déclarée, métadonnées d'accessibilité manquantes. Certains critères WCAG ne peuvent pas être vérifiés automatiquement (par exemple, la pertinence d'une description alternative) : ACE les signale comme nécessitant une vérification manuelle.
+
 ---
 
 ## ACE – Rapport de conformité
@@ -327,6 +399,9 @@ Le rapport ACE inclut :
 - 📋 **Données structurées** du livre analysé
 - 💡 **Recommandations** de corrections
 - 🏷️ **Vérification des métadonnées** d'accessibilité
+
+Notes:
+Le rapport HTML généré par ACE est très complet. Il inclut une visualisation de la structure du livre, une liste des violations organisées par critère WCAG, et pour chaque violation une explication et une suggestion de correction. Le rapport peut être partagé avec l'équipe de production ou archivé comme preuve de conformité. ACE génère également un fichier EARL (Evaluation And Report Language) en JSON pour une intégration dans des workflows automatisés.
 
 ---
 
@@ -346,6 +421,9 @@ Le rapport ACE inclut :
 5. Corriger dans le Word source et reconvertir
 
 **Durée : 25 minutes**
+
+Notes:
+Pour cet exercice, utilisez l'EPUB de l'exercice 4. Si ACE est installé sur votre machine, exécutez la commande indiquée. Sinon, l'ACE App (interface graphique) peut être utilisée. Après l'analyse, identifiez les trois violations les plus impactantes pour l'accessibilité. Corrigez-les dans le Word source, convertissez à nouveau, et relancez ACE pour vérifier que les violations sont résolues.
 
 ---
 
@@ -372,6 +450,9 @@ Le rapport ACE inclut :
 7. Publication ✅
 ```
 
+Notes:
+Ce workflow en sept étapes représente la chaîne de production complète d'un EPUB accessible. Les étapes 4 à 6 forment une boucle d'itération : si des erreurs sont détectées, on corrige le fichier Word source et on recommence. Il est important de ne pas chercher à corriger directement dans l'EPUB : toute modification doit être faite dans le Word source pour garantir la cohérence entre les versions.
+
 ---
 
 ## Points clés à retenir – Après-midi J2
@@ -381,6 +462,9 @@ Le rapport ACE inclut :
 - 🔧 **SaveAsDAISY** : production dans Word, supporte les Media Overlays
 - ✅ **EPUBCheck** : validation technique obligatoire (0 erreur)
 - ♿ **ACE** : audit d'accessibilité complet selon WCAG et EPUB Accessibility
+
+Notes:
+Pour résumer cet après-midi : nous avons vu que la production d'un EPUB accessible est un processus itératif qui commence par une bonne structuration dans Word et se termine par une validation complète. Les outils WordToEPUB et SaveAsDAISY automatisent une grande partie du travail, mais la validation reste indispensable.
 
 ---
 
@@ -392,6 +476,9 @@ Le rapport ACE inclut :
 | J1 Après-midi | DAISY Pipeline, SaveAsDAISY, Word → DTBook |
 | J2 Matin | EPUB : formats, accessibilité, logiciels |
 | J2 Après-midi | Production EPUB accessible, validation |
+
+Notes:
+Ces deux jours vous ont donné les bases théoriques et pratiques pour produire des publications numériques accessibles. Le format XML DTBook reste la référence pour les livres audio structurés, tandis que l'EPUB3 est le format de référence pour l'édition numérique grand public et accessible. Les deux partagent les mêmes principes de structuration sémantique.
 
 ---
 
@@ -407,6 +494,9 @@ Le rapport ACE inclut :
 | **EPUB Accessibility 1.1** | w3.org/TR/epub-a11y-11 |
 | **WCAG 2.1** | w3.org/TR/WCAG21 |
 
+Notes:
+Ces ressources vous permettront de continuer à approfondir vos connaissances après la formation. Le site du DAISY Consortium propose notamment une base de connaissance très complète (kb.daisy.org) et inclusivepublishing.org propose des formations et ressources en ligne sur l'édition inclusive.
+
 ---
 
 ## Merci pour votre participation ! 🎉
@@ -415,3 +505,6 @@ Le rapport ACE inclut :
 pour la Transcription et l'Édition Numérique Adaptée**
 
 _Questions ? Contactez-nous !_
+
+Notes:
+Merci pour votre participation active à cette formation. N'hésitez pas à nous contacter si vous avez des questions après la formation. Nous vous encourageons à mettre en pratique les techniques apprises dès vos prochaines productions.
