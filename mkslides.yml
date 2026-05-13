@@ -1,7 +1,7 @@
 slides:
   title: "Formation FISAF – Fichiers Structurés"
   theme: "dracula"
-  highlight_theme: "github"
+  highlight_theme: "stackoverflow-dark"
   separator_notes: "^Notes?:"
 
 index:
@@ -11,4 +11,6 @@ revealjs:
   history: true
   slideNumber: "c/t"
   center: true
-  transition: "slide"
+  transition: "fade"
+  height: 1080
+  width: 1920
