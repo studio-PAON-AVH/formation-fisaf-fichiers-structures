@@ -59,26 +59,32 @@ La conversion EPUB vers DOCX via Calibre fonctionne bien pour les EPUBs bien str
 
 ---
 
-## 1.b – Via WordToEPUB du DAISY Consortium
+## Via WordToEPUB du DAISY Consortium
 
-**WordToEPUB** est un outil en ligne développé par le DAISY Consortium
 
-- 🌐 [daisy.org/wordtoepub](https://daisy.org/wordtoepub)
-- Application web gratuite (traitement local, pas d'envoi de données)
+
+**[WordToEPUB](https://daisy.org/wordtoepub)**, complément word du DAISY Consortium
+
 - Spécialisé dans la **conversion Word → EPUB 3 accessible**
 
-**Il peut aussi reconvertir un EPUB en Word :**
-1. Exporter l'EPUB en DOCX via les outils internes
-2. Réutiliser la source Word si disponible
+> **Il peut aussi reconvertir un EPUB en Word :**
+
+Outils `EPUBToWord.exe` *caché* dans `C:\Program Files (x86)\DAISY\WordToEPUB`
+
+![outils caché EpubToWord](images/epubtoword.png)
 
 Notes:
 WordToEPUB traite les fichiers localement dans votre navigateur, ce qui garantit la confidentialité de vos documents : aucun fichier n'est envoyé vers un serveur distant. C'est un avantage important pour les structures qui traitent des documents sous droit d'auteur. Son principal usage est la conversion Word → EPUB, mais il peut aussi aider à extraire le contenu d'un EPUB.
 
 ---
 
-## Bonne pratique : conserver les sources !
+## Bonne pratique : conserver vos fichiers
 
-> **Toujours conserver le fichier Word source**  
+Hormis si le fichier est un manuscrit d'un éditeur
+
+<small>(protégé par le droit d'auteur)</small>
+
+> **Conserver votre fichier Word de travail**  
 > C'est la meilleure base pour toute modification ou reconversion.
 
 Flux de travail recommandé :
@@ -86,7 +92,7 @@ Flux de travail recommandé :
 ```
 [Source Word structurée] → [EPUB accessible]
          ↑                        ↓
-    Modifications          Tests / Corrections
+    Modifications          Validation / Corrections
          ↑                        ↓
     [Source Word mise à jour] ← [Retour si nécessaire]
 ```
@@ -105,7 +111,7 @@ Avant de générer nos EPUBs, rappelons les règles de structuration dans Word. 
 
 ---
 
-## 2.a – Rappel : structuration dans Word
+## Rappel : structuration dans Word
 
 Les éléments essentiels pour un EPUB de qualité :
 
@@ -123,17 +129,22 @@ Ces règles sont identiques à celles que nous avons vues hier pour la productio
 
 ---
 
-## 2.b – Les métadonnées pour l'accessibilité
+## Les métadonnées pour l'accessibilité
 
-**Fichier → Propriétés → Propriétés avancées dans Word :**
+Les métadonnées du document, via Word :
+
+**Fichier → Informations → Propriétés**
+
+<small>et cliquer sur *Montrer toutes les propriétés*</small>
 
 | Métadonnée | Exemple |
 |------------|---------|
-| **Titre** | « Guide de jardinage biologique » |
+| **Titre** | Titre du document (obligatoire dans SaveAsDAISY) |
 | **Auteur** | Nom de l'auteur |
-| **Langue** | fr (français) |
+| **Langue** | Langue principal du document |
+| **Entreprise** | correspondance pour l'éditeur du livre|
 | **Sujet** | Mots-clés descriptifs |
-| **Description** | Résumé de l'ouvrage |
+| **Commentaire** | Résumé de l'ouvrage |
 
 Ces métadonnées seront intégrées dans l'EPUB généré.
 
@@ -144,13 +155,27 @@ Les métadonnées Word sont récupérées par les outils de conversion et intég
 
 ## Métadonnées d'accessibilité supplémentaires
 
-**Dans WordToEPUB et SaveAsDAISY :**
 
-- **Mode d'accès** : textuel, visuel, auditif
-- **Fonctionnalités d'accessibilité** : navigation structurée, texte alternatif
-- **Risques d'accessibilité** : clignotements, sons forts (aucun dans la plupart des cas)
-- **Résumé d'accessibilité** : description des mesures prises
-- **Conformité** : EPUB Accessibility 1.1 – WCAG 2.1 niveau AA
+Problèmes JOUR 1 : il manque des métadonnées !
+
+**Dans WordToEPUB**
+
+![Les métadonnées dans WordToEPUB](images/wordtoepub-metadata.png)
+
+
+Inclus des raccourcis vers les métadonnées de word
+
+---
+
+## Métadonnées d'accessibilité supplémentaires
+
+Problèmes JOUR 1 : il manque des métadonnées !
+
+**Dans SaveAsDAISY**
+
+![Les métadonnées dans SaveAsDAISY](images/SAD-metadata.png)
+
+Inclus des raccourcis vers les métadonnées de word
 
 Notes:
 Ces métadonnées supplémentaires sont spécifiques à l'accessibilité EPUB. Elles permettent d'indiquer précisément comment le livre peut être lu (mode textuel seulement, ou aussi visuel/auditif), quelles fonctionnalités d'accessibilité il supporte, et à quel niveau de conformité WCAG il répond. WordToEPUB et SaveAsDAISY proposent des interfaces guidées pour renseigner ces informations.
@@ -166,11 +191,12 @@ Passons maintenant à la pratique. Nous allons générer des EPUBs accessibles a
 
 ---
 
-## 3.a – Conversion via WordToEPUB
+## Conversion via WordToEPUB
 
 **WordToEPUB** : conversion Word → EPUB 3 accessible
 
 1. 🌐 Aller sur [daisy.org/wordtoepub](https://daisy.org/wordtoepub)
+2. Télécharger et installer `WordToEPUB`
 2. Cliquer sur **« Choisir un fichier »** et sélectionner le DOCX
 3. Configurer les options :
    - Langue du document
@@ -179,7 +205,8 @@ Passons maintenant à la pratique. Nous allons générer des EPUBs accessibles a
 4. Cliquer sur **« Convertir »**
 5. Télécharger le fichier EPUB généré
 
-✅ Avantage : simple, en ligne, très accessible
+✅ Avantage : simple, fichier epub accessible, éditeur de couverture
+❌ controle limité de la sémantique, seulement du texte
 
 Notes:
 WordToEPUB est l'outil le plus simple pour produire un EPUB 3 accessible à partir de Word. Il gère automatiquement la structure de l'EPUB, la table des matières, et propose un assistant pour les métadonnées d'accessibilité. Seule limitation : il ne supporte pas les Media Overlays (synchronisation audio). Pour les livres audio structurés, il faudra utiliser SaveAsDAISY.
@@ -204,13 +231,13 @@ Pour cet exercice, utilisez le fichier exercice4.docx fourni. Après la conversi
 
 ---
 
-## 3.b – Conversion via SaveAsDAISY
+## Conversion via SaveAsDAISY
 
 **Depuis Word avec le complément SaveAsDAISY :**
 
 1. Ouvrir le document Word structuré
-2. Cliquer sur l'onglet **DAISY**
-3. Sélectionner **« Exporter EPUB »**
+2. Cliquer sur l'onglet **Accessibilité**
+3. Sélectionner **Exporter en format DAISY**
 4. Configurer :
    - Titre, auteur, langue
    - Options d'accessibilité
@@ -300,7 +327,7 @@ La production d'un EPUB ne s'arrête pas à la conversion. Il est indispensable 
 
 ---
 
-## 4.a – Contrôler un EPUB avec EPUBCheck
+## Contrôler un EPUB avec EPUBCheck
 
 **EPUBCheck** est l'outil de validation officiel du W3C
 
@@ -309,11 +336,11 @@ La production d'un EPUB ne s'arrête pas à la conversion. Il est indispensable 
 - Vérifie la **conformité technique** au standard EPUB
 - Détecte les erreurs de structure, de métadonnées, de liens…
 
-**Utilisation en ligne :**
-- 🌐 [validator.idpf.org](https://validator.idpf.org/) *(IDPF/W3C)*
 
 Notes:
 EPUBCheck est l'outil de référence pour la validation technique des EPUBs. Il est utilisé par les éditeurs, les bibliothèques et les distributeurs pour vérifier la conformité des fichiers avant publication. Un EPUB qui ne passe pas EPUBCheck sans erreur peut poser des problèmes dans certaines liseuses ou lors de la distribution. EPUBCheck ne vérifie pas l'accessibilité (c'est le rôle d'ACE), mais seulement la conformité technique au standard EPUB.
+
+Nous ne le testeront pas ici, parceque je ne me sens pas de vous faire faire de la ligne de commande.
 
 ---
 
@@ -333,26 +360,7 @@ Les erreurs fatales empêchent complètement la lecture de l'EPUB. Les erreurs s
 
 ---
 
-## 🛠️ Exercice 6a
-
-**Valider un EPUB avec EPUBCheck**
-
-1. Aller sur [validator.idpf.org](https://validator.idpf.org/)
-   _ou utiliser EPUBCheck en ligne de commande_
-2. Charger le fichier EPUB généré lors de l'exercice 4
-3. Analyser le rapport :
-   - Nombre d'erreurs / avertissements
-   - Type de problèmes signalés
-4. Identifier les corrections à apporter
-
-**Durée : 15 minutes**
-
-Notes:
-Pour cet exercice, utilisez l'EPUB que vous avez produit lors de l'exercice 4. Si le validateur en ligne n'est pas disponible, EPUBCheck peut être exécuté en ligne de commande : `java -jar epubcheck.jar monlivre.epub`. Analysez le rapport et identifiez les types d'erreurs. Pour les erreurs liées à la structure, la correction devra souvent être faite dans le fichier Word source, suivi d'une nouvelle conversion.
-
----
-
-## 4.b – Contrôler un EPUB avec ACE du DAISY Consortium
+## Contrôler un EPUB avec ACE du DAISY Consortium
 
 **ACE** (*Accessibility Checker for EPUB*) est l'outil d'audit d'accessibilité
 
@@ -405,7 +413,7 @@ Le rapport HTML généré par ACE est très complet. Il inclut une visualisation
 
 ---
 
-## 🛠️ Exercice 6b
+## 🛠️ Exercice 6
 
 **Analyser un EPUB avec ACE**
 

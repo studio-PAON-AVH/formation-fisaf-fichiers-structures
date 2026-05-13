@@ -48,9 +48,9 @@ Le DAISY Consortium propose plusieurs outils gratuits et open source pour la pro
 
 ---
 
-## 1.a – DAISY Pipeline App
+## DAISY Pipeline
 
-**DAISY Pipeline** est une application de conversion de documents accessibles
+**DAISY Pipeline** : *serveur* de conversion de documents accessibles
 
 - 🌐 Site : [daisy.org/pipeline](https://daisy.org/pipeline)
 - 💻 Disponible sur Windows, macOS, Linux
@@ -58,29 +58,22 @@ Le DAISY Consortium propose plusieurs outils gratuits et open source pour la pro
   - DTBook → EPUB 3
   - DTBook → MP3 (synthèse vocale)
   - DOCX → EPUB 3
-  - et bien d'autres…
+  - ...
+
+**[DAISY Pipeline app](https://github.com/daisy/pipeline-ui/releases/latest)** : version *bureau* du pipeline
 
 Notes:
 DAISY Pipeline est l'outil de transformation central du DAISY Consortium. Il fonctionne sur la base de scripts de transformation XSLT et propose une interface graphique simple pour les utilisateurs non techniques. Il peut traiter des fichiers par lots, ce qui est très utile pour les centres de transcription qui produisent de nombreux ouvrages.
 
 ---
 
-## DAISY Pipeline – Fonctionnement
+## DAISY Pipeline App
 
-```
-[Fichier source]
-      ↓
-[DAISY Pipeline App]
-      ↓
-  ┌───────────┐
-  │ Script de │
-  │ conversion│
-  └───────────┘
-      ↓
-[Fichier de sortie]
-```
+<img class="r-stretch" src="images/dpapp-start.png" />
 
-- Interface graphique simple
+Lancement d'une conversion au choix
+- 
+Sélection d'un fichier ou d'un script de conversion pour démarrer
 - Scripts de transformation préconfigurés
 - Traitement par lots possible
 
@@ -89,13 +82,13 @@ Le fonctionnement de DAISY Pipeline est basé sur des scripts de transformation.
 
 ---
 
-## 1.b – Le complément Word SaveAsDAISY
+## Le complément Word SaveAsDAISY
 
 **SaveAsDAISY** est un complément Microsoft Word
 
 - 🌐 Site : [daisy.org/save-as-daisy-microsoft-word-add-in](https://daisy.org/save-as-daisy-microsoft-word-add-in)
 - 🖥️ Compatible Word 2010 – 2019 / Office 365
-- ⚙️ Ajoute un onglet **« DAISY »** dans Word
+- ⚙️ Ajoute un onglet *Accessibilité* dans Word
 
 **Fonctionnalités :**
 - Exporter un document Word en XML DTBook
@@ -108,18 +101,29 @@ SaveAsDAISY est un complément qui s'installe directement dans Microsoft Word. U
 
 ---
 
-## SaveAsDAISY – Onglet DAISY dans Word
+## SaveAsDAISY – Onglet *Accessibilité*
 
-Fonctions disponibles depuis le ruban Word :
+<img class="r-stretch" src="images/SAD-ribbon.png" />
 
 | Bouton | Action |
 |--------|--------|
-| **Exporter DTBook** | Génère un fichier XML DTBook |
-| **Exporter EPUB** | Génère un fichier EPUB 3 |
-| **Vérifier** | Contrôle la structure du document |
-| **Styles DAISY** | Applique les styles recommandés |
+| **Exporter en format DAISY** | Convertir le document en **XML DTBook**, *DAISY3*, *EPUB3*, *MP3s* ou *DAISY2.02* |
+| **Importer un document** | Convertir un **XML DTBook** en fichier Word |
+| **Marquer en abbréviation** | Marquer un mot sélectionné en abbréviation |
+| **Gérer les abbréviation** | Gérer les abbréviations identifiés |
+| **Marquer en acronyme** | Marquer un mot sélectionné en abbréviation |
+| **Gérer les acronymes** | Gérer les acronymes identifiés  |
+| **Importer les styles DAISY** | Importer dans le document les styles de structuration |
+| **Langue du document** | Modifie la langue de controle et d'export du document ou d'un texte sélectionné |
+| **Métadonnées du document** | Gérer les métadonnées d'accessibilité du document |
+| **Réglages** | Options du compléments et du moteur de conversion embarqué |
+| **Informations logiciels** | Fenêtre d'information sur la version installé du complément |
+| **Documentation** | Accès au manuel utilisateur et aux recommandations de structuration du complément |
 
 Notes:
+
+(Démo en live si possible)
+
 L'onglet DAISY propose quatre fonctions principales. La vérification est particulièrement utile avant l'export : elle signale les problèmes de structure qui pourraient nuire à la qualité de la conversion. Les styles DAISY étendent les styles Word natifs avec des styles spécifiques à l'édition accessible, comme les notes de production ou les encadrés.
 
 ---
@@ -133,20 +137,28 @@ Dans cette partie, nous allons voir comment récupérer des fichiers DTBook et l
 
 ---
 
-## 2.a – Où récupérer des fichiers DTBook ?
+## Où récupérer des fichiers DTBook ?
 
-Sources de fichiers XML DTBook :
+Quelques sources de fichiers XML DTBook pour vos essais :
 
 | Source | Description |
 |--------|-------------|
-| **Médiathèque Valentin Haüy** | Bibliothèque numérique française |
-| **Bookshare** | Bibliothèque internationale (en anglais) |
-| **BNFA** | Bibliothèque Numérique Francophone Accessible |
-| **DAISY Consortium** | Fichiers d'exemple sur daisy.org |
-| **Productions locales** | Fichiers produits par les centres de transcription |
+| **[Echantillons du DAISY Consortium](https://daisy.org/info-help/document-archive/sample-files/)** | Fichiers d'exemple sur daisy.org |
+| **[Echantillon du DAISY Pipeline](https://github.com/daisy/pipeline-samples/tree/master/dtbook)** | Fichiers d'exemples et de tests pour le DAISY Pipeline.org |
+| **[Les exemples pour ce cours]()**| Fichiers pour ce cours |
+
+Et quand vous serez transcripteurs :
+
+| Source | Description |
+|--------|-------------|
+| **[Serveur hélène](https://serveur-helene.org/)** | Serveur d'échange de fichier de transcription (*to be closed*) |
+| **[PLATON](https://exceptionhandicap.bnf.fr/)** | Service d'échange de fichier de transcription de la BNF |
 
 Notes:
-Les fichiers DTBook proviennent principalement des bibliothèques spécialisées et des centres de transcription. La Médiathèque Valentin Haüy et la BNFA sont les deux principales sources francophones. Bookshare est la plus grande bibliothèque internationale mais ses collections sont majoritairement en anglais. Le DAISY Consortium propose des fichiers d'exemple sur son site pour la formation et les tests.
+Voici quelques addresses ou vous pourrez trouvez des fichiers dtbooks pour vous entrainer et pour réaliser les exercices.
+
+Le serveur hélène a été racheté par l'Association Valentin Haüy. Ses fichiers DTBook seront progressivement mis à disposition via la plateforme PLATON, qui devient ainsi le point d'accès unique pour les transcriptions accessibles en France.
+
 
 ---
 
@@ -155,7 +167,9 @@ Les fichiers DTBook proviennent principalement des bibliothèques spécialisées
 **Via DAISY Pipeline App :**
 
 1. Lancer DAISY Pipeline App
-2. Choisir le script **« DTBook to DOCX »**
+2. Choisir aux choix
+  - le script **« DTBook to ODT »**
+  - le script **« DTBook to RTF »**
 3. Sélectionner le fichier DTBook source (`.xml`)
 4. Définir le dossier de sortie
 5. Lancer la conversion
@@ -232,16 +246,31 @@ La hiérarchie des titres doit être respectée sans sauter de niveaux. Un Titre
 
 ## 3.b – Les styles SaveAsDAISY
 
-En plus des styles Word natifs, SaveAsDAISY ajoute :
+Ajouts de styles Word pour la structuration
 
-| Style | Usage |
-|-------|-------|
-| **DAISY Note** | Note de bas de page enrichie |
-| **DAISY Annotation** | Annotation du transcripteur |
-| **DAISY Sidebar** | Encadré informatif |
-| **DAISY Poem** | Poème (préserve les retours à la ligne) |
-| **DAISY Epigraph** | Citation en exergue |
-| **DAISY Prodnote** | Note de production (pour le transcripteur) |
+- Sections de contenues (sur paragraphe vide)
+  - *Frontmatter (DAISY)*, *Bodymatter (DAISY)*, *Rearmatter (DAISY)*
+- `covertitle` (titre de couverture) : *Covertitle (DAISY)*
+- `bridgehead` (intertitre) : *Bridgehead (DAISY)*
+- `dateline` (ligne de date) : *Dateline (DAISY)*
+- `cite` (citation) : *Citation (DAISY)*
+- `code` (élément de code) : *Code (DAISY)*
+- `prodnote` (note de production / transcription)
+  - *Prodnote - Optional (DAISY)*, *Prodnote - Required (DAISY)*
+- `dl dt dd` (liste des définitions)
+  - *Definition Term(DAISY)*, *Definition Data(DAISY)*
+- `pagenumber` (numéro original de la page dans l'imprimé) : *Page Number (DAISY)*
+- `epigraph` (épigraphe)
+  - *Epigraph - Author (DAISY)*, *Epigraph (DAISY)* 
+- `sidebar` (i.e texte en marge / apparté) :
+  - *Sidebar - Required (DAISY)*, *Sidebar - Optional (DAISY)*, *Sidebar header - Required (DAISY)*
+- `poem` (poème)
+  - *Poem - Author (DAISY)*, *Poem - Byline (DAISY)* ,*Poem - Heading (DAISY)* , *Poem - Title (DAISY)* ,*Poem (DAISY)*
+- `blockquote` (bloque de citation)
+  - *Blockquote - Author (DAISY)*, *Blockquote (DAISY)*
+- `sidebar` (i.e texte en marge / apparté) :
+  - *Sidebar - Required (DAISY)*, *Sidebar - Optional (DAISY)*, *Sidebar header - Required (DAISY)*
+- Titre de liste : *List - Heading (DAISY)*
 
 Notes:
 Les styles DAISY étendent les possibilités de structuration de Word pour couvrir des éléments spécifiques à l'édition adaptée. Le style DAISY Prodnote est particulièrement important : il permet au transcripteur d'ajouter des informations qui ne figurent pas dans le texte original mais qui sont nécessaires pour l'accessibilité, comme la description d'une image complexe. Ces notes de production ne sont pas lues dans l'édition grand public.

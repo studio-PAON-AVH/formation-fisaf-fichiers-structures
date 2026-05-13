@@ -252,9 +252,8 @@ Un point très important pour la suite sera aussi la reconnaissance du type de f
 |--------|-------------|
 | `.txt` | Format texte seulement |
 | `.doc` | Ancien format de document Word |
-| `.docx` | Document Word OpenXML |
-| `.docm` | Document Word avec Macro |
-| `.dotm` | Modèle de document avec Macro |
+| `.docx`, `.docm` | Document Word OpenXML (sans et avec macro) |
+| `.dotx`, `.dotm` | Modèle de document (sans et avec Macro) |
 | `.rtf` | Rich Text Format |
 | `.odt` | Document texte formaté OpenDocument (OpenOffice, LibreOffice) |
 | `.ott` | Modèle de document texte OpenDocument |
@@ -291,7 +290,7 @@ Ces formats sont utilisés dans des contextes éditoriaux plus spécialisés. In
 | `.css` | Fichier de style visuel pour le rendu final |
 | `.epub` | Format de livre numérique (W3C) |
 | `.ebrl` | (eBraille) Extension de l'EPUB3 pour le braille (DAISY Consortium) |
-| **AZW**, **MOBI**, **KPF** | Format de livre numérique (Amazon) |
+| **AZW**, `.mobi`, `.kf8` | Format de livre numérique Amazon / Kindle |
 | **IBOOKS** | Format de livre numérique (Apple) |
 | **DAISY** | Format de livre audio structuré (DAISY Consortium) |
 
@@ -314,7 +313,7 @@ Nous entrons maintenant dans la partie technique de la matinée. Nous allons voi
 
 ou plus simplement : **XML**
 
-- **Langage de structuration** - W3C (1998)
+- **Langage de structuration** extensible - W3C (1998)
   - Version 1.0, édition 5 (2008)
   - Version 1.1, édition 2 (2006)
 
@@ -386,13 +385,13 @@ Balise (ou noeud) **élément**
 
 Block de base de la structure d’un document XML
 
-Définie un élément structurel dans l’arborescence du contenu
-(un peu comme un dossier dans un système de fichier)
+Conteneur dans l’arborescence du contenu<br/>
+<small>(un peu comme un dossier dans un système de fichier)</small>
 
 
 **Arborescence stricte**
 
-Toutes les balises ouvertes doivent être **fermées** :
+Toutes les balises **ouvertes** doivent être **fermées** :
 ```xml
 <elemA></elemA>  == <elemA />
 ```

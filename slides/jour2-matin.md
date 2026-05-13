@@ -49,7 +49,7 @@ L'EPUB est aujourd'hui le format de référence pour l'édition numérique acces
 
 ---
 
-## 2.a – C'est quoi un EPUB ?
+## C'est quoi un EPUB ?
 
 **EPUB** : *Electronic PUBlication*
 
@@ -95,7 +95,7 @@ L'EPUB a une longue histoire qui remonte à 1999 avec le format Open eBook. La t
 
 ---
 
-## 2.b – Les différents types d'EPUB
+## Les différents types d'EPUB
 
 ### EPUB Reflow (Reflowable)
 
@@ -131,7 +131,7 @@ Ce tableau résume les différences entre les deux types d'EPUB. Pour l'édition
 
 ---
 
-## 2.c – L'accessibilité numérique
+## L'accessibilité numérique
 
 ### Le cadre réglementaire
 
@@ -159,7 +159,7 @@ Les WCAG (Web Content Accessibility Guidelines) sont la référence internationa
 
 ---
 
-## 2.d – Les EPUB accessibles
+## Les EPUB accessibles
 
 Un EPUB accessible c'est :
 
@@ -167,8 +167,8 @@ Un EPUB accessible c'est :
 - 🏷️ **Structure sémantique** : titres, listes, tableaux balisés
 - 🌐 **Langue** déclarée dans les métadonnées
 - 📋 **Table des matières** navigable (NCX / NAV)
-- 🎵 **Synchronisation audio** (Media Overlays pour EPUB 3)
 - ♿ **Métadonnées d'accessibilité** (schema.org)
+- 🎵 **Synchronisation audio** (Media Overlays pour EPUB 3)
 
 Notes:
 Un EPUB accessible n'est pas seulement un EPUB techniquement valide. Il doit répondre à des critères qui permettent à tous les utilisateurs, quelles que soient leurs capacités ou leurs technologies d'assistance, d'y accéder dans des conditions équivalentes. La synchronisation audio via les Media Overlays est particulièrement précieuse pour les personnes dyslexiques ou malvoyantes.
@@ -199,6 +199,45 @@ Ces métadonnées schema.org permettent aux lecteurs et aux bibliothèques d'ide
 
 ---
 
+## Comparaison entre EPUB et DAISY
+
+Quid des formats DAISY ?
+
+**DAISY2** très répandu
+  - 📖 Format de publication "historique" du DAISY Consortium
+  - ⛔ Pas de choix de consultation de note
+  - Application / matériel spécialisés
+
+**DAISY3**, mieux qu'avant mais moins répandu
+  - Plus d'option de lecture
+  - XML DTBook *under the hood*
+  - Application / matériel spécialisés
+
+**EPUB3**, un format qui évolue
+  - Plus de liberté sans sacrifier l'accessibilité
+  - Cible/public plus large
+  - Mais manque encore de support pour les malvoyants
+
+
+Notes:
+Vous avez peut etre remarquer que nous n'avons pas beaucoup reparler des 
+autres formats dont nous avons parler hier, notamment les formats de publication
+du DAISY consortium.
+
+Le DAISY2 ou DAISY2.02 est le format le plus ancien et celui que nous distribuons a l'AVH.
+C'est le format historique du DAISY Consortium, pour lequel un grand nombre d'usager aveugles ou malvoyants possède du matériel compatible.
+Ce format pose cependant quelques problemes, qui sont pour une partie lié aux technologies utilisé par le format pour la structuration du contenu.
+Vous avez du coup des limitations sur certaines options de navigation, notamment pour le contenu dit "skipable" tel que les notes de bas de pages, qui
+sont généralement structurés au même niveau que le contenu
+
+Le DAISY3 corrige des probleme du DAISY2, surtout du point des éléments skipables, mais pour ça il utilise un format de contenu beacuoup plus contraint qui est le XML DTBook
+
+Si nous nous concentrons aujourd'hui sur l'EPUB3, c'est d'abord parceque le 
+format continue a évoluer, et le DAISY Consortium fait le pari que ce format
+sera plus facile a faire adopter aux fabricants de logiciels et de matériel spécialisé, celui-ci étant déjà répandu pour les publications numériques de nombreux éditeurs de par le monde.
+
+---
+
 # Partie 3
 
 ## Les logiciels pour lire et produire un EPUB
@@ -208,7 +247,7 @@ Dans cette partie, nous allons passer en revue les principaux logiciels disponib
 
 ---
 
-## 3.a – Lire des EPUBs
+## Lire des EPUBs
 
 ### Thorium Reader
 
@@ -268,7 +307,7 @@ Calibre est un logiciel de gestion de bibliothèque numérique très complet et 
 
 ---
 
-## 3.b – Calibre/Codex
+## Calibre/Codex
 
 **Codex** est l'éditeur EPUB intégré à Calibre :
 
@@ -288,7 +327,7 @@ L'éditeur Codex intégré à Calibre permet d'ouvrir et de modifier directement
 
 ---
 
-## 3.c – Sigil
+## Sigil
 
 - 🌐 [sigil-ebook.com](https://sigil-ebook.com/)
 - Éditeur EPUB libre et gratuit (Windows, macOS, Linux)
