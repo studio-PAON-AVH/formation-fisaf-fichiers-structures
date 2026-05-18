@@ -13,7 +13,8 @@ Bienvenue dans cette deuxième journée de formation. Ce matin nous allons déco
 
 ## Au programme ce matin
 
-1. Retour / Questions sur la journée 1
+> Retour / Questions sur la journée 1
+
 2. Histoire de l'EPUB comme publication accessible
    - Qu'est-ce qu'un EPUB ?
    - Les différents types d'EPUB
@@ -40,7 +41,7 @@ Prenons quelques minutes pour revenir sur la journée d'hier. Avez-vous des ques
 
 ---
 
-# Partie 2
+# Partie 1
 
 ## Histoire de l'EPUB comme publication accessible
 
@@ -138,10 +139,12 @@ Ce tableau résume les différences entre les deux types d'EPUB. Pour l'édition
 - **RGAA** (France) : Référentiel Général d'Amélioration de l'Accessibilité
 - **Directive européenne** 2016/2102 : accessibilité des sites publics
 - **Loi du 11 février 2005** (France) : non-discrimination des personnes handicapées
-- **Acte européen sur l'accessibilité** (2019 / 2025) : livres numériques inclus !
+- **Acte européen sur l'accessibilité** (2019/2025) : livres numériques inclus !
 
 Notes:
-L'accessibilité numérique est de plus en plus encadrée par la réglementation. L'Acte européen sur l'accessibilité est particulièrement important pour notre domaine : à partir de juin 2025, les livres numériques mis en vente dans l'Union européenne devront répondre à des critères d'accessibilité. Cela crée une obligation légale et un marché potentiel pour l'expertise en édition adaptée.
+L'accessibilité numérique est de plus en plus encadrée par la réglementation. 
+L'Acte européen sur l'accessibilité est particulièrement important pour notre domaine : à partir de juin 2025, les livres numériques mis en vente dans l'Union européenne devront répondre à des critères d'accessibilité. 
+Cela crée une obligation légale et un marché potentiel pour l'expertise en édition adaptée.
 
 ---
 
@@ -152,10 +155,15 @@ L'accessibilité numérique est de plus en plus encadrée par la réglementation
 | **WCAG 2.1/2.2** | Web Content Accessibility Guidelines (W3C) |
 | **EPUB Accessibility 1.1** | Profil d'accessibilité pour les EPUBs |
 | **ARIA** | Rôles et propriétés pour l'accessibilité web |
-| **EN 301 549** | Standard européen d'accessibilité TIC |
+| **EN 301 549** | Norme européene d'accessibilité des TIC |
 
 Notes:
-Les WCAG (Web Content Accessibility Guidelines) sont la référence internationale pour l'accessibilité numérique. Elles s'organisent en trois niveaux : A (minimum), AA (standard courant) et AAA (optimal). L'EPUB Accessibility 1.1 est un profil spécifique aux EPUBs qui exige la conformité WCAG 2.1 niveau AA. Le niveau EN 301 549 est le standard européen qui référence les WCAG pour les publications numériques.
+Les WCAG (Web Content Accessibility Guidelines) sont la référence internationale pour l'accessibilité numérique. 
+Elles s'organisent en trois niveaux : A (minimum), AA (standard courant) et AAA (optimal).
+L'EPUB Accessibility 1.1 est un profil spécifique aux EPUBs qui exige la conformité WCAG 2.1 niveau AA. 
+La norme EN 301 549 (v3.2.1 depuis Mars 2021) est la norme européen qui référence les WCAG 2.1 pour les publications numériques dans le cas des marché publiques.
+(Mais cette norme ne s'applique pas qu'au publications numériques) 
+
 
 ---
 
@@ -238,7 +246,7 @@ sera plus facile a faire adopter aux fabricants de logiciels et de matériel sp�
 
 ---
 
-# Partie 3
+# Partie 2
 
 ## Les logiciels pour lire et produire un EPUB
 

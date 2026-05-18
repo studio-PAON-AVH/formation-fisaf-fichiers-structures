@@ -13,7 +13,7 @@ Bienvenue dans cette dernière session de la formation. Cet après-midi est enti
 
 ## Au programme cet après-midi
 
-1. Convertir un fichier EPUB vers Word
+1. Convertir un fichier EPUB vers Word *(exercice)*
    - Via Calibre/Codex
    - Via WordToEPUB du DAISY Consortium
 2. Retour à la structuration dans Word
@@ -38,7 +38,7 @@ Cette première partie couvre la conversion dans le sens inverse : partir d'un E
 
 ---
 
-## 1.a – Via Calibre/Codex
+## Via Calibre/Codex
 
 **Calibre** peut convertir un EPUB en DOCX :
 
@@ -61,8 +61,6 @@ La conversion EPUB vers DOCX via Calibre fonctionne bien pour les EPUBs bien str
 
 ## Via WordToEPUB du DAISY Consortium
 
-
-
 **[WordToEPUB](https://daisy.org/wordtoepub)**, complément word du DAISY Consortium
 
 - Spécialisé dans la **conversion Word → EPUB 3 accessible**
@@ -77,6 +75,18 @@ Notes:
 WordToEPUB traite les fichiers localement dans votre navigateur, ce qui garantit la confidentialité de vos documents : aucun fichier n'est envoyé vers un serveur distant. C'est un avantage important pour les structures qui traitent des documents sous droit d'auteur. Son principal usage est la conversion Word → EPUB, mais il peut aussi aider à extraire le contenu d'un EPUB.
 
 ---
+
+## Exercice 4
+
+1. Télécharger et installer [WordToEPUB](https://daisy.org/wordtoepub)
+2. Récupérer le fichier [`exercice4.epub`](exercices/exercice4.epub)
+3. Convertisser le fichier en docx
+  - Via Calibre, en fichier `exercice4_calibre.docx`
+  - Via WordToEPUB, puis renommer le fichier en `exercice4_WordToEPUB.docx`
+4. Ouvrez les fichiers et comparer les résultats.
+
+
+--- 
 
 ## Bonne pratique : conserver vos fichiers
 
@@ -119,9 +129,9 @@ Les éléments essentiels pour un EPUB de qualité :
 |---------|-------|
 | **Titres** | Utiliser les styles Titre 1, 2, 3 |
 | **Paragraphes** | Style Corps de texte ou Normal |
-| **Listes** | Listes automatiques (puces/numéros) |
-| **Images** | Texte alternatif obligatoire |
-| **Tableaux** | Ligne d'en-tête définie |
+| **Listes** | Listes typées (puces/numéros) |
+| **Images** | Texte alternatif |
+| **Tableaux** | Ligne d'en-tête définie, légende |
 | **Notes de bas de page** | Via l'outil Word dédié |
 
 Notes:
@@ -195,10 +205,11 @@ Passons maintenant à la pratique. Nous allons générer des EPUBs accessibles a
 
 **WordToEPUB** : conversion Word → EPUB 3 accessible
 
-1. 🌐 Aller sur [daisy.org/wordtoepub](https://daisy.org/wordtoepub)
-2. Télécharger et installer `WordToEPUB`
-2. Cliquer sur **« Choisir un fichier »** et sélectionner le DOCX
-3. Configurer les options :
+1. Dans Word, Ouvrez un document
+2. Dans l'onglet `Accueil`, cliquez sur `WordToEPUB`
+  - Attendez que l'analyse du fichier soit terminé
+2. Renseignez les champs `Enregistrer sous` et `Dans le dossier`
+3. Ouvrez le `Mode avancé` et configurer les options suivantes :
    - Langue du document
    - Métadonnées de l'ouvrage
    - Options d'accessibilité
@@ -213,15 +224,15 @@ WordToEPUB est l'outil le plus simple pour produire un EPUB 3 accessible à part
 
 ---
 
-## 🛠️ Exercice 4
+## 🛠️ Exercice 5
 
 **Convertir un Word en EPUB accessible avec WordToEPUB**
 
-1. Ouvrir [daisy.org/wordtoepub](https://daisy.org/wordtoepub)
-2. Charger le fichier `exercice4.docx`
-3. Renseigner les métadonnées (titre, auteur, langue)
+1. Ouvrez votre fichier structuré `exercice2_structuré.docx`
+2. Ouvrez `WordToEPUB`
+3. Vérifier/Renseigner les métadonnées (titre, auteur, langue)
 4. Lancer la conversion
-5. Télécharger et ouvrir l'EPUB dans Thorium Reader
+5. Ouvrir l'EPUB dans Thorium Reader
 6. Tester la navigation (table des matières, titres)
 
 **Durée : 20 minutes**
@@ -237,47 +248,32 @@ Pour cet exercice, utilisez le fichier exercice4.docx fourni. Après la conversi
 
 1. Ouvrir le document Word structuré
 2. Cliquer sur l'onglet **Accessibilité**
-3. Sélectionner **Exporter en format DAISY**
-4. Configurer :
-   - Titre, auteur, langue
-   - Options d'accessibilité
-   - Couverture (optionnel)
-5. Choisir le dossier de destination
-6. Lancer l'export
+3. Sélectionner **Exporter en format DAISY** puis **EPUB3**
+4. Cliquez sur **Detailed metadata** et renseignez les métadonnées d'accessibilité
+   - Titre, auteur, langue etc.
+5. Cliquez sur **Conversion Options** et choisissez vos options de conversion
+  - Désactiver l'option *Enable texte-to-speech* pour les essais
+6. Cliquez sur **Convert** pour lancer l'export
 
 Notes:
 SaveAsDAISY produit également des EPUBs 3 accessibles directement depuis Word. La configuration est similaire à WordToEPUB mais l'interface est intégrée dans Word. Un avantage de SaveAsDAISY est la possibilité de sauvegarder les paramètres de configuration pour les réutiliser lors de conversions ultérieures.
 
 ---
 
-## Comparatif WordToEPUB vs SaveAsDAISY
+## Comparatif compléments Word | WordToEPUB vs SaveAsDAISY
 
 | Critère | WordToEPUB | SaveAsDAISY |
 |---------|------------|-------------|
-| **Mode** | En ligne | Dans Word |
-| **Installation** | Aucune | Complément Word |
-| **Métadonnées d'accessibilité** | ✅ Guidé | ✅ Disponible |
+| **Métadonnées d'accessibilité** | ✅ Complet | ✅ Limité |
 | **EPUB Media Overlay** | ❌ | ✅ |
-| **DTBook** | ❌ | ✅ |
+| **Autres formats (XML,DAISY,MP3)** | ❌ | ✅ |
+| **Accessibilité EPUB** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
 | **Facilité d'utilisation** | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 
 Notes:
-Le choix entre WordToEPUB et SaveAsDAISY dépend de vos besoins. WordToEPUB est plus simple et ne nécessite aucune installation, ce qui en fait un bon point d'entrée. SaveAsDAISY est plus complet : il supporte les Media Overlays pour les livres audio structurés et peut aussi exporter en DTBook. Pour une production régulière de livres adaptés avec audio, SaveAsDAISY est recommandé.
-
----
-
-## 3.c – Créer un EPUB Media Overlay avec SaveAsDAISY
-
-**Media Overlay** = synchronisation texte + audio dans un EPUB 3
-
-**Principe :**
-1. Préparer le document Word structuré
-2. Enregistrer une narration audio (ou utiliser une synthèse vocale)
-3. Dans SaveAsDAISY : **Exporter EPUB avec Media Overlay**
-4. L'audio se synchronise mot à mot ou phrase par phrase
-
-Notes:
-Les EPUB Media Overlay sont une fonctionnalité puissante d'EPUB 3 qui permet de synchroniser le texte avec un enregistrement audio. Lors de la lecture, le texte est mis en surbrillance au fur et à mesure de la narration, à la manière d'un karaoké. C'est particulièrement bénéfique pour les personnes dyslexiques et pour l'apprentissage des langues. SaveAsDAISY automatise la création du fichier SMIL de synchronisation.
+Le choix entre WordToEPUB et SaveAsDAISY dépend de vos besoins. WordToEPUB est plus simple et plus complet en terme de controle sur les métadonnées, ce qui en fait un bon point d'entrée *si vous n'avez besoin que d'un epub texte accessible*.
+SaveAsDAISY est moins à jour sur l'accessibilité des EPUB mais il peut générer des Media Overlays pour les livres audio structurés en plus d'autres format de publications ou dy XML DTBook.
+Le consortium à pour objectif à terme de réunir les 2 compléments en un seul via SaveAsDAISY pour reconcentrer les ressources en développements, mais aussi pour mettre plus en avant les epub Media Overlay avec audio embarqué.
 
 ---
 
@@ -296,25 +292,51 @@ Les EPUB Media Overlay sont une fonctionnalité puissante d'EPUB 3 qui permet de
 **Usage :** livres audio structurés, ouvrages pour lecteurs avec difficultés de lecture
 
 Notes:
+
+Les EPUB Media Overlay sont une fonctionnalité puissante d'EPUB 3 qui permet de synchroniser le texte avec un enregistrement audio.
+
+Le principe est repris des formats DAISY, qui utilise des fichiers dit SMIL pour synchroniser un segment de texte et un segment d'audio.
+Sur les lecteurs compatibles, lors de la lecture, le texte est mis en surbrillance au fur et à mesure de la narration, à la manière d'un karaoké. C'est particulièrement bénéfique pour les personnes dyslexiques et pour l'apprentissage des langues. 
+
 Le fichier SMIL (Synchronized Multimedia Integration Language) est le cœur du Media Overlay. Il contient les références temporelles qui associent chaque segment audio à l'élément XHTML correspondant. SaveAsDAISY génère automatiquement ces fichiers SMIL lors de l'export. Le résultat est lisible dans Thorium Reader et EasyReader, les deux liseuses qui supportent les Media Overlays.
 
 ---
 
-## 🛠️ Exercice 5
+## Créer un EPUB Media Overlay 
 
-**Créer un EPUB avec Media Overlay**
+Dans **SaveAsDAISY**, activer l'option *text-to-speech* :
+- *Exporter* / *EPUB3* / *Enable text-to-speech*
+- Nécessite des voix de synthèse installer (Microsoft ou autre)
 
-1. Utiliser le fichier `exercice5.docx` + `exercice5-audio.mp3`
-2. Ouvrir Word avec le complément SaveAsDAISY
-3. Aller dans l'onglet **DAISY** → **« Exporter EPUB avec Media Overlay »**
-4. Associer le fichier audio
-5. Générer l'EPUB
-6. Ouvrir dans Thorium Reader et tester la lecture synchronisée
+
+Dans **DAISY Pipeline app**, en repartant d'un dtbook XML
+- Script **DTBOOK to EPUB**
+- Cocher l'option *Enable text-to-speech*
+- CLiquer sur **run** pour lancer la conversion
+
+> **DAISY Pipeline app** recommandé pour plus de choix de fournisseurs de voix
+
+Notes:
+
+Avec les outils utilisant le DAISY Pipeline, tel que SaveAsDAISY, il est possible de générer des epubs media overlay simplement en activant l'option dans le script approprié.
+
+---
+
+## 🛠️ Exercice 5 bis
+
+**Créer un EPUB avec Media Overlay via SaveAsDAISY**
+
+1. Ouvrez a nouveau votre fichier structuré `exercice2_structuré.docx`
+2. Lancer l'export en EPUB3 via **SaveAsDAISY**
+3. Activer l'option *enable text-to-speech*
+4. Lancer la conversion
+5. Ouvrir l'EPUB dans Thorium Reader
+6. Tester la navigation (table des matières, titres)
 
 **Durée : 25 minutes**
 
 Notes:
-Pour cet exercice, vous disposez d'un document Word et d'un fichier audio enregistré à l'avance. Après la génération de l'EPUB, testez la lecture synchronisée dans Thorium Reader : activez l'option de lecture audio et observez comment le texte est mis en surbrillance. Vérifiez également que la navigation par chapitre fonctionne avec la synchronisation audio.
+Après la génération de l'EPUB, testez la lecture synchronisée dans Thorium Reader : activez l'option de lecture audio et observez comment le texte est mis en surbrillance. Vérifiez également que la navigation par chapitre fonctionne avec la synchronisation audio.
 
 ---
 
@@ -369,11 +391,13 @@ Les erreurs fatales empêchent complètement la lecture de l'EPUB. Les erreurs s
 - Vérifie la **conformité WCAG** et **EPUB Accessibility**
 - Génère un rapport HTML détaillé
 
-**Installation :**
+**Installation en ligne de commande**
 ```bash
 npm install -g @daisy/ace
 ace --version
 ```
+Sinon, télécharger la [**DAISY ACE App**](http://daisy.github.io/ace/getting-started/ace-app/#where-can-i-download-the-ace-app)
+  - [Pour Windows](https://github.com/daisy/ace-gui/releases/download/v1.4.6/Ace.by.DAISY.Setup.1.4.6.exe)
 
 Notes:
 ACE (Accessibility Checker for EPUB) est le complément d'EPUBCheck pour l'accessibilité. Là où EPUBCheck vérifie la conformité technique, ACE vérifie les critères WCAG et EPUB Accessibility 1.1. ACE est disponible en ligne de commande via npm (Node.js) et génère un rapport HTML très lisible qui détaille chaque violation avec des explications et des recommandations de correction. Il existe aussi une interface graphique ACE App.
@@ -402,11 +426,11 @@ ACE vérifie automatiquement une liste de critères WCAG applicables aux EPUBs. 
 
 Le rapport ACE inclut :
 
-- 📊 **Score global** de conformité
-- 🔍 **Liste des violations** avec explications
-- 📋 **Données structurées** du livre analysé
-- 💡 **Recommandations** de corrections
-- 🏷️ **Vérification des métadonnées** d'accessibilité
+- 🔍 **Liste des erreurs et violations** avec score, catégorie et détails
+- 🏷️ **Vérification des métadonnées**, y compris d'accessibilité
+- 📋 **Structure** du livre analysé (Table des matières)
+- 💡 **Images** et texte alternatifs détectés
+
 
 Notes:
 Le rapport HTML généré par ACE est très complet. Il inclut une visualisation de la structure du livre, une liste des violations organisées par critère WCAG, et pour chaque violation une explication et une suggestion de correction. Le rapport peut être partagé avec l'équipe de production ou archivé comme preuve de conformité. ACE génère également un fichier EARL (Evaluation And Report Language) en JSON pour une intégration dans des workflows automatisés.
@@ -417,15 +441,12 @@ Le rapport HTML généré par ACE est très complet. Il inclut une visualisation
 
 **Analyser un EPUB avec ACE**
 
-1. Lancer ACE sur le fichier EPUB de l'exercice 4 :
-   ```
-   ace monlivre.epub -o rapport-ace/
-   ```
-2. Ouvrir le rapport HTML généré
+1. Lancer ACE ssur l'epub `exercice4.epub`
 3. Analyser :
    - Violations détectées
    - Critères WCAG non respectés
-4. Identifier les 3 principales améliorations possibles
+   - Métadonnées manquantes
+4. Identifier les améliorations possibles
 5. Corriger dans le Word source et reconvertir
 
 **Durée : 25 minutes**
@@ -507,12 +528,12 @@ Ces ressources vous permettront de continuer à approfondir vos connaissances ap
 
 ---
 
-## Merci pour votre participation ! 🎉
+## C'est tout pour moi ! 🎉
 
-**Formation FISAF – Fichiers Structurés  
-pour la Transcription et l'Édition Numérique Adaptée**
+_Questions ? [Contactez-moi](mailto:n.pavie@avh.asso.fr) !_
 
-_Questions ? Contactez-nous !_
+> (La suite avec M. Chomel pour InDesign)
 
 Notes:
-Merci pour votre participation active à cette formation. N'hésitez pas à nous contacter si vous avez des questions après la formation. Nous vous encourageons à mettre en pratique les techniques apprises dès vos prochaines productions.
+Et ce sera tout pour moi sur cette sessions, j'espère vous avoir appris des choses utilises.
+N'hésitez pas à nous contacter si vous avez des questions après la formation. 

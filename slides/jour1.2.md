@@ -104,6 +104,15 @@ SaveAsDAISY est un complément qui s'installe directement dans Microsoft Word. U
 
 <img class="r-stretch" src="images/SAD-ribbon.png" />
 
+Notes:
+
+(Démo en live)
+
+---
+
+## SaveAsDAISY – Onglet *Accessibilité*
+
+
 | Bouton | Action |
 |--------|--------|
 | **Exporter en format DAISY** | Convertir le document en **XML DTBook**, *DAISY3*, *EPUB3*, *MP3s* ou *DAISY2.02* |
@@ -112,6 +121,18 @@ SaveAsDAISY est un complément qui s'installe directement dans Microsoft Word. U
 | **Gérer les abbréviation** | Gérer les abbréviations identifiés |
 | **Marquer en acronyme** | Marquer un mot sélectionné en abbréviation |
 | **Gérer les acronymes** | Gérer les acronymes identifiés  |
+
+Notes:
+
+(Démo en live)
+
+---
+
+
+## SaveAsDAISY – Onglet *Accessibilité*
+
+| Bouton | Action |
+|--------|--------|
 | **Importer les styles DAISY** | Importer dans le document les styles de structuration |
 | **Langue du document** | Modifie la langue de controle et d'export du document ou d'un texte sélectionné |
 | **Métadonnées du document** | Gérer les métadonnées d'accessibilité du document |
@@ -122,8 +143,6 @@ SaveAsDAISY est un complément qui s'installe directement dans Microsoft Word. U
 Notes:
 
 (Démo en live)
-
-L'onglet DAISY propose quatre fonctions principales. La vérification est particulièrement utile avant l'export : elle signale les problèmes de structure qui pourraient nuire à la qualité de la conversion. Les styles DAISY étendent les styles Word natifs avec des styles spécifiques à l'édition accessible, comme les notes de production ou les encadrés.
 
 ---
 
@@ -286,6 +305,7 @@ Les styles DAISY étendent les possibilités de structuration de Word pour couvr
 4. Utilisez les **styles DAISY** pour plus de sémantiques (poésie, auteurs etc.)
 5. Renseigner les **métadonnées** (Fichier → Propriétés)
 6. Vérifier avec le **Vérificateur d'accessibilité** Word
+7. Enregistrer le résultat sous le nom `exercice2_structuré.docx`
 
 **Durée : 30 minutes**
 
