@@ -19,7 +19,7 @@ Présentation et ressources pour la formation FISAF sur la production de fichier
 
 ## 🚀 Présentation en ligne
 
-La présentation est générée avec [MkSlides](https://github.com/jguyomard/mkslides) et publiée sur GitHub Pages.
+La présentation est générée avec [MkSlides](https://github.com/MartenBE/mkslides) et publiée sur GitHub Pages.
 
 ## 🛠️ Développement local
 
@@ -32,9 +32,9 @@ mkslides serve slides/
 
 ```
 slides/
-├── index.md              # Page d'accueil et programme
-├── jour1-matin.md        # Jour 1 Matin : Histoire & XML
-├── jour1-apres-midi.md   # Jour 1 Après-midi : XML DTBook en pratique
-├── jour2-matin.md        # Jour 2 Matin : Le format EPUB
-└── jour2-apres-midi.md   # Jour 2 Après-midi : EPUB accessibles
+├── index.md      # Page d'accueil et programme
+├── jour1.1.md    # Jour 1 Matin : Histoire & XML
+├── jour1.2.md    # Jour 1 Après-midi : XML DTBook en pratique
+├── jour2.1.md    # Jour 2 Matin : Le format EPUB
+└── jour2.2.md    # Jour 2 Après-midi : EPUB accessibles
 ```

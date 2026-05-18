@@ -50,7 +50,7 @@ Cette première partie couvre la conversion dans le sens inverse : partir d'un E
    - Convertir les images
    - Structure des chapitres
 5. Lancer la conversion
-6. Exporter et ouvrir dans Word
+6. *Enregistrer sous un seul format* > *DOCX* > choisir le dossier de sortie
 
 ⚠️ La qualité dépend de la structure de l'EPUB source
 
@@ -65,18 +65,19 @@ La conversion EPUB vers DOCX via Calibre fonctionne bien pour les EPUBs bien str
 
 - Spécialisé dans la **conversion Word → EPUB 3 accessible**
 
-> **Il peut aussi reconvertir un EPUB en Word :**
+> **Peut aussi reconvertir un EPUB en Word :**
 
 Outils `EPUBToWord.exe` *caché* dans `C:\Program Files (x86)\DAISY\WordToEPUB`
 
 ![outils caché EpubToWord](images/epubtoword.png)
 
 Notes:
-WordToEPUB traite les fichiers localement dans votre navigateur, ce qui garantit la confidentialité de vos documents : aucun fichier n'est envoyé vers un serveur distant. C'est un avantage important pour les structures qui traitent des documents sous droit d'auteur. Son principal usage est la conversion Word → EPUB, mais il peut aussi aider à extraire le contenu d'un EPUB.
+C'est un peu moins connu mais WordToEPUB, qui est d'abord un outil de génération d'epub accessible a partir de word, fournis aussi un outil "EPUBToWord" dans son répertoire d'installation.
+Selon vos objectifs, cette option peut s'avérer beaucoup plus rapide et pratique si vous n'avez pas besoin de toutes les options de conversions de styles.
 
 ---
 
-## Exercice 4
+## 🛠️ Exercice 4
 
 1. Télécharger et installer [WordToEPUB](https://daisy.org/wordtoepub)
 2. Récupérer le fichier [`exercice4.epub`](exercices/exercice4.epub)
@@ -85,8 +86,10 @@ WordToEPUB traite les fichiers localement dans votre navigateur, ce qui garantit
   - Via WordToEPUB, puis renommer le fichier en `exercice4_WordToEPUB.docx`
 4. Ouvrez les fichiers et comparer les résultats.
 
+Notes:
+A vous de jouer !
 
---- 
+---
 
 ## Bonne pratique : conserver vos fichiers
 
@@ -216,7 +219,7 @@ Passons maintenant à la pratique. Nous allons générer des EPUBs accessibles a
 4. Cliquer sur **« Convertir »**
 5. Télécharger le fichier EPUB généré
 
-✅ Avantage : simple, fichier epub accessible, éditeur de couverture
+✅ Avantage : simple, fichier epub accessible, éditeur de couverture<br/>
 ❌ controle limité de la sémantique, seulement du texte
 
 Notes:
@@ -441,7 +444,7 @@ Le rapport HTML généré par ACE est très complet. Il inclut une visualisation
 
 **Analyser un EPUB avec ACE**
 
-1. Lancer ACE ssur l'epub `exercice4.epub`
+1. Lancer ACE sur l'epub [`exercice4.epub`](exercices/exercice4.epub)
 3. Analyser :
    - Violations détectées
    - Critères WCAG non respectés
@@ -458,29 +461,22 @@ Pour cet exercice, utilisez l'EPUB de l'exercice 4. Si ACE est installé sur vot
 
 ## Workflow complet de production EPUB accessible
 
-```
+
 1. Rédaction dans Word
-   (styles + métadonnées + images alt)
-        ↓
+   - (styles + métadonnées + images alt)
 2. Vérification Word
-   (vérificateur d'accessibilité intégré)
-        ↓
+   - (vérificateur d'accessibilité intégré)
 3. Conversion en EPUB
-   (WordToEPUB ou SaveAsDAISY)
-        ↓
-4. Validation technique
-   (EPUBCheck → 0 erreur)
-        ↓
-5. Audit accessibilité
-   (ACE → conformité WCAG)
-        ↓
-6. Corrections et itérations
-        ↓
-7. Publication ✅
-```
+   - (WordToEPUB ou SaveAsDAISY)
+4. Audit accessibilité
+   - (ACE → conformité WCAG)
+5. Corrections et itérations
+6. Publication ✅
+
 
 Notes:
-Ce workflow en sept étapes représente la chaîne de production complète d'un EPUB accessible. Les étapes 4 à 6 forment une boucle d'itération : si des erreurs sont détectées, on corrige le fichier Word source et on recommence. Il est important de ne pas chercher à corriger directement dans l'EPUB : toute modification doit être faite dans le Word source pour garantir la cohérence entre les versions.
+Ce workflow en six étapes représente la chaîne de production complète d'un EPUB accessible. 
+Si des erreurs sont détectées, on corrige le fichier Word source et on recommence. Il est préférable de ne pas chercher à corriger directement dans l'EPUB sauf si ce n'est pas possible autrement : toute modification doit être faite dans le Word source pour garantir la cohérence entre les versions.
 
 ---
 
