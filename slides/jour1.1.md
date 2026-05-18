@@ -74,8 +74,8 @@ Notion : WYSIWYG « What you see is what you get », ou littéralement en franç
 - https://www.gutenberg.org/
 
 **1980+** Diffusion d'ouvrages sur support numérique
-- Disquette / CD-ROMs
-- Réalisé par des informaticiens ≠ éditeurs *papier*
+- Disquettes / CD-ROMs
+- Réalisés par des informaticiens ≠ éditeurs *papier*
 - Concept *WYSIWYM*
 
 **1990+** Web, W3C, IDPF (standardisation)
@@ -91,7 +91,7 @@ Durant les années 80, plusieurs ouvrages sont proposés sous forme électroniqu
 
 Notion : WYSIWYM, « What you see is what you mean », c'est-à-dire : « Ce que vous voyez est ce que vous voulez dire ». Par opposition au WYSIWYG, cette approche propose à l'utilisateur une interface de création de contenus autonome par rapport à la mise en forme finale. L'utilisateur ne met plus de mots en gras, mais spécifie qu'ils sont importants. C'est le programme qui se chargera, lors d'une phase de publication, d'appliquer le rendu adapté.
 
-Avec la démocratisation du web à partir des années 1990, on voit apparaître de nouveaux acteurs pour répondre à un besoin d'interopérabilité des formats. Le W3C est créé en 1994, et l'IDPF crée en 1995 le format Open eBook, qui deviendra l'EPUB.
+Avec la démocratisation du web à partir des années 1990, on voit apparaître de nouveaux acteurs pour répondre à un besoin d'interopérabilité des formats. Le W3C est créé en 1994, et l'IDPF (international digital publishing forum) crée en 1995 le format Open eBook, qui deviendra l'EPUB.
 
 En 2017, l'IDPF fusionnera avec le W3C, ce dernier reprenant alors le travail de spécification des différents standards qui composent un EPUB.
 
@@ -113,11 +113,11 @@ L'édition adaptée consiste à rendre accessibles des productions éditoriales 
 On note en date notoire l'invention du système braille par Louis Braille en 1821, qui permet aux aveugles d'avoir accès à la culture sur papier.
 Les premières publications de livre audio quant à elles remontent à 1934, réalisées pour le « Talking book program » créé en 1931 par la « American Foundation for the Blind » et la « Library of Congress Book for the Blind Project ».
 
-Au niveau mondial, cette activité est souvent encadrée et exercée par des bibliothèques spécialisées qui répondent aux demandes des usagers. Les réalités sont très différentes selon les moyens politiques et financiers, une grande majorité de l'activité est exercée par des bénévoles ou des petites structures médico-sociales lorsque celles-ci existent comme en France.
+Au niveau mondial, cette activité est souvent encadrée et exercée par des bibliothèques spécialisées qui répondent aux demandes de leurs usagers. Les réalités sont très différentes selon les moyens politiques et financiers, une grande majorité de l'activité est exercée par des bénévoles ou des petites structures médico-sociales lorsque celles-ci existent comme en France.
 
 ---
 
-## 1996 - Le DAISY Consortium
+## 1996 - [Le DAISY Consortium](https://daisy.org/about-us/history/)
 
 Regroupement de librairies et organisation pour les personnes aveugles ou malvoyantes.
 
@@ -150,7 +150,7 @@ L'objectif du Consortium DAISY est de mettre fin à la famine du livre pour les 
 Notes:
 Pour répondre à ces objectifs, le DAISY Consortium travaille donc à la fois sur les formats de publications numériques, les outils de production de ces formats, et la formation à leur utilisation et leur production.
 
-Le consortium est surtout connu pour son format DAISY : créé comme un standard propriétaire en Suède en 1994, le format DAISY (digital accessible information system) devient une norme ouverte gérée par le consortium en 1997. Une version 2 est publiée en 1998 puis une version 3 en 2005.
+Le consortium est surtout connu pour son format DAISY : après un premier prototype créé comme un standard propriétaire par TPB/MTM en Suède en 1994, le format DAISY (digital accessible information system) devient une norme ouverte gérée par le consortium en 1997. Une version 2 est publiée en 1998 puis une version 3 en 2005.
 
 Le consortium participe actuellement très activement, via le W3C, à l'amélioration du format EPUB3 pour en maximiser l'accessibilité, mais également à la création d'une extension de l'epub3 spécifique au braille appelée l'eBraille.
 
@@ -182,7 +182,10 @@ Pour produire tous ces livres, le consortium propose un panel d'outils à la foi
 
 Notes:
 
-Et enfin, le consortium maintient une base de connaissance (en anglais) sur la production de fichier numérique adapté.*
+Et enfin, le consortium maintient une base de connaissance (en anglais) sur la production de fichier numérique adapté et également un site dédié à la formation de différents publiques à l'édition dite "inclusive"
+Ce dernier fournis énormément de ressources selon les types de public (éditeurs, enseignants, développeurs et même consommateur) avec de nombreuses documentations et formations pour la mise en place de chaine éditorial ou l'utilisation de publications accessibles.
+
+La base de connaissance du DAISY Consortium est quant elle plus technique et plutot dédié à la conception de publication EPUB3 accessible.
 
 ---
 
@@ -229,7 +232,7 @@ Cette approche, au delà de l'accès à la lecture, permet de structurer la cha�
 - Explorateur Windows / bouton `…` / Options / Affichage → décocher **Masquer les extensions des fichiers dont le type est connu**
 
 > **Attention aux « fausses extensions »**<br/>
-> (ex. un fichier exécutable renommé en `.pdf`)
+> (i.e. un fichier exécutable renommé en `.pdf`)
 
 Notes:
 Avant de voir plus en détails les formats de document et donc de fichier que vous pourriez rencontrer pour la réalisation d'une adaptation, les quelques notions suivantes peuvent s'avérer utiles.
@@ -242,7 +245,15 @@ Vous entendrez également souvent parler de normes et de standards concernant le
 - Norme : Document établi par consensus et approuvé par un organisme reconnu, qui fournit des règles, des lignes directrices ou des caractéristiques pour des activités ou leurs résultats. (ISO)
 - Standard : référentiel publié par une entité privée autre qu'un organisme de normalisation national ou international. On parle de standard à partir du moment où le référentiel a une diffusion large (standard de facto).
 
+Autrement dit: la norme est une obligation a respecter pour être conforme, là ou le standard est plutot une recommandation à suivre pour faire comme tout le monde.
+Petite précision : ce que nous appelons "norme" (i.e. norme ISO) est appelé "*standard*" par les anglais.
+
 Un point très important pour la suite sera aussi la reconnaissance du type de fichier qui vous sera fourni ou demandé. Le plus souvent, ce type est identifiable par une extension. Sur Windows, si vous ne voyez pas ces extensions, il vous faudra les « démasquer » en allant dans les options de l'Explorateur.
+
+Et comme j'ai déjà eu à gérer des cas et que je me dois de le rappeler au cas ou : 
+faites attention a vos noms de fichiers et à leur provenance, SURTOUT si vous n'avez pas activer l'affichage des extensions.
+Personne n'est a l'abri de télécharger un faux fichier depuis un mail de phishing ciblé et de vous retrouver avec une machine compromise par un virus.
+
 
 ---
 
@@ -259,7 +270,11 @@ Un point très important pour la suite sera aussi la reconnaissance du type de f
 | `.ott` | Modèle de document texte OpenDocument |
 
 Notes:
-Ces formats bureautiques sont les plus courants dans un environnement de travail classique. Le DOCX est aujourd'hui le format de référence pour Word, et l'ODT est son équivalent libre dans la suite LibreOffice/OpenOffice. Les formats de modèles (DOTM, OTT) permettent de définir des styles réutilisables, très utiles pour la production de documents accessibles.
+Ces formats bureautiques sont les plus courants dans un environnement de travail classique. 
+Le DOCX est aujourd'hui l'un des formats de référence pour le traitement de texte bureautique grâce au large déploiement de Microsoft Word, et l'ODT est son équivalent libre dans la suite LibreOffice/OpenOffice.
+
+Les formats de modèles (DOTM, DOCM, OTT) permettent de définir des styles réutilisables, très utiles pour la production de documents accessibles.
+(Nous verrons un exemple en partie 2 l'utilisation d'un modèle OTT notamment)
 
 ---
 
@@ -277,7 +292,17 @@ Ces formats bureautiques sont les plus courants dans un environnement de travail
 | `.pef` | XML pour la mise en page braille par MTM |
 
 Notes:
-Ces formats sont utilisés dans des contextes éditoriaux plus spécialisés. InDesign et ses formats associés (INDD, IDML) sont très répandus dans l'édition professionnelle. Le XML DTBook est le format pivot que nous allons étudier en détail dans cette formation. Le TEI (Text Encoding Initiative) est utilisé en recherche en humanités numériques. Le PEF est spécifique à la production braille.
+Ces formats sont utilisés dans des contextes éditoriaux plus spécialisés. 
+InDesign et ses formats associés (INDD, IDML) sont très répandus dans l'édition professionnelle pour la conception de maquette et de PDFs.
+Coté fichier XML, vous pourrez en rencontré de toute sorte dans votre carrière et il est impossible de tous les répertoriés, mais je vous remet les principaux que je connais ici pour l'édition, avec le format "XML LG" créer par Hachette et dont il existe plétor de dériver pour différents usages.
+Le XML DTBook duDAISY est à la fois format pivot de nombreux organismes d'adaptation (dont l'AVH) et un conteneur pour la publication de DAISY3 : Nous allons voir ce format plus en détail dans cette formation et en produire en deuxième partie de journée. 
+
+Le TEI (Text Encoding Initiative) est utilisé en recherche en humanités numériques.
+Les fichiers DTD sont des fichiers de définition de grammaire XML.
+Nous n'allons pas voir en détail comment ils sont construits, mais sachez qu'ils sont très utiles pour la création "contrainte" et la validation de fichier XML.
+(Nous ne verrons pas non plus ici les alternatives à ce format tel que les XMLSchema ou les relaxNG qui sont plus abouti mais moins répandu a ma connaissance dans le monde de l'édition)
+
+Enfin en complément au cas ou, le PEF est un XML spécifique à la production de braille embossé mais .
 
 ---
 
@@ -296,7 +321,17 @@ Ces formats sont utilisés dans des contextes éditoriaux plus spécialisés. In
 
 
 Notes:
-Ces formats sont destinés à la consultation finale des ouvrages. Le PDF reste très répandu mais pose des difficultés d'accessibilité lorsqu'il n'est pas balisé. Les formats propriétaires (AZW, iBooks) limitent la portabilité. L'EPUB, standard ouvert maintenu par le W3C, est le format de référence pour l'édition numérique accessible, et l'eBraille est son extension pour le braille.
+Ces formats là sont destinés à la consultation finale des ouvrages. 
+Le PDF reste très répandu mais pose des difficultés d'accessibilité lorsqu'il n'est pas balisé. 
+Pour une petite histoire en vidéo/podcast du format PDF, le vidéaste MiCode à récemment publier un vidéo sur le sujet [ici](https://youtu.be/Xxg_8mge50U?si=3Q-M6fszjDDb5Pze)
+Le HTML (et sa version XML : le XHTML), le GOAT, notre champion du web, est consultable par tous les navigateurs web : vous en lisez littéralement tous les jours.
+
+L'EPUB, standard ouvert maintenu par le W3C, est le format de référence pour l'édition numérique accessible, et l'eBraille est son extension pour le braille.
+Le format EPUB, lui c'est notre petit chouchou pour la publication numérique, avec un gros travail fait sur les possibilités de le rendre accessible, voir d'injecter du contenu adapté à différents publiques (la suite en jour 2).
+
+Contrairement à eux, les formats propriétaires d'amazon et d'apple (AZW, iBooks) limitent la portabilité en contraignant l'usager à l'utilisation de matériel spécifique (et parfois sans possibilité d'utiliser des technologies d'assistances ou avec des options de controles visuels limités) 
+
+Le format DAISY (qui n'est pas "packagé" comme l'epub ou les autres formats de publications) restent  notamment dans sa forme DAISY2.02 (à)
 
 ---
 
@@ -305,7 +340,7 @@ Ces formats sont destinés à la consultation finale des ouvrages. Le PDF reste 
 ## Les formats XML
 
 Notes:
-Nous entrons maintenant dans la partie technique de la matinée. Nous allons voir ce qu'est le XML, comment il fonctionne, et comment le format DTBook en est une application concrète pour l'édition accessible.
+Nous entrons maintenant dans la partie technique de la matinée. Nous allons voir ce qu'est le XML, comment il fonctionne, et comment le format XML DTBook en est une application concrète pour l'édition accessible.
 
 ---
 
@@ -396,6 +431,19 @@ Toutes les balises **ouvertes** doivent être **fermées** :
 <elemA></elemA>  == <elemA />
 ```
 
+Notes:
+Un document XML, c'est avant tout un arbre de balise simple qu'on appelle des éléménts.
+Mais c'est là où l'on parle de format extensible : 
+Le nom d'un élément est soit définit par vous mêmes, soit contraint par une grammaire.
+
+Pour donner une image, les balises "éléments" sont un peu comme des dossiers dans votre explorateur windows.
+Vous pouvez leur donner le nom que vous voulez, et ensuite dedans vous mettez d'autres fichiers ou d'autres dossiers (ou rien)
+
+Petite règle de base d'un fichier XML cependant : contrairement à d'autres langages balisés (comme le html)
+si vous "ouvrez" une balise, vous devez également la "fermé", sinon votre fichier XML ne sera pas valide et votre lecteur ne pourra pas construire sa représentation.
+
+(en réalité, vous avez 3 types de balises dans cette seule notion d'élément : une balise "ouvrante", sa contrepartie "fermante" et sa version "auto fermante")
+
 ---
 
 ```xml
@@ -409,6 +457,18 @@ Données complémentaires (métadonnée) spécifiques a un élément
 - Adresse pour les liens hypertexte
 - Identifiants ou références a un identifiant (note et appel de note)
 - Texte alternatif pour les images
+
+Notes :
+
+Dans vos balises "ouvrantes" d'éléments, vous allez pouvoir ajouter d'autres informations supplémentaires qu'on appelle des "attributs".
+(Si je reprend mon image du dossier dans un système de fichier, c'est un peu comme des métadonnées associés au dossier, visible par exemple en faisant clique droit et "propriété" sur un dossier dans l'explorateur windows.)
+
+Dans les usages de ces attributs, vous allez retrouver 
+- Le stylage visuel, en utilisant par exemple des noms de classes CSS, ou des attributs dédiés
+- Des adresses web pour intégrer des liens hypertextes sur du contenu
+- Des Identifiants ou références a un identifiant (pour faire la liaison entre appel de note et une note)
+- Du texte alternatif pour les images
+Ou encore bien d'autres usages, comme la définition de métadonnées d'accessibilités sur un élément ou un document ou dans une publication
 
 ---
 
@@ -455,8 +515,16 @@ Contraindre la structure XML du contenu via une « grammaire »
 ```
 
 Notes: 
+
+Si jamais vous étiez amené à travailler directement sur des fichiers XML sans outils de production (ou dans le cas où les outils vous brideraient trop pour ce que vous voulez faire), ce qu'on va aborder ici et sur les slides suivantes est plus "optionnel" mais on ne sait jamais.
+
+Dans un fichier XML, notamment un DTBook, vous pourrez rencontrer une balise qu'on appelle un DOCTYPE.
+C'est cette balise qui fait la liaison (voir qui décrit) les contraintes que doivent respecter le fichier XML, notamment quels noms les éléments peuvent avoir à quel endroit dans l'arbre des balises.
+Ce doctype va spécifier le nom de l'élément racine attendu, suivi du fichier de grammaire (on parle d'une "DTD") à utiliser pour la structure de l'arbre
+Certaines DTD (comme le DTBook) permettent de définir des extensions, décrités en langage balisés DTD.
 Pour information, beaucoup de système spécialisé dans le traitement XML utilise ce que l'on appelle un fichier catalogue
 dans lequel vous pouvez indiquez des identifiants ou des urls et les faires correspondre à un fichier
+
 
 ---
 
@@ -481,6 +549,11 @@ dans lequel vous pouvez indiquez des identifiants ou des urls et les faires corr
   <!ENTITY % externalNamespaces "xmlns:mml CDATA #FIXED 'http://www.w3.org/1998/Math/MathML'" >
 ] >
 ```
+
+Notes:
+
+Et voila un exemple d'extension, pour ajouter du contenu mathématique structurer en XML "MathML" directement dans du XML DTBook.
+
 ---
 
 ```xml
@@ -495,12 +568,23 @@ Différencier des éléments respectant des grammaires XML différents au sein d
 
 Exemple :
 ```xml
-<img xmlns="uri/identifiant/principale">
-  <svg:root xmlns:svg="uri/identifiant/svg">
-    ...
-  </svg:root>
-</img>
+<dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/"
+        xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  ...
+  <p>Un paragraphe du DTBook</p>
+  <mml:math>
+    ... du contenu XML "MathML" ...
+  </mml:math>
+</dtbook>
 ```
+
+Notes: 
+
+Petit retour bref sur les attributs : vous verrez souvant des attributs spéciaux qu'on appel des "espaces de noms"
+Ces attributs permettent d'identifier et de différencier à quel grammaire une balise appartient, lorsqu'un document en utilisent plusieurs.
+Si je reprend mon doctype d'avant avec extension mathml, vous pouvez avoir un XML qui ressemble à ça.
+
+
 ---
 
 ```xml
@@ -521,6 +605,13 @@ Permet d'inclure des instructions de traitement pour des logiciels spécifiques.
 <?verif code=CP1314 date=08/01/2024?>
 ```
 
+Notes:
+
+Les PI vous seront probablement moins utiles, mais vous pourriez en rentrontrer.
+Ce sont des balises spéciales qui sont à destinations des logiciels de traitements des fichiers XML.
+La plus commune est celle que l'on appelle le "prologue" qui doit être normalement mise en première position du fichiers XML, et permet à un lecteur ou un moteur de traitement de connaitre la version de la spécification XML respecter et l'encodage de caractères à utiliser pour la lecture.
+Petit truc à savoir : vos navigateurs sont pour certains (type chrome et dérivé, ou firefox) sont capable de lire du XML ET de l'afficher de façon "stylisé", si une PI xml-stylesheet est indiqué avec un chemin ou une url vers un fichier CSS.
+
 ---
 
 ```xml
@@ -539,6 +630,11 @@ Exemple :
 <!-- Suppression des tags element dans la structure -->
 <xsl:template match="element"></xsl:template>
 ```
+
+Notes:
+Vous pourrez aussi rencontrer dans les fichiers XML des balises "commentaire"
+Ce sont simplément des annotations qui n'ont pas vocations à être traités par un logicielle comme du contenu.
+En général on s'en sert comme annotations pour soit même ou pour un autre humain, par exemple dans des langages de programmations structuré en XML type XSLT.
 
 ---
 
@@ -561,6 +657,10 @@ Exemple : "Johnson & Jhonson prennent une 🍺 au bar"
 ```xml
   <p>Johnson &amp;amp; Jhonson prennent une &amp;#x1F37A; au bar</p>
 ```
+
+
+Notes:
+Derniers points avant de voir quelques exemples et de commencer à voir le dtbook : le XML 
 
 ---
 

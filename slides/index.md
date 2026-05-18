@@ -39,7 +39,7 @@ La formation est organisée en quatre demi-journées de 3h30 chacune. Le premier
 
 ---
 
-## [Jour 1 – Matin](jour1-matin.md)
+## [Jour 1 – Matin](jour1.1.md)
 
 ### Histoire & XML
 
@@ -51,7 +51,7 @@ Cette première demi-journée pose les bases historiques et théoriques. Nous ve
 
 ---
 
-## [Jour 1 – Après-midi](jour1-apres-midi.md)
+## [Jour 1 – Après-midi](jour1.2.md)
 
 ### XML DTBook en pratique
 
@@ -64,7 +64,7 @@ L'après-midi du premier jour est entièrement pratique. Nous utiliserons DAISY 
 
 ---
 
-## [Jour 2 – Matin](jour2-matin.md)
+## [Jour 2 – Matin](jour2.1.md)
 
 ### Le format EPUB
 
@@ -77,7 +77,7 @@ Le second jour commence par une présentation du format EPUB3, ses différents t
 
 ---
 
-## [Jour 2 – Après-midi](jour2-apres-midi.md)
+## [Jour 2 – Après-midi](jour2.2.md)
 
 ### EPUB accessibles en pratique
 

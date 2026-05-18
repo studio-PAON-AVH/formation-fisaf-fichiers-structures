@@ -253,7 +253,7 @@ Dans cette partie, nous allons passer en revue les principaux logiciels disponib
 
 - 🌐 [edrlab.org/thorium-reader](https://www.edrlab.org/thorium-reader/)
 - Développé par EDRLab (France)
-- **Très accessible** : lecteurs d'écran, navigation clavier
+- **Accessible** : lecteurs d'écran, navigation clavier
 - Support EPUB 3, PDF, audiobooks, DAISY
 - Disponible Windows, macOS, Linux
 - **Recommandé pour les tests d'accessibilité**
@@ -281,7 +281,7 @@ Thorium Reader offre de nombreuses possibilités de personnalisation qui sont es
 
 ## EasyReader
 
-- 🌐 [dolphincomputeraccess.com](https://www.dolphincomputeraccess.com/)
+- 🌐 [yourdolphin.com](https://www.yourdolphin.com/)
 - Développé par Dolphin Computer Access
 - Conçu **spécifiquement** pour les personnes déficientes visuelles
 - Support EPUB, DAISY, MP3, PDF

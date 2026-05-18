@@ -57,7 +57,7 @@ Le DAISY Consortium propose plusieurs outils gratuits et open source pour la pro
 - 🔄 Convertit entre de nombreux formats :
   - DTBook → EPUB 3
   - DTBook → MP3 (synthèse vocale)
-  - DOCX → EPUB 3
+  - DTBook → MP3 (synthèse vocale)
   - ...
 
 **[DAISY Pipeline app](https://github.com/daisy/pipeline-ui/releases/latest)** : version *bureau* du pipeline
@@ -91,10 +91,9 @@ Le fonctionnement de DAISY Pipeline est basé sur des scripts de transformation.
 - ⚙️ Ajoute un onglet *Accessibilité* dans Word
 
 **Fonctionnalités :**
-- Exporter un document Word en XML DTBook
-- Exporter en EPUB 3
-- Vérifier la structure du document
+- Exporter un document Word en XML DTBook, ou DAISY, ou EPUB
 - Ajouter des styles spécifiques DAISY
+- Modifier les métadonnées
 
 Notes:
 SaveAsDAISY est un complément qui s'installe directement dans Microsoft Word. Une fois installé, il ajoute un nouvel onglet « DAISY » dans le ruban de Word, accessible depuis lequel vous pouvez exporter vers différents formats accessibles. C'est l'outil le plus simple pour un producteur qui travaille déjà dans Word, car il ne nécessite pas de changer d'application.
@@ -108,7 +107,7 @@ SaveAsDAISY est un complément qui s'installe directement dans Microsoft Word. U
 | Bouton | Action |
 |--------|--------|
 | **Exporter en format DAISY** | Convertir le document en **XML DTBook**, *DAISY3*, *EPUB3*, *MP3s* ou *DAISY2.02* |
-| **Importer un document** | Convertir un **XML DTBook** en fichier Word |
+| **Importer un document** | Convertir un **XML DTBook** en fichier ouvrable par Word |
 | **Marquer en abbréviation** | Marquer un mot sélectionné en abbréviation |
 | **Gérer les abbréviation** | Gérer les abbréviations identifiés |
 | **Marquer en acronyme** | Marquer un mot sélectionné en abbréviation |
@@ -122,7 +121,7 @@ SaveAsDAISY est un complément qui s'installe directement dans Microsoft Word. U
 
 Notes:
 
-(Démo en live si possible)
+(Démo en live)
 
 L'onglet DAISY propose quatre fonctions principales. La vérification est particulièrement utile avant l'export : elle signale les problèmes de structure qui pourraient nuire à la qualité de la conversion. Les styles DAISY étendent les styles Word natifs avec des styles spécifiques à l'édition accessible, comme les notes de production ou les encadrés.
 
@@ -185,8 +184,8 @@ La conversion DTBook vers Word via DAISY Pipeline préserve la structure sémant
 **Convertir un fichier DTBook en Word**
 
 1. Ouvrir DAISY Pipeline App
-2. Charger le fichier `exercice1.xml` fourni
-3. Choisir le script de conversion DTBook → DOCX
+2. Charger le fichier [`exercice1.xml`](exercices/exercice1.xml) fourni
+3. Choisir le script de conversion DTBook → ODT ou RTF
 4. Exécuter la conversion
 5. Ouvrir le fichier Word résultant
 6. Observer la structure : styles, titres, paragraphes
@@ -281,17 +280,28 @@ Les styles DAISY étendent les possibilités de structuration de Word pour couvr
 
 **Structurer un document Word pour la conversion DTBook**
 
-1. Ouvrir le fichier `exercice2.docx` (document non structuré)
+1. Récupérer [`exercice2.docx`](exercices/exercice2.docx)
 2. Appliquer les **styles de titres** corrects (Titre 1, 2, 3…)
-3. Structurer les **listes** automatiquement
-4. Ajouter les **textes alternatifs** des images
+3. Ajouter les **textes alternatifs** des images
+4. Utilisez les **styles DAISY** pour plus de sémantiques (poésie, auteurs etc.)
 5. Renseigner les **métadonnées** (Fichier → Propriétés)
 6. Vérifier avec le **Vérificateur d'accessibilité** Word
 
 **Durée : 30 minutes**
 
 Notes:
-Ce document d'exercice contient intentionnellement des problèmes de structuration : titres mis en gras sans style, listes créées avec des tirets manuels, images sans texte alternatif. Votre objectif est de corriger tous ces problèmes en appliquant les règles vues précédemment. Utilisez le vérificateur d'accessibilité de Word pour vous assurer de n'avoir rien oublié.
+Je vous donne un cas un peu emblématique : un texte quasi brut sans structuration "marqué" mais identifiable tout de même.
+
+Ce que je vous passe ici est ce que vous pouvez récupérer depuis le projet gutemberg en "texte brute" (légèrement modifié pour reproduire les paragraphes).
+
+Pour info :
+-- = tiret quadratin
+_mot_ = italique
+__mot__= gras
+Titre en majuscule
+
+Votre objectif c'est d'avoir en sortie un document word structuré qui passe le vérificateur d'accessibilité.
+
 
 ---
 
@@ -309,17 +319,19 @@ Cette dernière partie boucle le cycle de production : après avoir structuré n
 ```
 [Document Word structuré]
          ↓
-  [SaveAsDAISY Add-in]
-   Onglet DAISY → Exporter DTBook
+   [Vérification accessibilité word]
+   Structure correcte ? alt texte ?
          ↓
-   [Vérification]
-   Structure correcte ?
+  [SaveAsDAISY Add-in]
+   Onglet Accessibilité → Exporter → DAISY XML
          ↓
 [Fichier XML DTBook généré]
 ```
 
 Notes:
-Le processus de conversion est simple lorsque le document Word est correctement structuré. SaveAsDAISY lit les styles Word et les traduit en éléments DTBook correspondants. La vérification intégrée de SaveAsDAISY peut détecter certains problèmes avant l'export, mais il est préférable d'utiliser d'abord le vérificateur d'accessibilité Word.
+Le processus de conversion est simple lorsque le document Word est correctement structuré.
+SaveAsDAISY lit les styles Word et les traduit en éléments DTBook correspondants. 
+Il est préférable d'utiliser d'abord le vérificateur d'accessibilité Word.
 
 ---
 
@@ -328,15 +340,17 @@ Le processus de conversion est simple lorsque le document Word est correctement 
 Checklist avant d'exporter :
 
 - ☑ Tous les titres utilisent les styles Word Titre 1/2/3…
-- ☑ Pas de mise en forme manuelle à la place des styles
+  - (Se verra dans le panel "navigation")
 - ☑ Toutes les images ont un texte alternatif
-- ☑ Les listes sont automatiques
+- ☑ Les listes sont bien marqué avec un style de puces ou numéro
 - ☑ La langue du document est définie
 - ☑ Les métadonnées (titre, auteur) sont renseignées
 - ☑ Le vérificateur d'accessibilité Word ne signale pas d'erreur
 
 Notes:
-Cette checklist doit être complétée avant chaque export. Il vaut mieux prendre quelques minutes pour vérifier ces points que de découvrir des problèmes dans le fichier DTBook généré. La règle d'or : si le vérificateur d'accessibilité Word signale des erreurs, corrigez-les avant d'exporter.
+Cette checklist doit être complétée avant chaque export. 
+Il vaut mieux prendre quelques minutes pour vérifier ces points que de découvrir des problèmes dans le fichier DTBook généré. 
+La règle d'or : si le vérificateur d'accessibilité Word signale des erreurs, corrigez-les avant d'exporter.
 
 ---
 
@@ -345,8 +359,8 @@ Cette checklist doit être complétée avant chaque export. Il vaut mieux prendr
 **Convertir le document Word en XML DTBook**
 
 1. Ouvrir le document structuré de l'exercice 2
-2. Cliquer sur l'onglet **DAISY** dans Word
-3. Cliquer sur **« Exporter DTBook »**
+2. Cliquer sur l'onglet **Accessibilité** dans Word
+3. Cliquer sur **« Exporter / DAISY XML »**
 4. Choisir le dossier de destination
 5. Ouvrir le fichier `.xml` généré dans un éditeur
 6. Vérifier la structure XML produite

@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.daisy.org/z3986/2005/dtbook.2005.basic.css"?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd" [
+    <!ENTITY % externalNamespaces "xmlns:pa CDATA #FIXED 'http://avh.asso.fr/paon/alternatives'">
+    <!ATTLIST span
+        xmlns:pa        CDATA               #FIXED 'http://avh.asso.fr/paon/alternatives'
+        pa:altphonemes  CDATA               #IMPLIED
+        pa:alttext      CDATA               #IMPLIED
+        pa:altbrl       CDATA               #IMPLIED
+        pa:protecbrl    (yes|no)            #IMPLIED
+        id              ID                  #IMPLIED
+        class           CDATA               #IMPLIED
+        title           CDATA               #IMPLIED
+        xml:space 	    (default|preserve) 	#IMPLIED
+        smilref         CDATA               #IMPLIED
+        xml:lang        NMTOKEN             #IMPLIED
+        dir             (ltr|rtl)           #IMPLIED
+    >
+] >
+<dtbook xmlns:pa="http://avh.asso.fr/paon/alternatives" xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-3">
+    <head>
+        <meta name="dtb:generator" content="SCENARI  /  "/>
+        <meta name="dc:Creator" content="Collectif sous la direction de Laurence de Roquefeuil (directrice de publication) et Pascale Isel (superviseure)."/>
+        <meta name="dc:Title" content="Louis Braille, septembre-octobre 2025"/>
+        <meta name="dtb:sourceTitle" content="Louis Braille, septembre-octobre 2025"/>
+        <meta name="dc:Date" content="2026-05-18"/>
+        <meta name="dtb:producedDate" content="2026-05-18"/>
+        <meta name="dc:Language" content="fr-FR"/>
+        <meta name="dc:Format" content="ANSI/NISO Z39.86-2005"/>
+        <meta name="dc:Type" content="text"/>
+        <meta name="dtb:uid" content="FR-AVH-9000000000014"/>
+        <meta name="dc:Identifier" content="FR-AVH-9000000000014"/>
+        <meta name="dc:Rights" content="."/>
+        <meta name="dtb:producer" content="Pôle d'adaptation des ouvrages numériques de l'association Valentin Haüy"/>
+        <meta name="dc:Publisher" content="AVH, transcrit et adapté par l'Association Valentin Haüy"/>
+        <meta name="dtb:sourcePublisher" content="AVH"/>
+        <meta name="dc:Description" content="Édité depuis 1929, le Louis Braille rend compte des actions menées par l’association Valentin Haüy. La revue s’intéresse à la situation sociale, professionnelle et l’autonomie des aveugles et malvoyants en France, en Europe et dans le monde. Elle annonce également les nouveaux articles en vente au Service du matériel spécialisé. Par ailleurs, elle présente les nouveaux livres audios et en braille disponibles à la médiathèque Valentin Haüy."/>
+        <meta name="dc:Source" content="ISSN : 2650—4545"/>
+        <meta name="dtb:sourceDate" content="2025-03"/>
+    </head>
+    <book>
+        <frontmatter id="_001_Louis_Braille_septembre-octobre_2025">
+            <doctitle>Louis Braille, septembre-octobre 2025</doctitle>
+            <docauthor>Collectif sous la direction de Laurence de Roquefeuil (directrice de publication) et Pascale Isel (superviseure).</docauthor>
+            <level1>
+                <p>N° C380 — 143ème année</p>
+                <p>AVH</p>
+                <p>Bulletin bimestriel sur abonnement. Revue des questions relatives aux aveugles et malvoyants.</p>
+                <p>.</p>
+            </level1>
+            <level1 id="_002_Quatrieme_de_couverture">
+                <h1>Quatrième de couverture</h1>
+                <p>Édité depuis 1929, le Louis Braille rend compte des actions menées par l’association Valentin Haüy. La revue s’intéresse à la situation sociale, professionnelle et l’autonomie des aveugles et malvoyants en France, en Europe et dans le monde. Elle annonce également les nouveaux articles en vente au Service du matériel spécialisé. Par ailleurs, elle présente les nouveaux livres audios et en braille disponibles à la médiathèque Valentin Haüy.</p>
+            </level1>
+        </frontmatter>
+        <bodymatter>
+            <level1 class="chap" id="_003_Mentions_liminaires">
+                <h1>Mentions liminaires</h1>
+                <bridgehead>Revue éditée par l’association Valentin Haüy</bridgehead>
+                <p>5 rue Duroc, 75343 Paris Cedex 07</p>
+                <p>Tél.: 01 87 67 97 41</p>
+                <p>
+                    Internet: 
+                    <a href="https://www.avh.asso.fr">www.avh.asso.fr</a>
+                </p>
+                <p>
+                    Email: 
+                    <a href="mailto:abonnements@avh.asso.fr">abonnements@avh.asso.fr</a>
+                </p>
+                <p>CCP: Paris 283 14 G</p>
+                <p>ISSN : 2650—4545</p>
+                <bridgehead>Tarifs annuels :</bridgehead>
+                <p>Abonnement simple: 42 €</p>
+                <p>Abonnement simple + calendrier: 45 €</p>
+                <p>Abonnement couplé « papier et numérique » ou « papier et CD » + calendrier: 66 €</p>
+                <bridgehead>Supports disponibles :</bridgehead>
+                <p>Braille abrégé, braille intégral, CD audio DAISY, courriel, gros caractères</p>
+                <bridgehead>Pour contacter la rédaction :</bridgehead>
+                <p>Par courrier:</p>
+                <p>Association Valentin Haüy</p>
+                <p>Service Abonnements, Le Louis Braille</p>
+                <p>5 rue Duroc, 75343 Paris Cedex 07</p>
+                <p>
+                    Par Email: 
+                    <a href="mailto:lelouisbraille@avh.asso.fr">lelouisbraille@avh.asso.fr</a>
+                </p>
+            </level1>
+            <level1 class="chap" id="_004_Editorial">
+                <h1>Éditorial</h1>
+                <p>Chers lectrices et lecteurs du Louis Braille,</p>
+                <p>C’est avec un gros pincement au cœur que j’écris mon dernier éditorial car j’arrête ma mission de directrice de publication du Louis Braille après ce numéro. Depuis mars dernier, j’ai accepté de représenter l’AVH au conseil national consultatif des personnes handicapées (CNCPH), l’instance qui examine et donne son avis sur tous les projets de lois, décrets, arrêtés et autres circulaires gouvernementales concernant le handicap. Nous sommes deux à remplir cette mission car chaque association est représentée par un homme et une femme. Outre les séances plénières qui ont lieu une fois par mois, je suis membre de la commission de l’accessibilité et de la conception universelle du CNCPH. Vous comprendrez que cette mission demande beaucoup de travail et que dans ces conditions, je suis obligée d’arrêter certaines de mes missions antérieures.</p>
+                <p>J’ai beaucoup appris en m’occupant du Louis Braille et je remercie Pascale Isel et toute l’équipe de rédaction pour tous les articles variés que nous avons pu vous proposer depuis mon arrivée il y a plus de six ans. Merci aussi pour vos contributions au courrier des lecteurs et vos très gentils messages personnels, l’un d’entre vous m’a envoyé un article intitulé « Les sortilèges de Ravel », il se reconnaîtra. Je resterai à vos côtés en lisant fidèlement cette revue et en suggérant des articles à l’équipe de rédaction si je les trouve intéressants.</p>
+                <p>C’est Françoise Magna qui prend ma suite ; vous la connaissez bien, elle a été professeure de mathématiques à l’institut national des jeunes aveugles Louis Braille, inspectrice pédagogique pour les établissements spécialisés pour déficients visuels, elle est administratrice de l’AVH depuis de nombreuses années et, comme vous le savez, c’est l’organisatrice en chef du concours du Poinçon Magique qui a lieu chaque année grâce à elle. Elle est intégrée à notre équipe de rédaction depuis début avril et est tout à fait prête à prendre sa place. Il fallait une brailliste pour s’occuper du Louis Braille, Françoise est l’une des personnes voyantes qui lit le braille couramment et le défend avec beaucoup de conviction et de compétence. Les autres membres de l’équipe de rédaction restent en place, Pascale, Cécile Guimbert, Alain Bardet et Anne-Sophie Malan.</p>
+                <p>Avant de vous quitter, je souhaite vous encourager à vous inscrire au colloque concernant les 200 ans de l’écriture braille qui se déroulera du 13 au 15 novembre prochains à Paris. Françoise et moi faisons partie du comité d’organisation de ces journées car nous sommes toutes deux convaincues de l’utilité du braille. Toutes les modalités d’inscription sont précisées dans ce numéro, vous pouvez vous inscrire à une, deux ou trois journées comme vous le souhaitez.</p>
+                <p>Je souhaite longue vie au Louis Braille, lui qui a précédé la création de notre association, puisse-t-il encore exister dans 150 ans et au-delà !</p>
+                <p>Recevez mon témoignage d’amitié,</p>
+                <p>Laurence de Roquefeuil</p>
+                <level2 id="_004-001_Merci_Laurence">
+                    <h2>Merci Laurence !</h2>
+                    <p>Chère Laurence,</p>
+                    <p>On n’allait pas te laisser partir comme ça ! Et moi aussi, j’ai un pincement au cœur en écrivant ces lignes.</p>
+                    <p>Au nom de toute notre équipe et de nos lecteurs, je te remercie sincèrement pour ton implication dans ce rôle de directrice de la publication, que tu as assuré avec le sérieux qu’on te connaît.</p>
+                    <p>Collaborer avec toi a été un plaisir ; nous partageons beaucoup de convictions, nous avons su confronter nos avis et défendre nos positions respectives avec bienveillance, dans une bonne ambiance de travail, en ayant toujours en ligne de mire le désir d’apporter à nos lecteurs un maximum d’informations utiles, de les inciter à avancer avec les nouvelles technologies, à s’impliquer dans la vie locale, à sortir au théâtre, au cinéma, au musée…</p>
+                    <p>En six ans, j’ai pu apprécier ton efficacité, ton enthousiasme et ton dynamisme.</p>
+                    <p>Ces qualités, d’autres les ont repérées et il n’est pas surprenant que tu aies été choisie pour représenter l’AVH au CNCPH. Mais les journées n’ont que 24 heures ; et quand tu acceptes une responsabilité, tu ne veux pas le faire « à moitié » ; il est bien normal d’abandonner certaines missions pour se consacrer pleinement aux nouvelles…</p>
+                    <p>On ne t’en voudra donc pas, et c’est avec plaisir que nous avons accueilli Françoise, dont nous connaissons les convictions et l’énergie à défendre ce qui lui tient à cœur, à commencer par le braille.</p>
+                    <p>Notre Louis Braille est donc dans de bonnes mains !</p>
+                    <p>Nous te souhaitons toute la réussite dans tes nouvelles activités, notre cause sera bien défendue. N’hésite pas à partager des informations et à nous faire découvrir un peu mieux ces instances officielles dont le rôle et le fonctionnement nous échappent parfois. Les colonnes du Louis Braille te sont ouvertes…</p>
+                    <p>À très vite,</p>
+                    <p>Avec toute mon amitié,</p>
+                    <p>Pascale ISEL</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_005_Courrier_des_lecteurs">
+                <h1>Courrier des lecteurs</h1>
+                <p>NDLR : merci à Anne-Marie PERS de partager avec nous son témoignage, de quoi nous donner envie de prendre un billet de train pour assister à ce festival renommé. N’hésitez pas vous aussi à alimenter cette rubrique, elle vous est ouverte !</p>
+                <p>Du 12 au 19 août 2024, une occasion se présente de réaliser un de mes rêves : aller au festival de piano de La Roque d'Anthéron.</p>
+                <p>Heureusement je suis accompagnée. Nous partons de Nantes avec un très gros retard en raison d'un sac oublié sur les voies. Nous arrivons à notre location, à la Roque d’Anthéron, très tard dans la nuit.</p>
+                <p>Nous avions choisi trois concerts payants :</p>
+                <p>Le premier, un concert piano et orchestre, le Sinfonia Varsovia, dirigé du piano par Marie-Ange NGUCI. Deux œuvres au programme, l'une de Mozart, l'autre de Beethoven et en bis elle nous a offert des extraits du concerto pour la main gauche de Maurice Ravel. Un morceau très conséquent pour un bis, mais pour mon plus grand plaisir.</p>
+                <p>Le second concert était «La nuit du piano» avec des œuvres de Fauré, par Renaud Capuçon et son ensemble. Un quintette piano et cordes en seconde partie, ce fut agréable à entendre.</p>
+                <p>Le troisième était du piano seul par Christian Zacharias. Des œuvres d'un même style, qui m'ont beaucoup moins plu.</p>
+                <p>Les trois premiers concerts se sont déroulés dans le parc du château de Florans à partir de 20h, jusqu'à 22h00. C'est un très beau cadre avec une très grande allée bordée de très gros arbres avec de larges feuilles qui laissent une lumière tamisée. Je vois encore un peu et j'apprécie. La scène est en forme de coque avec à l’avant un petit plan d'eau.</p>
+                <p>Nous avons entendu gratuitement des master classes piano et violon en journée, accompagnées par les cigales. L'ensemble des jeunes en résidence n'a pas pu avoir lieu en plein air en raison du temps incertain. C'était le 15 août après-midi, un concert très intéressant.</p>
+                <p>Pendant le séjour, j'ai pu aller au syndicat d'initiative réécouter et regarder d'anciens concerts.</p>
+                <p>Entre les concerts nous avions le temps de visiter les environs. Ce qui nous a permis de découvrir, un peu par hasard, la forêt de cèdres du Luberon, entre Bonnieux, Lacoste et Ménerbes.</p>
+                <p>Dans cette forêt, un parcours a été adapté pour les personnes handicapées. Les allées sont très dégagées et on peut se déplacer seul facilement, les arbres sont identifiés par des petits panneaux en braille sur lesquels est gravée la forme de l'arbre.</p>
+                <p>Nous sommes partis le 19 août au matin, fort heureusement pour nous, le retour s'est déroulé normalement.</p>
+                <p>Je garde de ces quelques jours un très bon souvenir, la musique dans un très beau cadre et la forêt de cèdres particulièrement bien aménagée.</p>
+                <p>Anne Marie PERS</p>
+            </level1>
+            <level1 class="chap" id="_006_Vie_de_lAVH">
+                <h1>Vie de l’AVH</h1>
+                <level2 id="_006-000_Le_nouveau_Conseil_dAdministration_de_lAVH">
+                    <h2>Le nouveau Conseil d’Administration de l’AVH</h2>
+                    <p>Lors de l’Assemblée Générale du 18 juin dernier, un nouveau Conseil d’Administration a été élu et ses membres ont ensuite constitué le Bureau; dans les listes qui suivent, la mention «DV» désigne les membres du CA déficients visuels.</p>
+                    <level3 id="_006-000-001_Membres_du_Bureau">
+                        <h3>Membres du Bureau</h3>
+                        <p>-Sylvain Nivard, Président, DV,</p>
+                        <p>-Martine Routon, Vice-présidente chargée de l’action sociale et de la sensibilisation, DV,</p>
+                        <p>-Jean-Michel Estrade, Vice-président chargé de la coordination des comités,</p>
+                        <p>-Alain Bourdelat, Trésorier,</p>
+                        <p>-Bruno Grêlé, Secrétaire général.</p>
+                    </level3>
+                    <level3 id="_006-000-002_Administrateurs">
+                        <h3>Administrateurs</h3>
+                        <p>-Nabil Ariss,</p>
+                        <p>-Marc Aufrant, DV,</p>
+                        <p>-François Brun,</p>
+                        <p>-Rémy Closset, DV,</p>
+                        <p>-Annie Coudert, DV,</p>
+                        <p>-Gilles Duthil,</p>
+                        <p>-Zsuzsanna Kiss, DV,</p>
+                        <p>-Jean-Jacques Lafarge, DV,</p>
+                        <p>-Florence Lalardrie-Cirre,</p>
+                        <p>-Benoît Lavigne, DV,</p>
+                        <p>-Françoise Magna,</p>
+                        <p>-Patricia Nataf,</p>
+                        <p>-Christophe Orssaud,</p>
+                        <p>-Monique Perrier, DV,</p>
+                        <p>-Pascal Portier, DV,</p>
+                        <p>-Laurence de Roquefeuil, DV,</p>
+                        <p>-Julien Secheyron, DV,</p>
+                        <p>-Patrice Taillandier.</p>
+                        <p>Statutairement, les membres du conseil d’administration de l’association sont des bénévoles, et pour au moins 50% d’entre eux, des personnes déficientes visuelles.</p>
+                    </level3>
+                </level2>
+                <level2 id="_006-001_Une_nouvelle_etape_pour_notre_association">
+                    <h2>Une nouvelle étape pour notre association</h2>
+                    <p>Message de Sylvain Nivard</p>
+                    <p>J’ai le plaisir de vous annoncer que lors de l’Assemblée Générale du 9 juillet, les membres de notre association ont voté en faveur du projet immobilier relatif à nos sites parisiens.</p>
+                    <p>Pour mémoire, ce projet se décompose en deux volets : d’une part, nous prévoyons la création d’un campus intergénération à Nanterre où seront transférés la Résidence Valentin Haüy, le Foyer de jeunes travailleurs, l’entreprise adaptée Atelier de la Villette et le centre de formation professionnelle (ESRP Valentin Haüy) ; d’autre part nous projetons d’installer notre siège avec les services d’expertise rue Petit dans le 19e arrondissement avec l’aménagement d’une maison de l’autonomie des déficiences visuelles, future vitrine de notre association.</p>
+                    <p>La validation de ce projet marque une étape majeure dans l’histoire de notre association et je remercie les membres de l’association de leur confiance.</p>
+                    <p>Avec la validation de ce projet, nous franchissons un cap décisif, porteur d’un nouveau souffle. C’est une opportunité unique de renouveau, tant pour nos équipes que pour les bénéficiaires que nous accompagnons au quotidien.</p>
+                    <p>Désormais nous allons pouvoir :</p>
+                    <p>-Renforcer nos capacités d’accueil et améliorer significativement nos infrastructures ;</p>
+                    <p>-Moderniser nos pratiques pour mieux répondre aux besoins actuels et futurs ;</p>
+                    <p>-Créer un nouveau pôle intergénérationnel ainsi que la maison de la déficience visuelle, deux avancées majeures qui bénéficieront à terme à l’ensemble de nos comités et établissements ;</p>
+                    <p>-Et surtout, assainir durablement nos finances, nous offrant ainsi une base solide pour continuer à grandir, innover et porter haut nos valeurs : autonomie, diversité, expertise, dignité, empathie.</p>
+                    <p>Au-delà de ces avancées concrètes, ce projet ouvre la voie à une nouvelle culture de la transversalité. Nous souhaitons encourager les synergies entre les comités, les établissements et les services de l’association. Cette dynamique favorisera l’émergence de projets communs, portés collectivement, qui renforceront notre cohésion interne et notre capacité à innover ensemble. Cette approche collaborative entre bénévoles, salariés, mécénats de compétences et bénéficiaires sera un levier essentiel pour répondre aux défis de demain avec agilité et solidarité.</p>
+                    <p>Nouveaux métiers, intelligence artificielle, société toujours plus accessible, bien-être quotidien de nos bénéficiaires … beaucoup de défis restent encore à relever !</p>
+                    <p>Sylvain Nivard</p>
+                    <p>Président</p>
+                    <level3 id="_006-001-001_Resolutions_votees_a_lassemblee_generale_du_9">
+                        <h3>Résolutions votées à l’assemblée générale du 9 Juillet 2025</h3>
+                        <level4 id="_006-001-001-000_Resolution_n_1_Vente_de_biens_immobiliers">
+                            <h4>Résolution n° 1 : Vente de biens immobiliers</h4>
+                            <p>-Exposé des motifs :</p>
+                            <p>Le rapport de la cour des comptes sur l’association Valentin Haüy publié en juin 2023 a salué l’engagement pris par l’association concernant l’optimisation des surfaces du site du siège et des services centraux de la rue Duroc, conforme à son diagnostic sur la nécessité d’ouvrir une réflexion rapidement sur l’immobilier de l’association.</p>
+                            <p>Dans le cadre de la réflexion sur la trajectoire financière des cinq prochaines années, demandée par le conseil d’administration, une étude a été ouverte à partir de la réunion du conseil du 16 mai 2023, à remettre en décembre 2023, sur l’analyse de scénarios d’une meilleure implantation des activités exercées rue Duroc. Cette étude devait à la fois tenir compte des coûts d’exploitation actuels du site, des coûts futurs liés aux gros travaux d’entretien et des nécessaires améliorations des conditions de travail, de formation et d’hébergement des salariés et des bénéficiaires.</p>
+                            <p>En parallèle, un appel d’offres auprès d’une quinzaine d’investisseurs intéressés par le site de Duroc a été réalisé. Six ont été retenus pour concourir, deux ont été choisis, et depuis, une phase de négociation exclusive s’est engagée avec l’acquéreur le mieux offrant qui a accepté de prolonger sa proposition jusqu’au 31 juillet 2025.</p>
+                            <p>Une négociation s’est engagée avec la société AXA qui propose la construction en VEFA (vente en l’état futur d’achèvement) sur une partie d’un terrain qu’elle possède 1 rue de Lens à Nanterre, la date de signature du compromis de vente étant fixée à fin juillet 2025.</p>
+                            <p>Afin d’optimiser les implantations immobilières parisiennes, le conseil d’administration a pris connaissance de l’intérêt d’inclure dans le projet immobilier la résidence senior, le foyer pour jeunes travailleurs, l’Entreprise Adaptée La Villette qui occupent les locaux de l’immeuble situé 64 rue Petit à Paris 19ème. Des synergies sont possibles en mettant certains services en commun, comme ceux de restauration, d’entretien, de services aux bénéficiaires notamment.</p>
+                            <p>Après avoir pris connaissance des études menées, de l’importance des investissements à réaliser et de la situation financière actuelle et prévisible de l’association, après avoir reçu l’avis des instances représentatives du personnel et de ses conseils, le conseil d’administration a conscience que la vente de l’intégralité du site de Duroc, ainsi que des immeubles de la rue Lamandé et des locaux de la rue du général Bertrand est inéluctable pour financer la réimplantation des activités de l’ESRP, des missions sociales exercées à Paris et des services centraux du siège.</p>
+                            <p>-Résolution :</p>
+                            <p>En conséquence de ce qui précède, l’Assemblée générale donne son accord à la résolution prise par le conseil d’administration dans sa séance du 18 juin 2025 qui charge le président de l’association de céder les locaux occupés actuellement par le siège et l’ESRP aux 5—7—9 rue Duroc, 22 rue Lamandé 75017 Paris et 4 rue du général Bertrand 75007 Paris, à l’acquéreur dans les conditions de prix et de commodat qui lui ont été présentées.</p>
+                            <p>Résultat des votes : Pour : 149 – Contre : 119 - Abstention : 13</p>
+                        </level4>
+                        <level4 id="_006-001-001-001_Resolution_n_2_Achat_en_VEFA_aupres_de_la_soc">
+                            <h4>Résolution n° 2 : Achat en VEFA auprès de la société AXA de l’ensemble immobilier situé à Nanterre</h4>
+                            <p>-Exposé des motifs :</p>
+                            <p>La réimplantation des activités de l’ESRP, formation et hébergement de tous ses stagiaires, sur un seul site, celui de la résidence senior, du foyer de jeunes travailleurs et de l’Entreprise Adaptée La Villette sur une parcelle à construire 1 rue de Lens à Nanterre ont été présentés au conseil d’administration.</p>
+                            <p>La société AXA a proposé de réaliser cette opération dans le cadre d’un contrat de VEFA</p>
+                            <p>Le conseil d’administration a pris connaissance des modalités de réimplantation physique, des conséquences budgétaires et financières de cette opération. Il a en particulier noté que cette réimplantation devrait être source d’économies par mise en commun de plusieurs services.</p>
+                            <p>-Résolution :</p>
+                            <p>En conséquence de ce qui précède, l’assemblée générale approuve la résolution prise par le conseil d’administration dans sa séance du 18 juin 2025 qui autorise le président à conclure concomitamment à la cession prévue dans la résolution numéro 1, un contrat de VEFA avec la société AXA pour une somme qui ne saurait être supérieure à 53,2 millions d’euros hors taxes, afin de construire un ensemble immobilier sur la parcelle située 1 rue de Lens à Nanterre.</p>
+                            <p>Résultat des votes : Pour : 155 – Contre : 122 – Abstention : 1</p>
+                        </level4>
+                        <level4 id="_006-001-001-002_Resolution_n_3_Vente_de_biens_immobiliers_sit">
+                            <h4>Résolution n° 3 : Vente de biens immobiliers situés rue Petit</h4>
+                            <p>-Exposé des motifs :</p>
+                            <p>Les études de réimplantation des activités de l’association exercées à Paris montrent que l’optimum fonctionnel et économique est atteint en intégrant dans la réflexion les activités sociales de la rue Petit.</p>
+                            <p>
+                                À ce stade, il s’avère que les activités sociales nationales du siège ainsi que les services support pourraient occuper une surface de plancher d’environ 3 000 m² sur le site du 64 rue Petit à Paris 19
+                                <sup>ème</sup>
+                                . La structure de l’immeuble montre qu’il est aliénable pour une partie de sa superficie actuelle. Par ailleurs des travaux d’aménagement pourraient éventuellement permettre d’accroître les surfaces utilisables.
+                            </p>
+                            <p>-Résolution :</p>
+                            <p>En conséquence de ce qui précède, l’assemblée générale approuve la résolution prise par le conseil d’administration lors de sa séance du 18 juin 2025 qui autorise le président à poursuivre les études pour déterminer les conditions d’une implantation optimum des activités du siège 64 rue Petit et de présenter les conditions dans lesquelles pourraient s’effectuer la cession de la partie de l’immeuble qui ne serait plus nécessaire au but poursuivi par l’association.</p>
+                            <p>Résultat des votes :Pour : 166 – Contre : 107 – Abstention : 1</p>
+                        </level4>
+                        <p/>
+                    </level3>
+                </level2>
+                <level2 id="_006-002_Poincon_Magique_le_temoignage_dune_candidate">
+                    <h2>Poinçon Magique : le témoignage d’une candidate</h2>
+                    <p>NDLR : c’est avec un immense plaisir que nous publions ici le témoignage de Fatma, lauréate du Poinçon Magique 2025 dans la catégorie «junior intégral» ; un tel enthousiasme pour le braille, de la part d’une jeune fille née à l’ère de la synthèse vocale, ne peut que nous faire chaud au cœur ; tout est dit, elle a tout compris !</p>
+                    <p>
+                        «Je me prénomme Fatma et je suis âgée de 14 ans. Je suis scolarisée au collège Jean-Fernel à Clermont dans l'Oise. Je suis actuellement en classe de 4
+                        <sup>ème</sup>
+                         et je bénéficie du dispositif ULIS DV.
+                    </p>
+                    <p>J'ai débuté l'apprentissage du braille en grande section. J'utilise le braille depuis le CP.</p>
+                    <p>Du CP au CM1, j'ai utilisé la Perkins puis j'ai appris à me servir du bloc-notes braille, l'Esytime que j'utilise au quotidien.</p>
+                    <p>J'estime que le braille joue pour moi un rôle très important dans le domaine scolaire car il me permet d'avoir une scolarité assurée et identique aux élèves voyants.</p>
+                    <p>De plus, le braille me permet de pratiquer plusieurs loisirs ou passions telles que la musique, la lecture ou encore la rédaction de poèmes. Quant à la musique, le braille est nécessaire pour la lecture des partitions de piano ou bien les paroles de chansons.</p>
+                    <p>Dans le domaine familial, le braille me permet de lire des livres à mes petits frères ou encore faire des jeux adaptés en braille.</p>
+                    <p>Le braille m'assure de même un bel et merveilleux avenir. Il m'aide à franchir toutes mes études pour avoir un métier choisi. Grâce à l'apprentissage du braille, je serai peut-être greffière ou traductrice.</p>
+                    <p>Le braille ne me prive de rien : il me permet de lire, d'écrire, d'apprendre, d'avoir une scolarité ordinaire et assure surtout mon avenir.»</p>
+                </level2>
+                <p/>
+            </level1>
+            <level1 class="chap" id="_007_Des_nouvelles_de_nos_comites">
+                <h1>Des nouvelles de nos comités</h1>
+                <level2 id="_007-000_Une_nouvelle_antenne_en_Saone-et-Loire">
+                    <h2>Une nouvelle antenne en Saône-et-Loire</h2>
+                    <p>Une antenne de l’association Valentin Haüy s’est installée à Paray-le-Monial, rattachée au comité de Montceau-les-Mines.</p>
+                    <p>N’hésitez pas à venir rencontrer cette nouvelle équipe lors des permanences, le premier jeudi de chaque mois, de 14h30 à 17h.</p>
+                    <p>Lors des réunions, rencontre entre les bénévoles et les déficients visuels afin d'échanger, de prévoir des projets, d'organiser des sorties etc...</p>
+                    <p>Exemples : forum des associations, journée mondiale de la vue, voyages culturels, randonnées pédestres, randonnées tandems, conférences...</p>
+                    <p>Lieu : Maison locale de l'autonomie (MLA)</p>
+                    <p>3, Rue des Charmes — 71600 Paray-le-Monial.</p>
+                    <p>Contact : Jacques Leymarie</p>
+                    <p>Tél : 06 80 70 63 23</p>
+                    <p>Courriel : j.leymarie@avh.asso.fr</p>
+                </level2>
+                <level2 id="_007-001_Comite_de_Nice_les_ateliers_de_sensibilisatio">
+                    <h2>Comité de Nice : les ateliers de sensibilisation</h2>
+                    <p>NDLR : ce témoignage d’une bénévole du comité reflète bien la demande et l’utilité de ces ateliers, particulièrement auprès des jeunes ; elle lance également un appel pour étoffer l’équipe, si vous êtes de la région, n’hésitez pas à vous faire connaître. Et si votre comité ne propose pas encore cette activité, c’est peut-être le moment de vous lancer…</p>
+                    <p>
+                        «Mercredi 14 mai, sensibilisation sur notre handicap pour des classes de 1
+                        <sup>ère</sup>
+                         au lycée d’Estienne d’Orves.
+                    </p>
+                    <p>Non ; je ne parlerai pas du braille ! Mais plutôt de cette jeunesse que nous rencontrons lors de ces interventions. Déjà, dès notre arrivée, dans les couloirs, nous sommes assaillis de questions. La curiosité à notre égard est très vive, surtout en apprenant que je suis totalement aveugle. Mais ils sont bienveillants et vont même me prendre le bras pour me guider jusqu’à leur classe. Ils sont étonnés et pleins d’admiration pour toutes les personnes qui ont ce handicap.</p>
+                    <p>Il faut ajouter que les démonstrations se passent dans la bonne humeur. Notre président, Olivier Rizzo qui s’investit beaucoup dans ces manifestations auprès des jeunes a un contact presque intime avec certains de ces adolescents.</p>
+                    <p>Et quand, à la fin de ces séances je reçois des bisous, ma fatigue s’envole et ma satisfaction et mon plaisir me comblent de joie.</p>
+                    <p>Partout où nous intervenons, nous constatons le même engouement.</p>
+                    <p>L’histoire du braille me passionne et j’aime la partager le plus ludiquement possible au sein de notre belle AVH. Depuis dix ans que j’anime cette activité, je viens vous rappeler que je suis toujours à la recherche d’une collaboration avec une personne bien voyante ou déficiente visuelle car la demande est bien là et, vu que je prends de l’âge, je pense aussi à l’avenir.</p>
+                    <p>Le braille doit perdurer…»</p>
+                    <p>Anne-Marie Bonnefoi, enseignante en braille au comité de Nice.</p>
+                </level2>
+                <level2 id="_007-002_Comite_de_lAllier_le_challenge_marche_a_laveu">
+                    <h2>Comité de l’Allier : le challenge «marche à l'aveugle», une belle expérience au profit des déficients visuels</h2>
+                    <level3 id="_007-002-000_Presentation">
+                        <h3>Présentation</h3>
+                        <p>Cette manifestation, organisée par l’Institut des Jeunes Aveugles des Charmettes à Yzeure, s’est déroulée le samedi 14 juin à 13h30 au stade d'athlétisme Hector Rolland de Moulins.</p>
+                        <p>Il s'agissait de vivre l'expérience d'une marche ou d'une course solidaire et caritative, l'inscription était de 5 € par participant. Les bénéfices de cette journée serviront à l'achat de matériel spécialisé pour les élèves des Charmettes.</p>
+                    </level3>
+                    <level3 id="_007-002-001_Une_experience_bien_vecue_par_les_participant">
+                        <h3>Une expérience bien vécue par les participants</h3>
+                        <p>Les milieux du sport et du handicap étaient bien représentés et ils ont été nombreux à tenter l’expérience de la marche les yeux bandés.</p>
+                        <p>Le parrain de la manifestation, Daniel Guerbois (Président du Comité de l'AVH de l'Allier) n'a pas été le dernier à s'aligner sur la piste d'athlétisme accompagné par le Président de l'Amicale des Randonneurs Avermois pour faire le parcours à un bon rythme.</p>
+                        <p>L'AVH tenait un stand de présentation du braille, il y avait aussi un stand de locomotion et un stand de motricité animés par les salariés de l'Institut des Jeunes Aveugles.</p>
+                        <p>Enfin, un jeune étudiant de l'université de Nantes a présenté un prototype Oakley Feel qui permettra de guider les déficients visuels sur une piste d'athlétisme avec 8 balises placées notamment dans les virages.</p>
+                        <p>Compte tenu de l'intérêt de cette sensibilisation au handicap, les organisateurs de cette manifestation ont annoncé reconduire cette expérience l'année prochaine.</p>
+                    </level3>
+                    <p/>
+                </level2>
+                <p/>
+            </level1>
+            <level1 class="chap" id="_008_Vie_des_associations_le_collectif_Interet_a_A">
+                <h1>Vie des associations : le collectif Intérêt à Agir</h1>
+                <p>NDLR : comme vous le lirez plus loin dans ce numéro, Intérêt à Agir a accompagné l’action de mise en demeure de quatre enseignes de la grande distribution, aux côtés d’apiDV (accompagner, promouvoir, intégrer les déficients visuels) et de Droit Pluriel (que nous vous avons présentée dans notre numéro de mars) ; c’est l’occasion d’en apprendre plus sur cette association et ses activités.</p>
+                <level2 id="_008-001_Les_missions_de_lassociation">
+                    <h2>Les missions de l’association</h2>
+                    <p>Créé en septembre 2020, Intérêt à Agir est un collectif de juristes professionnels et universitaires qui œuvre pour permettre aux groupements d’intérêt général de saisir la justice pour défendre leurs droits et trouver des solutions humaines, pérennes et équitables.</p>
+                    <p>Pour ce faire, Intérêt à Agir met à la disposition des associations les moyens intellectuels, humains et financiers pour porter leur cause en justice afin de remédier aux carences des acteurs publics et privés, d’assurer la protection de causes refusées ou délaissées et, enfin, de faire sanctionner des comportements qui y portent atteinte.</p>
+                    <p>D’autre part, l’association mène des études, des analyses et des recherches, publie et diffuse les résultats et les conclusions auprès des acteurs des différents domaines, organise des conférences.</p>
+                    <p>Plusieurs commissions couvrent différents secteurs parmi lesquels : la santé publique, les précarités, la défense de l’environnement, la migration, l’économie responsable, les libertés numériques.</p>
+                    <p>Enfin, l’association propose des formations dans différents domaines du droit (droit du travail, de l’environnement…), ainsi que des master classes.</p>
+                </level2>
+                <level2 id="_008-002_Pour_en_savoir_plus">
+                    <h2>Pour en savoir plus</h2>
+                    <p>Que ce soit par curiosité ou pour rejoindre l’association (en tant qu’adhérent, bénévole ou stagiaire) :</p>
+                    <p>Site internet : www.interetaagir.org</p>
+                    <p>Courriel : contact@interetaagir.fr</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_009_Evenement_celebrons_lecriture_braille_inscriv">
+                <h1>Événement : célébrons l'écriture braille, inscrivez-vous dès maintenant à Révolution Braille !</h1>
+                <p>Vivez 3 jours d’événements à l’occasion des 200 ans de l’écriture braille.</p>
+                <p>apiDV, l’Association Valentin Haüy, le Campus Louis Braille, la Fédération des Aveugles et Amblyopes de France et l’Institut National des Jeunes Aveugles Louis Braille vous proposent de participer à Révolution Braille, un événement exceptionnel qui se tiendra à Paris du 13 au 15 novembre 2025.</p>
+                <p>Ce rendez-vous mettra en lumière l’héritage et l’actualité de cette invention qui a profondément transformé l’accès à la lecture et au savoir.</p>
+                <level2 id="_009-001_Un_programme_riche_ouvert_a_toutes_et_tous">
+                    <h2>Un programme riche, ouvert à toutes et tous</h2>
+                    <p>-Jeudi 13 novembre – Bibliothèque Nationale de France François Mitterrand</p>
+                    <p>9h30—17h : Colloque «L’écriture braille, une révolution toujours en marche !»</p>
+                    <p>17h30—19h : Cocktail des 200 ans du braille</p>
+                    <p>20h30—22h : Concert de jazz à l’INJA</p>
+                    <p>-Vendredi 14 novembre – Campus Louis Braille - INJA</p>
+                    <p>9h—17h : Journée Innovation et Recherche</p>
+                    <p>-Samedi 15 novembre – Panthéon</p>
+                    <p>10h—13h : Visite du Panthéon et parcours culturel sur les pas de Louis Braille</p>
+                </level2>
+                <level2 id="_009-002_Inscription_gratuite_ou_payante_selon_les_eve">
+                    <h2>Inscription (gratuite ou payante selon les événements)</h2>
+                    <p>Vous pouvez vous inscrire à un ou plusieurs temps du programme.</p>
+                    <p>Le colloque et le cocktail du jeudi sont payants (30 €).</p>
+                    <p>L’inscription est individuelle et obligatoire. Pour en savoir plus et accéder au formulaire d’inscription, rendez-vous sur le site révolution Braille à l’adresse :</p>
+                    <p>https://www.revolutionbraille.org/</p>
+                    <p>Soyez à nos côtés pour célébrer cette invention révolutionnaire qui a permis à des millions de personnes aveugles et très malvoyantes d’accéder à la lecture, à l’éducation et au savoir.</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_010_International_Emelyne_Shemezimana_premiere_jo">
+                <h1>International : Emelyne Shemezimana, première journaliste aveugle au Burundi</h1>
+                <p>Lu sur le site du magazine Jimberemag https://www.jimberemag.org/</p>
+                <p>NDLR : Nous aimons partager avec vous des destins inspirants, voici le portrait d’une jeune femme courageuse, qui a su faire face aux difficultés et réaliser son rêve, dans des conditions difficiles ; un bel exemple, bravo!</p>
+                <p>Emelyne, 26 ans, est née aveugle. Pourtant, elle n’a jamais détourné le regard de sa vision : décrocher un diplôme universitaire et devenir journaliste. Un symbole de résilience.</p>
+                <p>Aujourd’hui, elle assure la coordination de l’action sensible au handicap au sein du Magazine Jimbere…</p>
+                <p>Au micro, le handicap d’Emelyne ne s’entend pas. En l’écoutant, on réalise plutôt qu’elle voit le monde en grand. Chaque mercredi, munie de sa canne blanche, elle gravit les escaliers menant au studio de la radio Kazoza FM pour animer son émission «Natwe Turashoboye» (traduction : Nous pouvons aussi), qui passe de 14h05 à 14h30.</p>
+                <p>Durant ce rendez-vous médiatique, elle a décidé de devenir le chantre des droits des personnes en situation de handicap : «Ce qui me plaît, c’est d’apporter ma pierre à l’édifice pour aider les autres malvoyants burundais et d’autres handicapés à étudier dans un système éducatif innovant. Je pense que mon rêve d’être la porte-voix des personnes en situation de handicap est en train d’être réalisé», martèle-t-elle avec fierté.</p>
+                <p>Un rêve qui se réalise à quel prix ?</p>
+                <level2 id="_010-001_Parcours_scolaire_sans_faute">
+                    <h2>Parcours scolaire sans faute</h2>
+                    <p>Pour elle, seule la détermination compte. Depuis toute petite, Emelyne a toujours su ce qu’elle cherchait : faire des études universitaires et devenir journaliste.</p>
+                    <p>D’apparence calme et plutôt docile, son aventure scolaire commence à l’école primaire Mushasha de Gitega. Ses enseignants se rappellent d’elle comme une élève assidue et brillante. «Au classement, elle était toujours dans les deux premières places avec à chaque fois plus de 75%», indique une de ses anciennes enseignantes, admirative.</p>
+                    <p>Bien qu’elle enregistre d’excellents résultats scolaires, les conditions d’apprentissage ne sont pas assez favorables. Cap donc vers le Rwanda voisin.</p>
+                    <p>La petite Emelyne se retrouve ainsi au Home de la Vierge des Pauvres de Gatagara. Ce centre rwandais de référence pour la réadaptation des personnes vivant avec handicap dispose d’une école secondaire des aveugles. La transition ne sera pas une douce sinécure : «À mon âge et surtout avec mon handicap, quitter le pays pour l’étranger était difficile pour moi, ma famille et mes proches. Penser que je pouvais aller vivre ailleurs, sans un autre tuteur, n’était pas envisageable au premier coup. Une séparation douloureuse, mais nécessaire.»</p>
+                </level2>
+                <level2 id="_010-002_Enfin_luniversite">
+                    <h2>Enfin l’université</h2>
+                    <p>
+                        Emelyne se souvient : «Je devais fournir beaucoup 
+                        <span class="alternative" pa:altphonemes="p l y s">plus</span>
+                         d’efforts que mes camarades de classe pour apprendre l’anglais. Ensuite, je devais maîtriser l’utilisation des outils modernes d’apprentissage pour aveugles, comme la perkins. Au Burundi, on n’utilisait que des tablettes pour l’écriture braille.»
+                    </p>
+                    <p>Le courage de la native de Gitega va finir par payer : «J’ai pu facilement terminer le secondaire avec des résultats satisfaisants : plus de 70% à l’examen d’État.»</p>
+                    <p>Après la fin de l’école secondaire, place au cursus universitaire. À deux doigts de réaliser son rêve d’enfance, elle se retrouve dans l’impossibilité de payer les frais académiques.</p>
+                    <p>La chance va, néanmoins, lui sourire. Une amie de sa tante viendra à la rescousse en acceptant de lui payer les trois années d’université : «J’ai alors intégré l’Université Nationale du Rwanda dans la faculté de journalisme et communication car les notes que j’avais eues au niveau de l’examen d’État m’y donnaient accès», se rappelle-t-elle.</p>
+                    <p>C’est ainsi qu’en août 2021, Emelyne décroche son bac en journalisme et communication.</p>
+                </level2>
+                <level2 id="_010-003_Le_micro_une_source_de_bonheur">
+                    <h2>Le micro, une source de bonheur</h2>
+                    <p>Après avoir terminé ses études au Rwanda, elle passe son temps en écoutant la radio. Ses premiers pas dans le journalisme commencent avec la radio Humuriza FM de Gitega et puis avec Izere FM de Rumonge. De là, elle fait un constat : «J’ai découvert que le micro était mon arme et ma source de bonheur.»</p>
+                    <p>Sa tante, Seconde Sekarugumye ne tarit pas d’éloges quant au courage de sa nièce : «Depuis son enfance, elle se démarque par son amour du travail. C’est elle par exemple qui fait la lessive de ses habits. Elle est toujours confiante, toujours debout, déterminée à accomplir ses rêves.»</p>
+                    <p>C’est notamment cette attitude positive qui lui vaudra d’être repérée par le Magazine Jimbere, et de nombreux auditeurs depuis…</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_011_Chronique_sociale_18_mesures_pour_simplifier_">
+                <h1>Chronique sociale : 18 mesures pour simplifier la vie des personnes handicapées</h1>
+                <p>Publié sur le site Handicap.fr le 10 juillet 2025</p>
+                <p>Charlotte Parmentier Lecocq, ministre déléguée au Handicap, annonce une série de 18 mesures pour «simplifier la vie» des personnes handicapées et faciliter leur accès aux droits.</p>
+                <p>Objectifs majeurs ? «Alléger les démarches» et «réduire les délais» des Maisons départementales des personnes handicapées (MDPH), qui attribuent les aides et étudient quelque cinq millions de dossiers par an, a expliqué le ministère lors d'un point presse le 9 juillet 2025.</p>
+                <level2 id="_011-001_Des_delais_de_traitement_encore_trop_longs">
+                    <h2>Des délais de traitement encore trop longs</h2>
+                    <p>Les délais de traitement des demandes d'Allocation adulte handicapé (AAH), par exemple, étaient de cinq mois en moyenne en décembre 2024, selon la Caisse nationale de solidarité pour l'autonomie (CNSA). Pour tenter de réduire le volume de demandes à traiter, à partir d'avril 2026, les «droits et compensations» pour les élèves handicapés seront attribués «pour toute une période scolaire» (maternelle, primaire, collège, lycée), sans besoin de renouveler le dossier à la MDPH, qui attribue ces aides sur la base d'un dossier médical, selon le ministère.</p>
+                </level2>
+                <level2 id="_011-002_Du_materiel_accessible_directement_via_les_ec">
+                    <h2>Du matériel accessible directement via les écoles</h2>
+                    <p>
+                        Par ailleurs, du «matériel et des aides pédagogiques» pourront être attribués, directement par les équipes pédagogiques, sans passer par les MDPH, au fur et à mesure que les Pôles d'appui à la scolarité (
+                        <span class="alternative" pa:altphonemes="p e a E s">PAS</span>
+                        ) se déploieront sur le territoire (
+                        <span class="alternative" pa:altphonemes="p e a E s">PAS</span>
+                         : des équipes «handicap» en appui des enseignants). En place depuis la rentrée 2024 dans quatre départements, ces 
+                        <span class="alternative" pa:altphonemes="p e a E s">PAS</span>
+                        , constitués d'un binôme enseignant-éducateur, doivent être généralisés à la rentrée 2027, selon le ministère.
+                    </p>
+                </level2>
+                <level2 id="_011-003_Handicap_irreversible_des_droits_reconnus_a_v">
+                    <h2>Handicap irréversible : des droits reconnus à vie</h2>
+                    <p>«Quand un handicap ne va pas évoluer favorablement, les droits qu'il ouvre doivent être reconnus définitivement. Plusieurs MDPH continuent, aujourd'hui, d'exiger une analyse annuelle des situations... alors que la loi dit l'inverse», souligne la ministre dans un entretien à Ouest France mis en ligne le 9 juillet. «Nous allons la faire appliquer par tous et l'élargir. Notamment à l'Allocation d'éducation de l'enfant handicapé. Si le handicap ne peut pas évoluer favorablement, l'aide de base sera alors garantie jusqu'aux 20 ans du bénéficiaire», poursuit-elle.</p>
+                </level2>
+                <level2 id="_011-004_Un_accompagnement_renforce_pour_les_1eres_dem">
+                    <h2>Un accompagnement renforcé pour les 1ères demandes</h2>
+                    <p>Des «rendez-vous en présentiel» seront proposés dans les MDPH pour tous ceux qui déposent une première demande, afin d'expliquer les droits et faciliter le remplissage des dossiers. La mesure, qui implique le renforcement des effectifs dans les MDPH pour un budget de 26 millions d'euros, sera déployée au cours de l'année 2026.</p>
+                </level2>
+                <level2 id="_011-005_LIA_pour_accelerer_le_traitement_des_dossiers">
+                    <h2>L'IA pour accélérer le traitement des dossiers</h2>
+                    <p>Le gouvernement entend désengorger les MDPH en les déchargeant de la gestion des demandes de cartes d'invalidité des personnes âgées de plus de 60 ans, qui représentent un quart des demandes faites aux MDPH, a indiqué le ministère. Le plan prévoit aussi d'expérimenter le déploiement de l'intelligence artificielle pour accélérer le traitement des dossiers.</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_012_Societe_des_associations_de_personnes_handica">
+                <h1>Société : des associations de personnes handicapées assignent plusieurs grandes enseignes pour le manque d’accessibilité de leurs sites internet</h1>
+                <p>NDLR : vous avez peut-être eu connaissance de cette information, relayée par plusieurs radios et journaux ; apprenez-en plus ici sur cette action menée entre autres par apiDV (accompagner, promouvoir, intégrer les déficients visuels), qui avait fait condamner l’État l’an dernier pour l’inaccessibilité des applications utilisées en milieu scolaire (voir notre numéro de novembre 2024). C’est un exemple concret de ce que devrait nous apporter l’application de la directive européenne entrée en vigueur le 28 juin. Nous ne manquerons pas de vous informer des suites lorsque nous en aurons connaissance.</p>
+                <p>Extrait du communiqué de presse publié sur le site www.interetaagir.org</p>
+                <p>Mise en demeure des entreprises Auchan, Carrefour, E. Leclerc et Picard Surgelés, de se conformer à leur obligation d’accessibilité numérique pour leurs services de courses en ligne.</p>
+                <p>Paris, le 8 juillet 2025</p>
+                <p>Depuis le 28 juin 2025, le code de la consommation oblige les petites, moyennes et grandes entreprises à commercialiser des produits et services accessibles à toutes et à tous, afin de lever les obstacles constitutifs d’une situation de handicap. À l’heure de la dématérialisation et de la digitalisation de notre économie, cette obligation est décisive pour garantir l’accessibilité numérique des services en ligne.</p>
+                <p>Début juillet les associations de mal-voyants et aveugles, apiDV et Droit Pluriel, accompagnées par le collectif de juristes Intérêt à Agir, mettent en demeure plusieurs entreprises de la grande distribution pour inaccessibilité numérique de leurs services.</p>
+                <p>Au terme d’un appel à témoignage, 4 entreprises, parmi les principaux acteurs de la grande distribution française, sont apparues comme particulièrement défaillantes en matière d’accessibilité:</p>
+                <p>-Auchan pour son site internet (www.auchan.fr) et son application mobile</p>
+                <p>-Carrefour pour son site internet (www.carrefour.fr)</p>
+                <p>-E. Leclerc pour son site internet (www.e.leclerc)</p>
+                <p>-Picard Surgelés pour son site internet (www.picard.fr) et son application mobile.</p>
+                <p>
+                    Si au 1
+                    <sup>er</sup>
+                     septembre, les services de courses en ligne proposés par ces acteurs ne sont pas rendus complètement accessibles, les associations se tourneront vers la justice pour faire cesser cette violation de la loi qui est à l’origine d’une sérieuse discrimination pour les personnes en situation de handicap visuel.
+                </p>
+                <p>L’accessibilité dans la vie quotidienne des personnes en situation de handicap visuel est un droit et une nécessité pour leur permettre de vivre de façon indépendante et de participer pleinement à tous les aspects de la vie.</p>
+                <p>Violer la loi, c’est illicite et discriminatoire… Or, en France, 12 millions de personnes sont concernés par l’accessibilité numérique.</p>
+                <level2 id="_012-001_Ce_que_prevoit_le_code_de_la_consommation_a_c">
+                    <h2>Ce que prévoit le code de la consommation à compter du 28 juin 2025</h2>
+                    <p>Depuis 2023, le législateur a inscrit dans ledit code l’obligation pour les grandes entreprises de mettre sur le marché des produits et de fournir des services conformes aux exigences d’accessibilité.</p>
+                    <p>Cette mesure, initiée à l’échelle européenne par la directive 2019-882 dite «Acte européen sur l’accessibilité», vient compléter les obligations figurant déjà depuis plusieurs années dans la loi du 11 février 2005 pour l’égalité des droits et des chances, la participation et la citoyenneté des personnes en situation de handicap.</p>
+                    <p>Tout service numérique, qu’il s’agisse d’un service de communication (site internet, intranet, extranet, applications mobiles…) ou d’un service économique (commandes de courses en ligne, livraison à domicile, gestion d’un espace client…) doit être accessible aux personnes handicapées.</p>
+                    <p>Un environnement dans lequel les produits et les services sont plus accessibles permet de construire une société plus inclusive et facilite l’autonomie des personnes en situation de handicap.</p>
+                    <p>Les acteurs concernés par la mise en demeure avaient 2 ans pour se conformer à cette obligation.</p>
+                </level2>
+                <level2 id="_012-002_Cest_quoi_linaccessibilite_numerique_des_pers">
+                    <h2>C’est quoi l’inaccessibilité numérique des personnes aveugles et mal-voyantes ?</h2>
+                    <p>Face à une inaccessibilité numérique, une personne en situation de handicap visuel est exactement dans l’état de la personne handicapée moteur confrontée à un escalier : il ne peut franchir seul l’obstacle et doit toujours recourir, malgré l’équipement informatique sophistiqué dont il dispose, à l’aide d’un tiers.</p>
+                    <p>L’Observatoire du respect des obligations d’accessibilité numérique, mis en place par la Fédération des aveugles et amblyopes de France révélait, en juin 2025, que seulement 3,4% des sites internet des grandes entreprises sont accessibles.</p>
+                    <p>Pourtant, les mesures à prendre sont connues et possibles à mettre en œuvre : tous les éléments doivent être activables au clavier et le lecteur d’écran doit pouvoir naviguer facilement dans la structure du site ou de l’application.</p>
+                    <p>Pour une personne en situation de handicap visuel, faire ses courses en ligne est le seul moyen pour pouvoir accomplir cet acte de la vie quotidienne en toute autonomie.</p>
+                    <p>En ne se conformant pas à la loi, les acteurs aggravent d’autant plus la situation de handicap de ces personnes et leur refuse l’autonomie et l’égalité auxquelles elles ont droit.</p>
+                </level2>
+                <level2 id="_012-003_Ils_temoignent">
+                    <h2>Ils témoignent :</h2>
+                    <p>Céline, utilisatrice aveugle du site picard.fr explique qu’elle ne peut pas choisir le mode de livraison click and collect (gratuit) et qu’elle est obligée d’utiliser la livraison (payante) en raison de l’inaccessibilité du site internet.</p>
+                    <p>Sur l’application, Adrien, utilisateur aveugle d’un IPhone, ne parvient pas à naviguer entre les différentes rubriques ou à sélectionner des produits.</p>
+                    <p>Matthieu, utilisateur malvoyant du site carrefour.fr dénonce le manque de contrastes qui empêche de lire certains prix.</p>
+                    <p>Pour Auchan et Leclerc, les mêmes constats sont établis…</p>
+                    <p>Pierre : «Quand on est aveugle ou malvoyant, et qu’on ne peut pas faire ses courses seul dans un magasin, la seule façon d’être autonome c’est de faire ses courses en ligne. L’inaccessibilité des sites nous prive de la possibilité d’être autonome et nous rend dépendants d’un proche ou d’un vendeur.»</p>
+                    <p>Il est possible de faire mieux : prévoir des descriptions pour les images, inclure une alternative textuelle aux informations sous formes de couleurs ou encore structurer correctement les pages ou les formulaires.</p>
+                </level2>
+                <level2 id="_012-004_4_grandes_entreprises_mises_en_demeure_pour_l">
+                    <h2>4 grandes entreprises mises en demeure pour la première fois en France de se conformer à leur obligation d’accessibilité</h2>
+                    <p>Afin de témoigner des réelles difficultés et de justifier du choix des entreprises ciblées par la mise en demeure en juin 2025, un comité de test, composé de personnes en situation de handicap visuel compétentes en informatique, a été mis en place pour établir un constat clair et circonstancié sur l’accessibilité ou non des entreprises.</p>
+                    <p>En parallèle, les associations porteuses de l’action ont notamment reconnu:</p>
+                    <p>-Le caractère discriminatoire et handicapant de l’inaccessibilité numérique pour les personnes en situation de handicap visuel,</p>
+                    <p>-Le caractère injustifiable de l’inaccessibilité des services numériques, dès lors que le droit français a transposé la directive et que l’entrée en vigueur différée devait justement permettre aux acteurs de se mettre en conformité.</p>
+                    <p>
+                        Aussi, au 1
+                        <sup>er</sup>
+                         septembre 2025, si la loi n’est pas respectée, les quatre entreprises seront assignées en justice.
+                    </p>
+                    <p>L’objectif est clair : rendre accessibles les grands acteurs de la vie quotidienne, car chaque individu a droit au respect de sa vie privée et à sa propre autonomie.</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_013_Nouvelles_technologies">
+                <h1>Nouvelles technologies</h1>
+                <level2 id="_013-000_Le_BBook_ordinateur_et_bloc-notes_braille">
+                    <h2>Le B.Book, ordinateur et bloc-notes braille</h2>
+                    <p>Extrait de la fiche d’évaluation publiée par le CERTAM en juillet 2025, consultable sur le site www.certam-avh.com</p>
+                    <p>Le B.Book d'Eurobraille est un ordinateur-bloc-notes braille tout-en-un qui succède à l'Esytime Evolution. Il combine un PC sous Windows 11 avec un afficheur braille de 32 caractères, offrant ainsi une solution intégrée pour les personnes déficientes visuelles.</p>
+                    <p>Version actuelle : 1.0</p>
+                    <p>Prix TTC : 6 990,00 €</p>
+                    <p>Fabricant : Eurobraille</p>
+                    <p>Distributeurs : Eurobraille, CECIAA, AccesSolutions</p>
+                    <p>Garantie : 2 ans</p>
+                    <level3 id="_013-000-001_Presentation">
+                        <h3>Présentation</h3>
+                        <p>Le B.Book s’utilise comme un ordinateur standard sous Windows avec un logiciel de lecture d’écran. NVDA est préinstallé avec la synthèse vocale Windows OneCore qui offre une bonne restitution sonore sans coût supplémentaire, ce qui permet de profiter de l’ensemble des fonctionnalités offertes par Microsoft Windows, et bien plus, si d’autres applications sont installées.</p>
+                        <p>Grâce au clavier braille on est en mesure d’exécuter toutes les commandes d’un clavier AZERTY standard.</p>
+                        <p>
+                            En 
+                            <span class="alternative" pa:altphonemes="p l y s">plus</span>
+                             de la saisie standard, quatre modes uni-manuels sont également proposés : pour droitier, pour gaucher, et deux profils à saisie séquencée (touche par touche).
+                        </p>
+                        <p>Les curseurs routines du B.Book ont la particularité de permettre 2 clics différents : le «clic léger» déplace la plage braille (en arrière sur le premier curseur, en avant sur tous les autres) ; le «clic lourd» positionne le curseur dans un texte ou valide une option (similaire au clic gauche de la souris).</p>
+                        <p>Le B.Book peut aussi être utilisé en tant que terminal braille lorsqu'il est branché en USB à un PC de bureau.</p>
+                        <p>Dimensions (L×P×H) : 27×19×2,5 cm</p>
+                        <p>Poids : 1,2 kg</p>
+                    </level3>
+                    <level3 id="_013-000-002_Points_forts_et_points_faibles">
+                        <h3>Points forts et points faibles</h3>
+                        <level4 id="_013-000-002-000_Points_forts">
+                            <h4>Points forts</h4>
+                            <p>-Conception tout en un,</p>
+                            <p>-Bonne autonomie de 10 heures,</p>
+                            <p>-Utilisation comme terminal braille connecté à un PC,</p>
+                            <p>-Compact et léger,</p>
+                            <p>-Fourni avec la suite logicielle Esysuite dédiée au milieu scolaire.</p>
+                        </level4>
+                        <level4 id="_013-000-002-001_Points_faibles">
+                            <h4>Points faibles</h4>
+                            <p>-Appareil lent manquant de réactivité,</p>
+                            <p>-Qualité audio insuffisante, restitution des haut-parleurs déplorable.</p>
+                        </level4>
+                        <p/>
+                    </level3>
+                    <level3 id="_013-000-003_Lavis_du_Certam">
+                        <h3>L'avis du Certam</h3>
+                        <p>La note du Certam : 3,5 sur 5</p>
+                        <p>Le B.Book est une solution intéressante d'ordinateur braille intégré, particulièrement adapté au milieu éducatif et aux utilisateurs recherchant la meilleure portabilité. Cependant, les faiblesses de performances du processeur, de la mémoire et des composants audio peuvent décevoir les utilisateurs ayant des besoins plus exigeants. Pour un usage professionnel, la combinaison d'un PC portable avec une plage braille dédiée serait plus performante pour un coût inférieur.</p>
+                    </level3>
+                </level2>
+                <level2 id="_013-001_Des_enregistreurs_numeriques_grand_public_acc">
+                    <h2>Des enregistreurs numériques grand public accessibles</h2>
+                    <p>Par Pascale ISEL</p>
+                    <p>Si vous êtes passionné par le son en général, les enregistrements en pleine nature, la réalisation d’interviews, cette information peut vous intéresser.</p>
+                    <p>Plusieurs enregistreurs numériques de la marque Zoom (bien connue dans le monde du son) sont vocalisés et accessibles aux déficients visuels. Il s’agit des modèles de la gamme Essentials H1, H2, H4 et H6. Ce sont tous des modèles portables dont le poids n’excède pas 400g. Ils proposent des fonctions comme le préenregistrement, la variation de la vitesse de lecture… les enregistrements sont stockés sur une carte-mémoire et ils se connectent à un ordinateur pour effectuer les transferts ; selon les modèles, les connexions en entrée et en sortie sont différentes, avec au minimum une entrée-ligne et une sortie casque.</p>
+                    <p>Voici quelques caractéristiques pour chacun des modèles :</p>
+                    <p>-Zoom Essential H1 : enregistrement en stéréo via 2 micros intégrés ou avec un micro externe, c’est le modèle de base ;</p>
+                    <p>-Zoom Essential H2 : parfait pour les enregistrements en pleine nature grâce à ses 4 micros intégrés qui permettent une captation à 360°;</p>
+                    <p>-Zoom Essential H4 et H6 : ils s’adressent plutôt aux professionnels, avec respectivement 4 et 6 pistes d’enregistrement sur lesquelles on peut effectuer des opérations individuelles ou de mixage et la possibilité de brancher des micros externes XLR.</p>
+                    <level3 id="_013-001-001_Ou_les_acheter">
+                        <h3>Où les acheter ?</h3>
+                        <p>Ces produits «grand public» sont disponibles en ligne sur les sites habituels (Amazon, Thomann…), ou en magasin ; des revendeurs de matériel spécialisé pour les déficients visuels les proposent également. Les prix s’échelonnent entre 90 € et 300 € selon les modèles et le distributeur.</p>
+                        <p>Avant de choisir entre un achat en ligne (souvent plus avantageux en termes de prix) et un achat en magasin, gardez à l’esprit que ce dernier présente l’avantage de disposer d’une aide du vendeur en cas de difficulté pour la mise en route ou l’utilisation ; cela peut justifier quelques euros supplémentaires…</p>
+                        <p>Enfin, si vous utilisez l’un de ces appareils et que vous souhaitez partager votre expérience, la rubrique «courrier des lecteurs» est faite pour ça.</p>
+                    </level3>
+                </level2>
+                <p/>
+            </level1>
+            <level1 class="chap" id="_014_Archives_du_Louis_Braille_Un_siecle_dimpressi">
+                <h1>Archives du Louis Braille : Un siècle d’impression en Braille</h1>
+                <p>Le Louis Braille, Août et Septembre 1937</p>
+                <p>(pages 142 à 151, puis 162 à 169)</p>
+                <p>NDLR : puisque nous fêtons cette année les 200 ans de l’invention de notre cher Braille, voici un article qui présente un historique des 100 premières années d’impression en braille. Dans les pages qui suivent, le terme «typographie» fait référence à l’impression au moyen de caractères individuels disposés dans des cadres alors que «stéréotypie» fait référence à l’impression en partant d’une page rédigée en braille (le cliché). Dans les deux cas on utilisait ensuite des presses pour embosser les feuilles. L’auteur de l’article serait probablement impressionné par les embosseuses d’aujourd’hui… Et pourtant, malgré ces progrès fabuleux, l’impression en braille sur papier ne fait que reculer…</p>
+                <p>Voici cent ans que sortit des presses de l’Institution Royal des Jeunes Aveugles de Paris le premier ouvrage imprimé en braille, ou du moins celui qui mérite vraiment cette qualification, car, comme nous le verrons tout à l’heure, plusieurs tentatives avaient déjà été faites dans ce sens.</p>
+                <p>Comme toutes les écritures tangibles, le braille se prêtait aisément à l’impression. On sait que, dès 1784, Valentin Haüy avait réalisé l’impression en relief en faisant fondre des caractères typographiques portant chacun une lettre ordinaire d’un corps assez fort et d’un relief très accusé, et en faisant pénétrer ce relief, au moyen d’une forte pression, dans du papier résistant et préalablement mouillé. C’est sans doute aussi à l’aide de caractères typographiques que furent imprimés les spécimens que nous avons conservés de «l’écriture nocturne», sorte de sténographie ponctuée inventée en 1819 par Charles Barbier, et que Braille devait prendre pour base de ses recherches.</p>
+                <p>Recourut-on de même aux caractères quand parut, en 1829, la première édition du Procédé de Braille, dans laquelle les exemples sont en points saillants, tandis que le texte est typographié et en caractères linéaires ? C’est probable. En tout cas, le plus ancien livre imprimé en braille que nous possédions, une «géographie de l’Asie» publiée en 1832, en ancien abrégé, par un condisciple de Braille, l’Anglais Hayter, porte la mention : «imprimerie mobile».</p>
+                <p>En 1834, l’Institution de Paris exposa aux Produits de l’Industrie la première édition du «Procédé de Braille», un livre écrit dans ce système et un autre livre imprimé en points également, car on avait fait fondre des caractères pour cet usage.</p>
+                <p>Or, un matériel typographique même réduit à 34 caractères, comme il suffit pour le braille à cause de la possibilité de former deux signes avec la plupart des types en les retournant, ce matériel est coûteux. Aussi, quand l’Institution Royale se décida à éditer en points le «précis d’histoire de France», elle usa d’un expédient qu’on avait peut-être déjà employé, et qui consista à faire fondre un type unique de caractères portant les six points du signe générateur du braille, et à enlever à chaque caractère avec un petit burin, les points qu’il contenait en trop pour fournir la lettre désirée.</p>
+                <p>Un travail aussi long et aussi fastidieux devait décourager les meilleures volontés et c’est sans doute pour cette raison que, de 1837 à 1849, l’Institution ne fit paraître en braille que des ouvrages de musique ; car, dans ceux-ci, les paroles, quand il s’en trouvait, et jusqu’aux doigtés, étaient-ils typographiés et en caractères linéaires.</p>
+                <p>Comme, pendant ce temps, le braille avait fini par s’imposer et qu’il fallait des livres ; comme, d’autre part, l’argent manquait toujours pour l’acquisition d’un matériel typographique ; et comme, enfin, la nécessité rend ingénieux, un maître d’étude de l’Institution, V. Laas d’Aguen, eut l’idée, en 1849, d’écrire le texte à imprimer au moyen d’une solide tablette, d’un poinçon d’acier et d’un petit marteau, sur des feuilles de cuivre mince qui, une fois couvertes de points, fournissaient des clichés qu’on pouvait mettre sous presse aussi bien que des caractères typographiques. Mais ce travail de repoussage était, comme le burinage des caractères de 1837, fort lent et de plus fatigant et délicat. Aussi souhaitait-on à l’Institution de le remplacer par la typographie. Mais les subsides manquaient toujours. Ils ne vinrent que quand l’empereur du Brésil, voulant installer une école d’aveugles à Rio de Janeiro et la doter de livres braille, commanda l’impression de ses livres à l’Institution de Paris, se chargeant des frais d’acquisition du matériel typographique (1854) ; c’est ce qui explique que les premiers livres imprimés avec ce nouveau matériel aient été des manuels scolaires en langue portugaise.</p>
+                <p>Alors commence l’âge d’or de la typographie braille. De cette Institution, elle s’introduit dans presque toutes les imprimeries qui s’ouvrent en France et dans les pays latins pendant une quarantaine d’années.</p>
+                <p>Pourtant, à partir de 1875 environ, la stéréotypie tend à reprendre à côté de la typographie une place de plus en plus importante, qui la fait adopter presque exclusivement dans les pays anglo-saxons et germaniques. C’est qu’en 1867, Levitte a adapté le clichage à l’écriture «interligne», et qu’en 1888 Ballu l’a adapté à l’«interpoints».</p>
+                <p>
+                    Mais la préparation et le tirage des clichés demeurent lents par rapport aux mêmes opérations en typographie. Ad. Balquet, clicheur à l’imprimerie de l’Institution Nationale, rêve de rendre la typographie braille aussi économique que la stéréotypie qui, appliquée à l’interpoints, utilise sans aucune perte les deux faces du papier. En 1893, il trouve le moyen d’imprimer ainsi, au moyen de caractères munis chacun en 
+                    <span class="alternative" pa:altphonemes="p l y s">plus</span>
+                     des points, de six cuvettes destinées à recevoir les points du caractère de l’autre face, la lettre du recto et celle du verso étant décalées de manière que les points de l’une tombent toujours dans les cuvettes de l’autre, et vice versa. Mais le nouveau procédé exige un matériel double et ne s’adapte pas aux presses alors en usage pour le braille ; aussi n’est-ce qu’en 1899 que paraissent les premières impressions typographiques en interpoints.
+                </p>
+                <p>Pendant ce temps, les premières machines à stéréotyper, applications plus ou moins directes de la machine à écrire le Braille inventée en 1894 par Hall, de Chicago, faisaient leur apparition et rendaient la préparation des clichés deux fois plus rapide au moins que la composition typographique. Aussi la plupart des imprimeries existantes et celles qui se fondèrent par la suite adoptent-elles plus ou moins rapidement la machine à clichés. Alors la stéréotypie gagne les pays latins et même la France où, après la fermeture (pour des raisons d’ordre budgétaire) de l’imprimerie de l’Institution Nationale en 1931, la typographie n’est plus pratiquée qu’à l’imprimerie des Sœurs aveugles de Saint-Paul.</p>
+                <p>Les périodiques eux-mêmes, qui semblaient être les publications auxquelles la typographie convenait particulièrement, sont tous aujourd’hui stéréotypés.</p>
+                <p>Grâce au perfectionnement des presses, le tirage des clichés est devenu beaucoup plus rapide que ne l’exigent les besoins, puisqu’on ne tire que juste la quantité nécessaire. D’ailleurs, l’impression recto-verso est plus simple en braille qu’en noir car elle se fait d’un seul coup de presse.</p>
+                <p>Mais les frais d’acquisition et d’entretien d’un matériel typographique ou stéréotypique sont élevés. Aussi plusieurs inventeurs cherchent-ils des procédés d’impression plus simples ou des moyens de mettre l’impression en braille à la portée des personnes de bonne volonté. C’est à cette dernière préoccupation que répond la « petite imprimerie » imaginée en 1907 par Ernest Vaughan, directeur des Quinze-Vingts : avec des caractères portant à l’une de leurs extrémités la lettre Braille et à l’autre la lettre romaine correspondante, on était censé pouvoir composer sans avoir besoin d’apprendre le braille. On connaît la qualité du travail ainsi obtenu.</p>
+                <p>Quant à l’idée de la simplification du matériel, elle était depuis longtemps dans l’air, puisque dès 1863, l’École des aveugles de Saint-Louis du Missouri, aux États-Unis, utilisait un matériel qui ne comportait que cinq types : (a b k l,) qui, combinés, permettent d’obtenir toutes les combinaisons du braille. De là à décomposer le signe générateur du système en ses éléments (les points) et à composer le texte en chevilles mobiles introduites dans une plaque perforée, il n’y avait qu’un pas ; mais la lenteur du travail donnait au procédé un caractère régressif.</p>
+                <p>En 1915, Garin, Comte et Balquet parvenaient à rendre cette idée pratique en obtenant la composition par chevilles mobiles aussi rapidement que l’écriture braille elle-même.</p>
+                <p>À côté de cette simplification apportée à la typographie, Maurice Garin en envisageait d’autres touchant la stéréotypie. En 1919, il réussit à obtenir des clichés suffisants pour polycopier un texte en écrivant celui-ci sur du papier paraffiné et en comblant les creux du verso avec un mélange de plâtre, d’eau et de colle très forte.</p>
+                <p>Depuis qu’on imprime en relief, tous les genres de presse utilisées dans l’impression ordinaire ont été employés, depuis les anciennes presses à bras, lourdes et lentes et dont la presse à copier du commerce donne une idée réduite, jusqu’aux rotatives modernes dont l’une peut imprimer jusqu’à 12 000 pages in-quarto à l’heure si l’on emploie l’interpoints.</p>
+                <p>Pour illustrer les livres braille, on est parti de procédés employés pour la reproduction des dessins visible (comme les clichés fondus et la gravure) pour aboutir à des techniques plus simples et mieux appropriées au génie de l’impression en relief, comme le repoussage et le moulage.</p>
+                <p>Ainsi, l’impression en braille a bénéficié à la fois de tous les perfectionnements apportés à l’impression ordinaire et de toutes les améliorations dont l’écriture braille a été l’objet et c’est même de la transposition de cette écriture sur du métal qu’est sorti le procédé universellement adopté aujourd’hui pour reproduire des points saillants, la stéréotypie. Si ce procédé a pu chez nous détrôner la typographie, c’est qu’il ne l’utilise point comme support, comme cela a lieu dans l’impression ordinaire. Mais la préparation des clichés demeure une opération délicate car un texte cliché sur zinc n’est guère modifiable que dans des limites trop restreintes. La typographie, grâce à sa mobilité, offrait donc l’avantage d’établir aisément une première édition dont la suivante pourrait être clichée sans risque.</p>
+                <p>Quoi qu’il en soit, à moins qu’une révolution (toujours possible mais peu probable) vienne renouveler les techniques de l’art d’imprimer, on peut considérer comme close, depuis une quinzaine d’années, l’ère des recherches, sinon des applications, dans le domaine de l’impression en relief.</p>
+                <p>Le centenaire de l’impression en braille coïncide donc avec l’apogée de ses moyens de production. En dépit de tous les efforts, ceux-ci demeureront toujours coûteux, parce que les frais d’établissement d’une édition se répartissent, vu le petit nombre des usagers, sur un nombre si restreint d’exemplaires qu’il faut pour que leur prix de vente corresponde aux ressources des acheteurs, les céder à perte, quand on ne doit pas les distribuer gratuitement.</p>
+                <p>Aussi, est-ce avec une admiration étonnée qu’on voit les œuvres qui se consacrent à l’édition en braille parvenir, malgré la crise économique et grâce à la générosité de leurs bienfaiteurs, augmenter et améliorer leur production. Sans doute, tous les désirs ne peuvent être comblés d’un coup; mais quel abîme entre l’abondance relative dont nous jouissons aujourd’hui et l’absence totale de livres qui fit saluer comme un événement la parution du «Précis d’histoire de France» de l’Institution Royale!</p>
+                <p>F. Le Guével</p>
+            </level1>
+            <level1 class="chap" id="_015_Savoirs_des_gants_haptiques_pour_permettre_la">
+                <h1>Savoirs : des gants haptiques pour permettre la communication avec les personnes sourdaveugles</h1>
+                <p>Extrait d’une publication diffusée sur le site Generation-NT</p>
+                <p>https://www.generation-nt.com</p>
+                <p>NDLR : Ces gants «révolutionnaires» sont encore au stade de la recherche et nous n’avons pas d’information sur une éventuelle commercialisation ; cependant l’idée est intéressante, ne serait-ce que pour avoir un aperçu de ce que pourront nous apporter les tissus haptiques. Si vous utilisez un smartphone ou une tablette à écran tactile, vous avez probablement expérimenté ces retours haptiques, qui font qu’on a la sensation d’avoir appuyé sur un bouton, alors que l’écran est en verre trempé et ne permet évidemment pas d’enfoncer le doigt… C’est un peu surprenant au début… Mais cela permet de confirmer qu’une action a été réalisée, c’est bien utile.</p>
+                <level2 id="_015-001_Presentation">
+                    <h2>Présentation</h2>
+                    <p>Des gants révolutionnaires, conçus par des chercheurs de l'Université Nottingham Trent (NTU) en Angleterre, promettent de changer la vie de milliers de personnes sourdaveugles. Pour la toute première fois, il leur sera en effet possible de suivre des conversations en direct, une avancée majeure rendue possible par l'intégration de l'intelligence artificielle et des textiles intelligents.</p>
+                </level2>
+                <level2 id="_015-002_La_voix_transformee_en_braille">
+                    <h2>La voix transformée en braille</h2>
+                    <p>Le fonctionnement de ces gants est ingénieux. Un système d'intelligence artificielle analyse et interprète les conversations parlées en temps réel. Cette analyse est ensuite transformée en un langage compréhensible par le porteur via de minuscules actionneurs haptiques intégrés dans les doigts des gants. Ces actionneurs vibrent de manière similaire aux points en relief de l'alphabet braille. Ils peuvent moduler leurs vibrations en fréquence, amplitude et durée, offrant une multitude de possibilités de communication.</p>
+                </level2>
+                <level2 id="_015-003_Au-dela_du_braille_un_monde_de_sensations">
+                    <h2>Au-delà du braille : un monde de sensations</h2>
+                    <p>
+                        Mais ces gants ne se limitent pas à la traduction de conversations. Leur polyvalence est surprenante. En 
+                        <span class="alternative" pa:altphonemes="p l y s">plus</span>
+                         d'émuler le braille, ils pourraient aussi indiquer des directions, signaler des notifications téléphoniques ou déclencher des alarmes. Imaginez recevoir une alerte incendie ou le signal d'une sonnette de porte directement sur vos doigts. Mieux encore, ils pourraient même offrir des interprétations de musique ou d'éléments d'art visuel, ouvrant un accès inédit à la culture pour les personnes sourdaveugles.
+                    </p>
+                </level2>
+                <level2 id="_015-004_Un_impact_mondial_sur_la_communaute_sourdaveu">
+                    <h2>Un impact mondial sur la communauté sourdaveugle</h2>
+                    <p>L'impact de cette technologie est potentiellement immense. Selon l'association caritative Sense, on estime à 15 millions le nombre de personnes atteintes de surdicécité sévère dans le monde. Au Royaume-Uni seulement, ce chiffre atteint 450 000, dont près de 24 000 jeunes de 0 à 19 ans, dont beaucoup sont sourdaveugles de naissance.</p>
+                </level2>
+                <level2 id="_015-005_Une_communication_accessible_a_tous">
+                    <h2>Une communication accessible à tous</h2>
+                    <p>
+                        Malindu Ehelagasthenna, chercheur dont le doctorat fait partie de l'étude sur le prototype, a initialement suggéré l'utilisation de l'haptique intégrée dans les textiles à des fins d'assistance. Il explique que le système pourrait également aider les personnes malvoyantes et malentendantes, en 
+                        <span class="alternative" pa:altphonemes="p l y s">plus</span>
+                         des personnes entièrement sourdaveugles. Cette technologie a un potentiel énorme pour enrichir la vie de milliers de personnes sous-représentées à travers le monde, en facilitant la communication, l'accès à l'information et l'orientation dans leur environnement. Ce prototype de gant intelligent, dont les recherches ont été détaillées le 15 mars 2024 lors de la Conférence internationale sur les défis, opportunités, innovations et applications des textiles électroniques, ouvre la voie à un avenir plus inclusif.
+                    </p>
+                </level2>
+                <level2 id="_015-006_Pour_en_savoir_plus">
+                    <h2>Pour en savoir plus</h2>
+                    <p>
+                        En 
+                        <span class="alternative" pa:altphonemes="p l y s">plus</span>
+                         de l’article complet du site Generation-NT, vous pouvez consulter le site de l’université qui mène ces recherches (en anglais), à l’adresse :
+                    </p>
+                    <p>https://www.ntu.ac.uk/about-us/news/news-articles/2025/04/deafblind-people-to-understand-live-conversations-thanks-to-e-textiles-research</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_016_Culture_et_loisirs">
+                <h1>Culture et loisirs</h1>
+                <level2 id="_016-000_Communique_du_Ministere_de_la_Culture">
+                    <h2>Communiqué du Ministère de la Culture</h2>
+                    <p>NDLR : cette directive européenne entrée en vigueur fin juin est capitale car on peut (et on doit) s’appuyer sur ce texte pour interpeler les pouvoirs publics ou privés et ou déposer des plaintes et des recours lorsqu’on est victime d’un manque d’accessibilité dans les domaines concernés.</p>
+                    <p>À compter du 28 juin, les dispositions de la directive européenne 2019-882, dite «Acte européen d’accessibilité», entrent officiellement en vigueur : les nouveaux livres numériques, leurs logiciels de lecture, les liseuses et les plateformes de vente devront répondre à des exigences renforcées d’accessibilité pour les personnes en situation de handicap.</p>
+                    <p>Le livre numérique nativement accessible est amené à changer concrètement la vie de millions de citoyens empêchés de lire du fait de troubles visuels, «dys», auditifs ou physiques. Il offre, grâce à sa compatibilité avec tous les supports de lecture, grand public ou spécialisés, et la modularité de sa présentation, un accès autonome, fluide et immédiat à la lecture, sans barrière technique ni délai d’adaptation, au même prix et dans les mêmes conditions que le reste des lecteurs.</p>
+                    <p>Pour assurer une accessibilité effective du livre, de sa conception à sa lecture, l’ensemble des acteurs de la chaîne du livre numérique est concerné et doit répondre aux obligations prévues par la loi, sous le contrôle de l’Autorité de régulation de la communication audiovisuelle et numérique (Arcom).</p>
+                    <p>À partir de l’entrée en vigueur de la directive, les fonctionnalités d’accessibilité d’un livre numérique devront permettre à l’usager de :</p>
+                    <p>-Naviguer dans la structure et la mise en page du document, pour consulter, entre autres, la table des matières ou aller de chapitre en chapitre</p>
+                    <p>-Vocaliser le texte à l’aide d’une synthèse vocale</p>
+                    <p>-Modifier la police de caractères et agrandir la taille du texte, de l’espace entre les lignes ou les mots pour répondre par exemple aux besoins de publics dyslexiques ou malvoyants</p>
+                    <p>-Prendre connaissance des alternatives textuelles aux images qui apportent de l’information</p>
+                    <p>-Pouvoir utiliser des technologies d’assistance pour la lecture du livre numérique, sans blocage par les mesures techniques de protection (MTP)</p>
+                    <p>-Prendre connaissance des fonctionnalités d’accessibilité mentionnées pour chaque titre, grâce aux métadonnées fournies par les éditeurs.</p>
+                    <p>D’ici à 2030, les fonds de livres commercialisés avant l’entrée en vigueur de la directive européenne devront être, eux aussi, rendus accessibles. Ce processus progressif ouvre la voie à un accroissement considérable de l’offre de lecture pour les personnes empêchées de lire ainsi qu’à une amélioration qualitative de la production éditoriale numérique autour d’une norme partagée.</p>
+                    <p>Produire et diffuser du livre numérique nativement accessible est un choix éditorial fort, au service d’une lecture de qualité ouverte à tous. C’est une avancée majeure dans la construction d’une société française plus inclusive.</p>
+                    <p>Tous les opérateurs, y compris les structures les plus modestes, sont invités à se tourner vers le site du comité de pilotage pour le livre numérique accessible 2025 (LINA25), www.lina25.fr, pour être accompagnés techniquement dans cette direction.</p>
+                    <p>Le ministère de la Culture exprime sa pleine confiance dans la mobilisation de tous les acteurs pour atteindre l’objectif partagé d’accéder, d’ici 5 ans, à l’offre éditoriale nativement accessible la plus riche et diffuse possible.</p>
+                    <p>Rachida Dati, ministre de la Culture, déclare : «Je salue cette avancée décisive, fruit de l’engagement collectif des pouvoirs publics, des professionnels du livre et des associations représentant les personnes en situation de handicap, au travail depuis 2017. C’est aujourd’hui la réalisation d’une ambition portée de longue date par le ministère : garantir à chaque citoyen, quelle que soit sa situation, un égal accès à la culture et au savoir.»</p>
+                    <p>Retrouvez le dossier de presse à l’adresse :</p>
+                    <p>https://www.culture.gouv.fr/fr/presse/dossiers-de-presse/l-offre-de-livres-numeriques-accessible-se-developpe-mise-en-application-d-une-directive-europeenne-le-28-juin-2025</p>
+                </level2>
+                <level2 id="_016-001_Jubilus_un_album_de_Jean-Pierre_LEGUAY">
+                    <h2>Jubilus : un album de Jean-Pierre LEGUAY</h2>
+                    <p>Extrait d’un article paru sur le site Crescendo Magazine à l’adresse</p>
+                    <p>https://www.crescendo-magazine.be/</p>
+                    <p>Le 14 juillet 2025,</p>
+                    <p>par Bernard Vincken</p>
+                    <level3 id="_016-001-001_Jean-Pierre_Leguay_faire_entendre_ce_quon_ne_">
+                        <h3>Jean-Pierre Leguay : faire entendre ce qu’on ne voit pas</h3>
+                        <p>
+                            Ancien élève d'Olivier Messiaen, organiste des Grandes Orgues de Notre-Dame de Paris, improvisateur et compositeur, on sait le parcours de Jean-Pierre Leguay cheminant entre tradition et modernité (son répertoire s’étend du 17
+                            <sup>ème</sup>
+                             au 20
+                            <sup>ème</sup>
+                             siècle) ; on sait l’interprète capable d’improvisations-performances (à l’orgue en particulier) qui constituent des œuvres en soi ; on sait l’aveugle qu’il est (depuis son plus jeune âge) nourri à l’intuition sonore, qui compose à l’oreille (mémoire, imagination, perception intérieure), à la sensibilité (affutée) pour les timbres et les textures – il ne voit pas mais sa musique ruisselle de couleurs.
+                        </p>
+                        <p>L’album rassemble cinq pièces de musique de chambre, dont le piano de la française Sabine Sauer (elle est la spécialiste de ses œuvres) constitue le fil rouge : seul mais dédoublé dans</p>
+                        <p>-Sonnantes, quatre compositions pour piano à quatre mains,</p>
+                        <p>-Trois esquisses pour flûte (Christina Singer), miniatures incisives où la flûte se suffit certes à elle-même mais prend tout bénéfice du clavier-interlocuteur</p>
+                        <p>-Le matin sûrement va venir, (écrit à l’origine pour ondes Martenot, piano et percussions), ici pour saxophone alto, piano et percussions,</p>
+                        <p>-À Deux, pour piano et vibraphone,</p>
+                        <p>-Jubilus, (pour 6 instrumentistes) qui donne son nom au disque, est la réponse à une commande de Radio France pour Alla Breve : cinq parties, diffusées une par une les jours de la semaine, avec une rediffusion intégrale le dimanche, cinq éléments indépendants et constitutifs d’une œuvre plus large, que traversent piano et violon, rejoints parfois par la flûte, le hautbois, le cor anglais ou la clarinette basse, accompagnés par les percussions.</p>
+                        <p>Cet album est une joie qui chante, qui danse, qui murmure et qui éclate – sonore avant tout, et vivante, intelligente, animée, pensée et ressentie, comme l’est la réjouissante musique de Jean-Pierre Leguay.</p>
+                    </level3>
+                    <level3 id="_016-001-002_Interpretes_et_references">
+                        <h3>Interprètes et références</h3>
+                        <p>Jubilus. Jean-Pierre Leguay.</p>
+                        <p>Sabine Sauer, Lili Bogdanova, Christina Singer, Nikola Lutz, Lucas Gerin, Nozomi Hiwatashi, Annette Schütz, Dirk Altmann, Gabriele Turck, Pao Tseng, Junyoung Kim.</p>
+                        <p>Paru en 2024.</p>
+                        <p>Livret : allemand, anglais, français.</p>
+                        <p>Cybele Records, SACD 362403.</p>
+                        <p>NDLR : cet album est également disponible sur les sites de streaming, (spotify, Apple Music entre autres.)</p>
+                    </level3>
+                </level2>
+                <level2 id="_016-002_Lassociation_Acces_Culture_presente_sa_saison">
+                    <h2>L’association Accès Culture présente sa saison 2025-2026</h2>
+                    <p>Vous connaissez probablement l’association Accès Culture que nous évoquons régulièrement dans nos pages. Créée en 1990, sa principale activité consiste à établir des partenariats avec des théâtres, salles de concerts, opéras, cirques, organisateurs de festivals, pour les accompagner dans la réalisation de spectacles accessibles ; accessibles aux déficients visuels avec l’audiodescription et la présentation de la scène, des décors et des costumes, accessibles aux sourds et malentendants avec le surtitrage, le son amplifié et la LSF (langue des signes française).</p>
+                    <p>Pour compléter ces adaptations, des ateliers en lien avec le spectacle sont proposés, pour permettre aux futurs spectateurs de mieux appréhender le sujet (pour la danse par exemple, qui n’est pas « évidente » pour des personnes aveugles de naissance).</p>
+                    <p>Aujourd’hui, plus de 150 structures sont partenaires de l’association, réparties sur tout le territoire et à l’international (Luxembourg, Suisse, Italie).</p>
+                    <p>À votre niveau, vous pouvez faire évoluer l’accessibilité des spectacles dans votre ville, en mettant en relation la direction d’une salle avec l’association, afin qu’ils étudient ensemble la faisabilité d’un projet de mise en accessibilité des spectacles.</p>
+                    <level3 id="_016-002-001_La_saison_2025-2026">
+                        <h3>La saison 2025-2026</h3>
+                        <p>Pour cette rentrée, Accès Culture nous présente la prochaine saison ; vous pouvez dès à présent rechercher des spectacles, par région ou par type d’adaptation.</p>
+                        <p>Pour l’Île-de-France, une brochure peut être téléchargée, aux formats PDF et Word.</p>
+                        <p>Pour consulter la liste des spectacles, vous pouvez :</p>
+                        <p>-Vous rendre sur le site à l’adresse www.accesculture.org</p>
+                        <p>-Passer par le Localisateur dans la rubrique «culture»</p>
+                        <p>-Passer par Voxiweb si vous êtes abonné.</p>
+                        <p>Pour télécharger la brochure, vous inscrire à la lettre d’information ou consulter la liste complète des membres du réseau, vous devez passer par le site internet.</p>
+                        <p>Vous pouvez également contacter l’association :</p>
+                        <p>-Par téléphone : 07 82 81 70 27,</p>
+                        <p>-Par courriel : communication@accesculture.org</p>
+                    </level3>
+                </level2>
+                <p/>
+            </level1>
+            <level1 class="chap" id="_017_Lire_ou_relire">
+                <h1>Lire ou relire</h1>
+                <level2 id="_017-000_De_nouveaux_titres_disponibles_avec_Vocale_Pr">
+                    <h2>De nouveaux titres disponibles avec Vocale Presse</h2>
+                    <p>Nous évoquons régulièrement Vocale Presse, ce service qui permet (depuis plus de 20 ans) de disposer sur un ordinateur, une tablette, un smartphone, certains lecteurs audio et bloc-notes braille, de nombreux titres de la presse nationale, régionale et de magazines, au moment de leur sortie en kiosque.</p>
+                    <p>Les articles peuvent être lus par voix de synthèse ou en texte, avec possibilité d’adapter l’affichage pour les personnes malvoyantes.</p>
+                    <p>Un essai gratuit est proposé, ce qui permet de prendre en main l’application tranquillement chez soi sur son propre matériel et de se faire une idée du contenu des titres.</p>
+                    <p>Si vous avez dans votre entourage des personnes qui perdent la vue et qui avaient l’habitude de lire la presse, pensez à leur en parler.</p>
+                    <p>De même, plusieurs titres proposés sont spécialement dédiés aux jeunes lecteurs, c’est une bonne opportunité pour leur donner envie de lire la presse plutôt que de s’informer uniquement en regardant les réseaux sociaux ou YouTube…</p>
+                    <p>Grâce à des partenariats, Vocale Presse est également présent dans de nombreuses médiathèques, centres de formation, établissements spécialisés…</p>
+                    <level3 id="_017-000-001_Nouveaux_titres">
+                        <h3>Nouveaux titres</h3>
+                        <p>Le quotidien La Montagne,</p>
+                        <p>Le magazine hebdomadaire Franc-Tireur,</p>
+                        <p>Le magazine mensuel VSD.</p>
+                        <p>Quelle configuration est nécessaire pour pouvoir télécharger Vocale Presse?</p>
+                    </level3>
+                    <level3 id="_017-000-002_Vocale_Presse_fonctionne_sur">
+                        <h3>Vocale Presse fonctionne sur :</h3>
+                        <p>Tous les PC Windows à partir de Windows 7,</p>
+                        <p>
+                            Tous les MAC à partir d’OS 
+                            <span class="alternative" pa:altphonemes="f w a d i s p w e~ t R E z p w e~ s i s">×10.13.6</span>
+                            ,
+                        </p>
+                        <p>
+                            Tous les iPad et iPhone à partir d’iOS 
+                            <span class="alternative" pa:altphonemes="d u z p w e~ s e~ k p w e~ s e~ k">12.5.5</span>
+                            ,
+                        </p>
+                        <p>Tous les téléphones et tablettes Android à partir de la version 6,</p>
+                        <p>Au format DAISY sur les lecteurs PlexTalk PTP1 et Linio, Victor Reader Stream, Stream 2, et Stratus, BookSense XT et DS, Blaze EZ, SensePlayer,</p>
+                        <p>Sur les bloc-notes braille Braille Note APEX et Braille Sense,</p>
+                        <p>Si vous êtes abonné à Voxiweb, vous pouvez également accéder à Vocale Presse de puis votre compte. Dans ce cas, aucune installation supplémentaire n’est nécessaire.</p>
+                        <p>L’application Vocale Presse dispose de sa propre voix de synthèse, ce qui veut dire qu’il n’est pas nécessaire d’avoir un lecteur d’écran installé pour écouter la presse ; c’est un point très important pour les personnes malvoyantes qui n’utilisent pas Jaws ou NVDA mais qui ne peuvent plus lire de façon prolongée.</p>
+                    </level3>
+                    <level3 id="_017-000-003_Le_catalogue">
+                        <h3>Le catalogue</h3>
+                        <p>Avec plus de 80 titres couvrant les rubriques suivantes : Actualité nationale et internationale, Actualité régionale et locale, Loisirs et art de vivre, Économie, Féminins, Sciences et Informatique, People, Famille, Sports, Jeunesse, ce catalogue est une mine d’or et tout le monde peut trouver son bonheur…</p>
+                        <p>Pour le consulter, rendez-vous à l’adresse :</p>
+                        <p>https://fr.vocalepresse.com/catalogue.html</p>
+                        <p>À l’approche des fêtes, l’abonnement à un journal peut être une bonne idée de cadeau…</p>
+                    </level3>
+                    <level3 id="_017-000-004_Pour_en_savoir_plus">
+                        <h3>Pour en savoir plus</h3>
+                        <p>
+                            N’hésitez pas à contacter Virginie Marcelli, responsable des relations clients, pour 
+                            <span class="alternative" pa:altphonemes="p l y s">plus</span>
+                             de détails, faire un essai gratuit ou vous abonner :
+                        </p>
+                        <p>Tél. : 04 91 65 51 19</p>
+                        <p>Courriel : virginie@vocalepresse.com</p>
+                        <p>Ou consultez le site internet : www.vocalepresse.com</p>
+                        <p>Bonne lecture !</p>
+                    </level3>
+                </level2>
+                <level2 id="_017-001_Le_projet_Mission_Mars">
+                    <h2>Le projet Mission Mars</h2>
+                    <p>Extrait de la présentation sur le site du CTEB (Centre de Transcription et d’Édition en Braille)</p>
+                    <p>Avec le livre «Mission Mars !» de Delphine Chedru (Éditions Hélium), le centre de recherche en ingénierie tactile du CTEB a passé la vitesse de la lumière et a regroupé en un volume toutes ses technologies et expertises en matière d’adaptation. Ce livre est un jeu de rôle ! C’est-à-dire que le lecteur agit sur l’enchaînement de l’histoire et la progression du personnage principal en lui faisant faire des choix optionnels à chaque page. Un livre-jeu interactif, ludique, richement illustré et inclusif pour répondre au besoin des familles en lecture partagée.</p>
+                    <level3 id="_017-001-001_Lhistoire">
+                        <h3>L’histoire</h3>
+                        <p>La princesse Attaque et son compagnon le chevalier Courage partent dans une aventure intergalactique ! À bord de leur fusée, tu traverseras l’immensité cosmique pour rejoindre les frères chats Chu et Chuu ! Dans chaque scène, pour aller au bout de ton expédition, tu devras résoudre un jeu tactile. Et tu auras toujours le choix lors de ton parcours spatial. Te voici projeté(e) dans l’espace infini à la rencontre d’astéroïdes multicolores, de constellations éblouissantes, d’habitants insoupçonnés, où tu perceras les cybermystères de la planète des chats !</p>
+                    </level3>
+                    <level3 id="_017-001-002_Les_plus">
+                        <h3>Les plus</h3>
+                        <p>-Une couverture pleine page pour la première fois illustrée en relief !</p>
+                        <p>-Un texte en braille double interligne ET en gros caractères pour tous les déficients visuels et les voyants.</p>
+                        <p>-Un livre avec 16 jeux tactiles dans un seul volume : 4 en vernis, 3 en thermogonflage, 5 en dessin braille (braille graphique), 4 textuels. Un livre riche pour affûter sa lecture, son braille, sa sensibilité tactile et jouer avec son entourage.</p>
+                        <p>-La solution des jeux en fin de livre.</p>
+                        <p>-Proposé à l’achat à prix réduit pour les particuliers : 22 €.</p>
+                        <p>Par ce projet d’adaptation gaie, pédagogique et moderne destinée à la jeunesse, le CTEB rappelle que la lecture n’est pas qu’un loisir. Aujourd’hui, la pluralité de ses supports est indispensable et un merveilleux progrès. Dans le cas du support papier, c’est le développement de la cognition, de l’éducation et de la sensibilité tactile qui sont les avantages immédiats. Avec la lecture du braille c’est donc au final une meilleure capacité d’interaction sociale et d’autonomie dont il s’agit.</p>
+                        <p>NDLR : avec cet ouvrage, le CTEB a remporté le trophée de l’engagement en faveur de la lecture aux Trophées de l’édition 2025 !Bravo pour cette initiative innovante en faveur du braille auprès de la jeunesse. A l’approche des fêtes de fin d’année, une belle idée de cadeau en perspective…</p>
+                    </level3>
+                    <level3 id="_017-001-003_Pour_contacter_le_CTEB">
+                        <h3>Pour contacter le CTEB</h3>
+                        <p>CTEB</p>
+                        <p>98 rue Michel-Ange — 31200 Toulouse</p>
+                        <p>Téléphone : 05 61 57 95 89</p>
+                        <p>Courriel : contact@cteb.fr</p>
+                        <p>
+                            Site internet : 
+                            <span class="alternative" pa:altphonemes="t R w a d u b l @ v e p w e~ s e t e @ b e p w e~ E f E R">www.cteb.fr</span>
+                        </p>
+                    </level3>
+                </level2>
+                <p/>
+            </level1>
+            <level1 class="chap" id="_018_Braille-actu_entretien_de_France_3_avec_Claud">
+                <h1>Braille-actu : entretien de France 3 avec Claude Garrandès sur le braille</h1>
+                <p>NDLR : extrait de l’entretien publié sur le site de France 3 le 19 mai 2025, entre Claude Garrandès et la journaliste Hélène France. Nous avons retiré les paragraphes qui présentent le braille, son histoire et son inventeur.</p>
+                <p>Il y a 200 ans, Louis Braille inventait un système révolutionnaire d’écriture et de lecture en points saillants. Une invention visionnaire qui allait changer le cours de l’histoire pour des millions de personnes aveugles et malvoyantes. Le braille est aujourd'hui une porte d’entrée vers l’éducation, l’emploi, la culture et l’inclusion. Rencontre avec Claude Garrandès.</p>
+                <p>Claude Garrandès, c'est une voix chaleureuse et amicale, un sourire toujours posé sur le visage et des mains qui parlent autant que lui. Normal, chez un artiste multiple dont les talents s’expriment du bout des doigts.</p>
+                <p>Les mots sonnent hauts et clairs et vont droit au but. «Un chat, c’est un chat et quand on n’y voit rien, on n’y voit rien.»</p>
+                <p>Un aveugle, c’est un aveugle et c’est le mot qui convient parce que la non-voyance, c’est un ensemble de choses du mal voir, c’est différent.</p>
+                <p>Claude Garrandès poursuit. «J’ai eu la chance de voir des deux yeux jusqu’à sept ans puis, après m’être battu, dans la cour de récré, j’ai perdu un œil. J’avais déjà une fragilité rétinienne et, comme je me suis amusé à faire des plongeons de plus de 10 mètres de haut, ça n’a rien arrangé. À 12 ans, j’ai perdu l’autre.»</p>
+                <p>«Toute mon enfance, j’ai été un peu fainéant et cancre», raconte-t-il amusé, « et j’étais dans mon monde de peinture et de sport avec mes tableaux peints sur chevalet dès mes 11 ans. J’aimais aussi beaucoup la philatélie, notamment ces timbres qui représentent des œuvres d’art et j’ai fait ma petite bibliothèque mentale avec ça, en engrangeant un nombre de tableaux phénoménal pour un petit gosse, ce qui m’a énormément servi. »</p>
+                <level2 id="_018-001_Lassociation_Arrimage">
+                    <h2>L'association Arrimage</h2>
+                    <p>Quand on lui parle de couleurs, la réponse fuse. «Aveugle de naissance ou tardif, on est dans un monde de couleurs et, quand on entend rouge, c’est pompier, feu, pareil pour le bleu, c’est la mer, le ciel… Il y a des associations mentales qui génèrent un sentiment de couleur. Moi, comme j’ai pratiqué la peinture, même aveugle, le mélange des couleurs, je sais ce que ça donne. Sans compter que rien ne dit que le bleu que perçoit un aveugle ne soit pas tout aussi valable que le bleu d’un voyant !»</p>
+                    <p>Il faut donner à toucher avec de la qualité. Je voulais amener les non-voyants à pratiquer eux-mêmes le dessin pour devenir acteur de leurs propres créations.</p>
+                    <p>Avec son association Arrimage, Claude Garrandès travaille actuellement sur la future grande exposition de cet été au Forum Grimaldi, à Monaco. « Beaubourg ferme pour d’énormes travaux de réfection, donc, les collections se promènent et un des conservateurs va justement faire une expo sur les couleurs. »</p>
+                    <p>Il a créé plusieurs associations qui œuvrent dans les domaines de l’accessibilité. L’association Horus en 1987 tout d’abord, pour aménager des postes de travail pour les employés handicapés et adapter des manuels scolaires pour les élèves et étudiants handicapés. «On a été un des premiers à pouvoir, grâce à Horus, créer un centre de transcription en braille. La bataille de l’écrit était gagnée avec les ordinateurs et les imprimantes en braille mais, comme rien n’existait pour le dessin, j’ai créé l’association Arrimage cinq ans plus tard. Je ne voulais pas de descriptif mais de l’esthétisme et de la sensibilité.»</p>
+                    <p>Artiste et enseignant, Claude Garrandès multiplie les talents en étant éditeur, peintre, sculpteur et céramiste.</p>
+                    <p>Danièle Giraudy, la conservatrice du Musée Picasso, lui met le pied à l’étrier quand, ensemble, ils publient un livre tout en gaufrage : «Caresser Picasso».</p>
+                    <p>L’association Arrimage devenait une évidence. Elle a pour but de rendre l’art accessible à tous et intervient sur plusieurs champs d’actions. 34 ans d’existence plus tard, la pratique du dessin et le dessin en relief sont désormais préconisés et pratiqués dans l’enseignement en France.</p>
+                    <p>Un coffret d’art, tiré à 1 500 exemplaires, réalisé par Claude Garrandès en 2014 et comptant une sélection de 23 gaufrages extraits des aquarelles d’Antoine de Saint-Exupéry présentées dans Le Petit Prince, a donné une lumière toute particulière au travail d'Arrimage.</p>
+                    <p>Il ne cesse de le répéter : «sans le braille, jamais je n'aurais pu faire tout ce que j'ai fait dans ma vie !»</p>
+                    <p>L’artiste Claude Garrandès est aussi musicien (piano et orgue). «La musique m’a tenté très tôt, mais mes parents hésitaient compte tenu de mes fragilités visuelles. Quand j’ai perdu la vue, on ne risquait plus rien et le curé de ma paroisse est allé voir mon père pour lui parler de mon désir de musique. Ils ont trouvé un piano et l’ont remis en état, puis ce curé m’a appris la musique avant de m’envoyer au conservatoire.»</p>
+                </level2>
+                <level2 id="_018-002_Manifeste_de_Claude_Garrandes">
+                    <h2>Manifeste de Claude Garrandès</h2>
+                    <p>«Le braille, pour moi, n’est pas seulement un outil, c’est un langage vital, une structure de pensée, une source de liberté.</p>
+                    <p>C’est une écriture silencieuse qui me relie au monde, à la connaissance et aux autres. Il est mon canal d’expression, mon outil d’émancipation et l’un des fondements de mon parcours personnel et professionnel.</p>
+                    <p>La puissance de ce code m’a permis d’appréhender le monde, d’apprendre, d’écrire, de me construire intellectuellement. C’est par le braille que j’ai pu accéder aux études supérieures, obtenir un doctorat d’État en psychologie, mention sciences de l’éducation, soutenir une thèse sur la symbolisation graphique chez les personnes aveugles, devenir psychothérapeute, obtenir des diplômes d’études approfondies en droit, une agrégation en sciences économiques et sociales.</p>
+                    <p>Dans mon parcours artistique et pédagogique, j’ai aussi été confronté à la musique : élève de Pierre Cochereau, dans la lignée des grands organistes malvoyants – Wallet, Litaize, Marchal, Langlais. J’ai donc appris le braille musical, une notation spécialisée permettant aux personnes aveugles de lire et écrire la musique avec les doigts. Le braille musical est une invention remarquable : il traduit les hauteurs, les rythmes, les silences, les nuances. C’est un langage à part entière, rigoureux et exigeant, qui demande un apprentissage spécifique. Mais il offre aux musiciens non-voyants une totale autonomie : composer, interpréter, enseigner. Tout devient possible sans dépendre d’une transcription orale.</p>
+                    <p>Je considère le braille musical comme l’une des expressions les plus subtiles de l’intelligence tactile. C’est un domaine trop peu soutenu aujourd’hui, malgré son importance culturelle. Il devrait être enseigné partout où la musique est accessible, notamment dans les conservatoires et les structures pour jeunes déficients visuels.</p>
+                    <p>Beaucoup pensent aujourd’hui que le braille est dépassé, remplacé par les technologies vocales. Ces outils sont utiles — je les utilise moi-même — mais ne remplacent pas la précision ni l’autonomie que procure le braille. Lire en braille, c’est ressentir la ponctuation, la grammaire, la structure du texte. Écrire en braille, c’est réfléchir, s’exprimer avec rigueur et nuance.</p>
+                    <p>Il est essentiel de rappeler que l’apprentissage du braille est une conquête. Il nécessite un accompagnement, des ressources et une volonté politique. Aujourd’hui, on constate une baisse de l’enseignement du braille, compensée par l’audio. C’est une erreur. Le braille n’est pas une alternative, c’est un droit. Il est aussi fondamental pour la culture écrite qu’un alphabet imprimé.</p>
+                    <p>Pour les enfants aveugles, ne pas apprendre le braille, c’est être privé de lecture, d’orthographe, d’écritures mathématique et scientifique, de poésie, de notation musicale. Pour les adultes, c’est perdre une autonomie précieuse dans la gestion de la vie quotidienne, du travail, des loisirs. Le braille est une porte ouverte sur le monde. Il doit être protégé, promu, diffusé.</p>
+                    <p>Je milite donc pour une reconnaissance du braille comme bien culturel commun. Il faut produire davantage de livres, de partitions, de supports éducatifs en braille, dans tous les domaines, et notamment dans les arts. Il faut former des enseignants, financer la recherche, développer les outils technologiques compatibles avec l’écriture tactile.</p>
+                    <p>Le braille est un trésor, pas du passé, mais de l’avenir.</p>
+                    <p>Il est la preuve que l’intelligence humaine peut s’adapter, créer, traduire la complexité du monde en signes palpables. Il est la lumière intérieure de ceux qui vivent sans voir, mais qui sentent, pensent, rêvent.</p>
+                    <p>
+                        Et tant que je pourrai, je continuerai à le faire vivre, à le transmettre, et à rappeler qu’il est bien 
+                        <span class="alternative" pa:altphonemes="p l y s">plus</span>
+                         qu’un système de points : c’est un acte de liberté. »
+                    </p>
+                    <p>Presque deux siècles après la mort prématurée de Louis Braille, le constat est inquiétant de voir la maîtrise de sa méthode diminuer, menaçant l’autonomie de nombreuses personnes.</p>
+                    <p>Pour l'artiste, enseignant et militant Claude Garrandès, «il est inconcevable de faire des études sans le support écrit, même s’il y a beaucoup de systèmes audios aujourd’hui. Mais, intellectuellement, si on ne peut pas écrire et lire, c’est foutu. Ça s’ouvre à la nouveauté et ça sait s’adapter. Le braille est universel en tant que code intelligent adapté aux langues des pays. On a toujours du retard sur tout. Les Canadiens et les États-Unis en reviennent du tout audio car cela a créé une génération d’illettrés et d’analphabètes. Ils préconisent d’utiliser le braille au maximum.»</p>
+                    <p>Est-ce un manque d’ambition des politiques publiques pour garantir un accès universel à ce formidable outil de liberté et d’émancipation ? En cette année de bicentenaire du braille, sa défense, sa promotion et sa transmission sont plus que jamais un défi à relever.</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_019_Ils_nous_ont_quittes">
+                <h1>Ils nous ont quittés</h1>
+                <level2 id="_019-000_Jacques_Hennion_nous_a_quittes_en_decembre_de">
+                    <h2>Jacques Hennion nous a quittés en décembre dernier dans sa 92ème année.</h2>
+                    <p>Né en 1932, il fut organiste durant plus de 50 années à Lagny. C'était l'un des derniers témoins survivants d'une tradition de musiciens professionnels formés à l'INJA, qui autrefois étaient établis après leur formation dans une ville de province ou en banlieue. Ces musiciens, outre leur activité d'organiste de la paroisse, donnaient des leçons en particulier ou dans une école, proposaient le cas échéant leurs prestations comme accordeur de piano.</p>
+                    <p>Jacques Hennion en était, puisque, outre ses fonctions d'organiste titulaire, il donnait des leçons à l'école des maristes de St-Laurent de Lagny ainsi que des cours particuliers.</p>
+                    <p>L'orgue dont il avait la charge était au départ très modeste. Grâce à son dynamisme et à son soutien, se créa une association des amis de l'orgue et l'instrument s'agrandit pour aboutir à celui que nous connaissons actuellement. Il invita ainsi les organistes les plus célèbres de notre temps à se produire et permit l'existence de masterclasses.</p>
+                    <p>Très habile de ses mains, son activité ne se limita pas à la pratique de la musique. Il s'adonnait à la sculpture et ses réalisations ont rencontré un vif succès.</p>
+                    <p>Enfin, investi dans la vie de sa ville il exerça des mandats de conseiller municipal à Lagny.</p>
+                    <p>C'était un homme très agréable que nous avions beaucoup de plaisir à côtoyer, intègre, toujours très positif. Nous garderons un souvenir très amical de sa mémoire.</p>
+                    <p>Dominique Levacque, organiste et professeur de musique à l’INJA</p>
+                </level2>
+                <level2 id="_019-001_Deces_du_Dr_Gerard_Dupeyron">
+                    <h2>Décès du Dr Gérard Dupeyron</h2>
+                    <p>Nous avons la tristesse de vous annoncer le décès du Docteur Gérard Dupeyron, le 18 juin 2025, une figure emblématique de l’ophtalmologie et de la basse vision.</p>
+                    <p>Le Dr Dupeyron a été pendant de nombreuses années chef du service d’ophtalmologie du CHU de Nîmes et enseignant à la faculté de Nîmes. Mais il était avant tout une figure majeure de la prise en charge des personnes déficientes visuelles en France.</p>
+                    <p>Il a œuvré pour que la rééducation de la basse vision soit mieux reconnue afin de favoriser la réinsertion sociale et professionnelle des personnes en situation de handicap visuel.</p>
+                    <p>C’est à ce titre qu’il a travaillé à la création de l’ARIBa, la Société francophone de basse vision, dont l’une des missions est de réunir les professionnels de la vision, ophtalmologistes, orthoptistes et opticiens autour des initiatives en basse vision afin de développer une offre adaptée et renouvelée de rééducation.</p>
+                    <p>Il a également créé et dirigé pendant une trentaine d’années l’ARAMAV, clinique de rééducation et de réadaptation fonctionnelle tout à fait novatrice et dont il a fait un acteur majeur de la prise en charge de la basse vision en France.</p>
+                    <p>Le Dr Gérard Dupeyron a également été Administrateur de l’AVH pendant de nombreuses années. Il a piloté l’étude Homère et nous a été d’un précieux soutien pour la création de l’Institut de Réadaptation Visuelle Saint Louis. Nous lui en sommes profondément reconnaissants.</p>
+                    <p>C’est donc un grand nom de l’Ophtalmologie française et de la prise en charge de la basse vision et du handicap visuel qui vient de nous quitter et nous présentons toutes nos condoléances à sa famille.</p>
+                    <p>Martine Routon, Vice-Présidente et Dr Christophe Orssaud, Administrateur.</p>
+                </level2>
+                <level2 id="_019-002_Deces_de_Stephane_Pacaud">
+                    <h2>Décès de Stéphane Pacaud</h2>
+                    <p>Nous avons le regret de vous faire part du décès de Stéphane Pacaud (survenu le 2 août dans sa 68ème année), responsable de notre antenne Paris Bastille située au sein de l’Institut de Réadaptation Visuelle Saint-Louis. Stéphane avait rejoint l’équipe il y a un an.</p>
+                    <p>Diplômé de l’Institut d’Études Politiques de Paris et titulaire d’une licence en droit, il a consacré l’essentiel de sa carrière à la Sécurité Sociale, où il a exercé de nombreuses fonctions de direction, notamment à la Caisse Primaire d’Assurance Maladie de la Seine-Saint-Denis, à la Caisse d’Allocations familiales de la Somme et à la Caisse Nationale des Allocations Familiales. Il s’est également investi dans la lutte contre la fraude et la maîtrise des risques au niveau national.</p>
+                    <p>Ancien élève de l’Institut National des Jeunes Aveugles, il a siégé pendant trois ans au sein de son Conseil d’Administration. Il a également été président et trésorier de l’Union Nationale des Aveugles Radio-Amateurs de France (UNARAF) pendant 22 ans, illustrant son implication durable dans le monde associatif.</p>
+                    <p>Son investissement bénévole, bien que récent chez nous, s’est distingué par sa disponibilité, son sérieux et sa volonté de contribuer activement aux missions de notre antenne. Avant sa prise de fonction à l’antenne Paris-Bastille, il effectuait des tests utilisateurs pour notre Centre d'Évaluation et de Recherche sur les Technologies pour les Aveugles et les Malvoyants.</p>
+                    <p>Il laisse le souvenir d’un collaborateur investi et apprécié.</p>
+                    <p>Nous adressons nos sincères condoléances à sa famille, à ses proches, ainsi qu’à toutes celles et ceux qui ont eu l’occasion de collaborer à ses côtés.</p>
+                    <p>Sylvain Nivard, Président de l’AVH</p>
+                    <p>Pour ma part, je connais Stéphane depuis de nombreuses années ; lorsque j’étais élève à l’INJA à la fin des années 70, Stéphane était souvent cité comme exemple : étudiant brillant, féru de nouvelles technologies (à l’époque le VersaBraille et l’Optacon), il nous incitait à nous y intéresser, persuadé qu’elles nous ouvriraient de nouvelles portes (il avait tellement raison…)</p>
+                    <p>C’était aussi un amateur de tandem, les membres de la Section Tandem des Auxiliaires des Aveugles de la Région Parisienne (STAARP) s’en souviennent ; il ne s’est pas contenté d’enchaîner les kilomètres, il a également fait partie du Bureau pendant de nombreuses années.</p>
+                    <p>Bon vivant et chaleureux, Stéphane a su combiner réussite professionnelle et activités associatives multiples, c’est le souvenir que je garderai de lui.</p>
+                    <p>Pascale ISEL</p>
+                </level2>
+                <p/>
+            </level1>
+            <level1 class="chap" id="_020_Informations_et_annonces">
+                <h1>Informations et annonces</h1>
+                <p>NDLR : les annonces figurant dans cette rubrique sont insérées à la demande et sous la seule responsabilité de leurs auteurs.</p>
+                <level2 id="_020-001_A_vendre">
+                    <h2>À vendre</h2>
+                    <p>-À vendre : différentes partitions, dont certaines sont reliées et en très bon état, d'autres sont brochées, prix à débattre.</p>
+                    <p>Quelques titres (liste non exhaustive) : l'ensemble du Clavier bien Tempéré de Bach dans l'édition Czerny (8 volumes), la méthode d'Armand Ferté, la 6ème symphonie de Vierne ; pour accordéon, 4 volumes de la méthode de virtuosité de Médard Ferero.</p>
+                    <p>S'adresser à Dominique Levacque :</p>
+                    <p>Courriel : dominique.levacque@gmail.com</p>
+                    <p>Tél. 06 71 26 82 42.</p>
+                    <p>-À vendre : Etex Merlin Flex HD 24 pouces, en parfait état (carton d’emballage d’origine et guide d’utilisation). Acheté en 2012 4240 €. Proposé à 1050 €.</p>
+                    <p>Contacter madame Le Pabic :</p>
+                    <p>Tél : 06 40 72 12 78</p>
+                    <p>Courriel : catherinelepabic78@gmail.com</p>
+                </level2>
+                <level2 id="_020-002_Recherche">
+                    <h2>Recherche</h2>
+                    <p>Recherche un VOICE MATE (agenda électronique vocal) avec la notice en braille.</p>
+                    <p>Contacter madame Zanon,</p>
+                    <p>Tél : 06 80 32 53 24.</p>
+                </level2>
+            </level1>
+            <level1 class="chap" id="_021_Livres_parles">
+                <h1>Livres parlés</h1>
+                <level2 id="_021-000_Animaux_et_plantes">
+                    <h2>Animaux et plantes</h2>
+                    <p>-Gallot, Benoît: La vie secrète d'un cimetière (Collection Proche, 2024). 04h53</p>
+                    <p>-Gayet, Caroline: Les secrets de mon herboristerie (Dunod, 2025). Lu par Manon: 04h16</p>
+                </level2>
+                <level2 id="_021-001_Arts_-_Generalites">
+                    <h2>Arts - Généralités</h2>
+                    <p>-Fritz, Carole: L'art préhistorique (Que sais-je?, 2025). Lu par Manon: 02h41</p>
+                    <p>-Gallienne, Guillaume: Le buveur de brume (Stock, 2025). Lu par Manon: 03h51</p>
+                    <p>-Picardie, Justine: Coco Chanel: une légende, une vie (Flammarion, 2024; traduit de l’anglais). 15h59</p>
+                    <p>-Poniatowski, Sarah: Rêvez, osez, créez.: et recommencez! (Flammarion, 2024). 01h51</p>
+                </level2>
+                <level2 id="_021-002_Bien-etre">
+                    <h2>Bien-être</h2>
+                    <p>-Labescat, Jacques: Les plantes du plaisir: stimuler sa libido au naturel (Ulmer, 2022). 01h58</p>
+                    <p>-Plumey, Laurence: Comment maigrir heureux quand on n'aime ni le sport ni les légumes: le premier régime gourmand qui tient compte de vos envies! (Eyrolles, 2021). 06h11</p>
+                    <p>-Putois, Benjamin: Libérez-vous de vos insomnies: plus belle sera la nuit (O. Jacob, 2023). 07h56</p>
+                    <p>
+                        -Silvestre, Pierre: Cours complet de naturopathie: 11 leçons soins et nature pour 
+                        <span class="alternative" pa:altphonemes="t u s">tous</span>
+                         (Dauphin, 2021). 19h22
+                    </p>
+                </level2>
+                <level2 id="_021-003_Christianisme">
+                    <h2>Christianisme</h2>
+                    <p>De Lisieux, Thérèse: Histoire D'une Âme (Culturea, 2023). 06h11</p>
+                </level2>
+                <level2 id="_021-004_Contes">
+                    <h2>Contes</h2>
+                    <p>Féval, Paul: Contes de Bretagne (PRNG éditions, 2016). 05h49</p>
+                </level2>
+                <level2 id="_021-005_Cuisine">
+                    <h2>Cuisine</h2>
+                    <p>Benaïm, Laurence: Un voyage à Cognac (Flammarion, 2023). Lu par Manon: 01h14</p>
+                </level2>
+                <level2 id="_021-006_Ecrivains_et_histoire_de_la_litterature">
+                    <h2>Écrivains et histoire de la littérature</h2>
+                    <p>-Atkins, William: Les exilés: trois destins bouleversés par l'histoire (Albin Michel, 2024; traduit de l’anglais). 09h35</p>
+                    <p>-Daoud, Kamel: Il faut parfois trahir (Gallimard, 2025). Lu par Manon: 01h27</p>
+                    <p>-Debreczeni, Jozsef: Le crématorium froid: au pays d'Auschwitz (Stock, 2024; traduit du hongrois). 07h31</p>
+                    <p>-Giraudoux, Jean-Pierre: Le fils (Grasset, 1967). 07h39</p>
+                    <p>-Malinconi, Nicole: Bruits du dehors (Les éditions de l'insu, 2024). 04h01</p>
+                    <p>Mitterrand, Frédéric: Amis pour la vie (Mialet-Barrault, 2025). Lu par Manon: 03h14</p>
+                    <p>-Orwell, George: Hommage à la Catalogne (Payot, 2024; traduit de l’anglais). 08h49</p>
+                    <p>-Rolland, Romain: Ces jours lointains; Alphonse Séché et Romain Rolland; Lettres et autres écrits (Albin Michel, 1962). 04h11</p>
+                    <p>-Stendhal: Promenades dans Rome (République des lettres, 2024). Lu par Manon: 19h10</p>
+                </level2>
+                <level2 id="_021-007_Education">
+                    <h2>Éducation</h2>
+                    <p>Gaberan, Philippe: Cent mots pour être éducateur: dictionnaire pratique du quotidien (Erès, 2007). 05h04</p>
+                </level2>
+                <level2 id="_021-008_Erotisme">
+                    <h2>Érotisme</h2>
+                    <p>-Defoy, Gérard: J'aime ta femme (Média 1000, 2025). Lu par Manon: 03h20</p>
+                    <p>-Delvaux, Octavie: Ardentes: histoires érotiques au féminin (la Musardine, 2025). Lu par Manon: 03h37</p>
+                    <p>-Green, Emma: Call me bitch: l'intégrale (Éditions Addictives, 2019). Lu par Manon: 10h25</p>
+                    <p>-Marcotte, Josée: Rose: romance érotique (Contre-Dires, 2025). Lu par Manon: 02h06</p>
+                    <p>
+                        -Me, Tara Sue: La soumise 
+                        <span class="alternative" pa:altphonemes="t O m s E t">07</span>
+                        : Le maître (Marabout, 2016; traduit de l’anglais). Lu par Manon: 06h28
+                    </p>
+                </level2>
+                <level2 id="_021-009_Etats-Unis">
+                    <h2>États-Unis</h2>
+                    <p>-Matthieussent, Brice: Petit éloge de l'Amérique (Gallimard, 2024). Lu par Manon: 02h28</p>
+                    <p>-Mitchell, Joseph: Le fond du port (Éd. du sous-sol, 2024; traduit de l’anglais). 10h26</p>
+                </level2>
+                <level2 id="_021-010_Europe">
+                    <h2>Europe</h2>
+                    <p>Sévillia, Jean: Cette Autriche qui a dit non à Hitler: 1930-1945 (Perrin, 2023). 14h23</p>
+                </level2>
+                <level2 id="_021-011_France">
+                    <h2>France</h2>
+                    <p>-Bélingard, Christian: Libres dans leur tête: Josette, Louise et Violette, résistantes au cœur des réseaux franco-britanniques 1940-1944 (Sud-Ouest, 2024). 07h38</p>
+                    <p>-Brouquet, Sophie: Chevaliers et chevaleresses célèbres du Moyen Age (Ouest-France, 2025). 04h13</p>
+                    <p>
+                        -Dumézil, Bruno: L'Empire mérovingien: V
+                        <sup>e</sup>
+                        -VIII
+                        <sup>e</sup>
+                         siècle (Passés composés, 2023). 11h40
+                    </p>
+                    <p>-Joly, Laurent: Le savoir des victimes: comment on a écrit l'histoire de Vichy et du génocide des Juifs de 1945 à nos jours (Grasset, 2025). 14h33</p>
+                </level2>
+                <level2 id="_021-012_Histoire_-_Generalites">
+                    <h2>Histoire - Généralités</h2>
+                    <p>Libert, Louise-Marie: Ces rois qui préféraient les hommes (Caban, 2024). 05h22</p>
+                </level2>
+                <level2 id="_021-013_Humour">
+                    <h2>Humour</h2>
+                    <p>La Garlée, Tonvoisin de: Voyager avec des cons (J'ai lu, 2012). 03h11</p>
+                </level2>
+                <level2 id="_021-014_Islam">
+                    <h2>Islam</h2>
+                    <p>Veccia Vaglieri, Laura: Éloge de l'islam (Héritage, 2023). Lu par Manon: 01h52</p>
+                </level2>
+                <level2 id="_021-015_Jeunesse_-_Documentaire">
+                    <h2>Jeunesse - Documentaire</h2>
+                    <p>
+                        Kane, Patrick: Humain 2.0: des premières prothèses à l'humain augmenté (Milan jeunesse, 2024; traduit de l’anglais; 9-12 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="s e~ k a~ n d 2 m i n y t">00h52</span>
+                    </p>
+                </level2>
+                <level2 id="_021-016_Jeunesse_-_Fiction">
+                    <h2>Jeunesse - Fiction</h2>
+                    <p>-Alix, Cécile: Guerrière (Pocket jeunesse, 2025; 13 ans et plus). Lu par Manon: 04h14</p>
+                    <p>-Antoine, Amélie: Quelque chose sur le cœur (Syros jeunesse, 2024; 9-12 ans). Lu par Manon: 02h05</p>
+                    <p>
+                        -Bellière, Charlotte: Suzanne et la rivière (Alice jeunesse, 2023; 5-8 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="v e~ n d 2 m i n y t">00h22</span>
+                    </p>
+                    <p>
+                        -Bondoux, Anne-Laure: La tribu de Vasco 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : La survie (Gallimard-Jeunesse, 2021; 9-12 ans). Lu par Manon: 02h09
+                    </p>
+                    <p>-Calande, Raphaëlle: Les mille vies d'Ismaël: et quelques saveurs en plus (Sarbacane, 2024; 13 ans et plus). Lu par Manon: 07h02</p>
+                    <p>
+                        -Cazenove, Christophe: Les sisters 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                        : Exposé grandeur nature (Bamboo, 2020; 5-8 ans). 
+                        <span class="alternative" pa:altphonemes="k a R a~ n k a t R @ m i n y t">00h44</span>
+                    </p>
+                    <p>-Cole, Tillie: Mille baisers pour un garçon (Hachette romans, 2023; traduit de l’anglais; 13 ans et plus). Lu par Manon: 05h25</p>
+                    <p>-Cole, Tillie: Mille morceaux de cœur brisé (Hachette romans, 2024; 13 ans et plus). Lu par Manon: 07h35</p>
+                    <p>-Corenblit, Rachel: Comme une famille: la saga des Diangello (Nathan Jeunesse, 2023; 13 ans et plus). Lu par Manon: 05h07</p>
+                    <p>
+                        -Dahl, Roald: Le cygne (Gallimard-Jeunesse, 2024; traduit de l’anglais; 9-12 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="k a R a~ n d 2 m i n y t">00h42</span>
+                    </p>
+                    <p>-Dahl, Roald: Le BGG: le bon gros géant (Gallimard-Jeunesse, 2016; traduit de l’anglais; 9-12 ans). Lu par Manon: 03h36</p>
+                    <p>-Dassu, A.M.: Un garçon comme les autres: de Damas à Manchester (Milan jeunesse, 2024; traduit de l’anglais; 13 ans et plus). Lu par Manon: 06h22</p>
+                    <p>
+                        -Delye, Pierre: Lewis Carotte (Gautier-Languereau, 2024; 5-8 ans). 
+                        <span class="alternative" pa:altphonemes="d i m i n y t">00h10</span>
+                    </p>
+                    <p>
+                        -Dupin, Olivier: L'ogre d'en bas (Glénat Jeunesse, 2024; 5-8 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="n 9 f m i n y t">00h09</span>
+                    </p>
+                    <p>-Feraga, Alexandre: Abi et les enfants perdus (Flammarion-Jeunesse, 2023; 9-12 ans). Lu par Manon: 02h24</p>
+                    <p>-Giraud, Hervé: Krok (Thierry Magnier, 2024; 13 ans et plus). 03h35</p>
+                    <p>-Gornet, Thomas: A l'écoute (Rouergue, 2024; 5-8 ans). 01h18</p>
+                    <p>
+                        -Gravel, François: Le bureau des histoires étranges: Les vieux livres sont dangereux (Flammarion-Jeunesse, 2023; 9-12 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="t R a~ t m i n y t">00h30</span>
+                    </p>
+                    <p>-Greig, Louise: Le garçon et le faon (Didier Jeunesse, 2024; traduit de l’anglais; 0-4 ans). Lu par Manon: 00h05</p>
+                    <p>
+                        -Guilbert, Nancy: Chugakko Académie 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : Le dragon-hybride (Didier Jeunesse, 2023; 9-12 ans). Lu par Manon: 03h01
+                    </p>
+                    <p>
+                        -Horikoshi, Kohei: My hero academia 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : Le dortoir des héros (Ki-oon, 2020; traduit du japonais; 9-12 ans). Lu par Manon: 03h21
+                    </p>
+                    <p>
+                        -Hyuuga, Natsu: Les carnets de l'apothicaire 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                         (Lumen, 2024; traduit du japonais; 13 ans et plus). Lu par Manon: 12h04
+                    </p>
+                    <p>
+                        -Hyuuga, Natsu: Les carnets de l'apothicaire 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                         (Lumen, 2024; traduit du japonais; 13 ans et plus). Lu par Manon: 07h25
+                    </p>
+                    <p>-Joly, Fanny: L'épicerie en folie (Pocket jeunesse, 2000; 9-12 ans). 01h33</p>
+                    <p>-Kashiwaba, Sachiko: La cité des brumes oubliées (Ynnis éditions, 2021; traduit du japonais; 13 ans et plus). 02h46</p>
+                    <p>
+                        -Lecomte, Ludovic: Oscar et Carrosse: Le patin à glace (École des loisirs, 2024; 5-8 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="s i m i n y t">00h06</span>
+                    </p>
+                    <p>
+                        -Morel, Fabienne: L'ogresse poilue: et autres histoires (Syros, 2020; 0-4 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="t R a~ n d 2 m i n y t">00h32</span>
+                    </p>
+                    <p>
+                        -Morosinotto, 
+                        <span class="alternative" pa:altphonemes="d a v i d e">Davide</span>
+                        : Le célèbre catalogue Walker et Dawn (École des loisirs, 2018; traduit de l’italien; 13 ans et plus). Lu par Manon: 06h43
+                    </p>
+                    <p>
+                        -Nadja: Six histoires de Ninon (École des loisirs, 2025; 0-4 ans). 
+                        <span class="alternative" pa:altphonemes="k a t O R z @ m i n y t">00h14</span>
+                    </p>
+                    <p>
+                        -O'Donnell, Cassandra: La légende des quatre 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                        : Le clan des loups (Flammarion-Jeunesse, 2018; 13 ans et plus). Lu par Manon: 04h26
+                    </p>
+                    <p>
+                        -O'Donnell, Cassandra: La légende des quatre 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                        : Le clan des tigres (Flammarion-Jeunesse, 2018; 13 ans et plus). Lu par Manon: 05h21
+                    </p>
+                    <p>
+                        -O'Donnell, Cassandra: La légende des quatre 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : Le clan des serpents (Flammarion-Jeunesse, 2019; 13 ans et plus). Lu par Manon: 05h06
+                    </p>
+                    <p>
+                        -O'Donnell, Cassandra: La légende des quatre 
+                        <span class="alternative" pa:altphonemes="t O m k a t R">04</span>
+                        : Le clan des aigles (Flammarion-Jeunesse, 2020; 13 ans et plus). Lu par Manon: 04h59
+                    </p>
+                    <p>
+                        -Oberlander, Juliette: Picolinette ou La poupée magique (Hemma, 1987; 5-8 ans). 
+                        <span class="alternative" pa:altphonemes="s e~ k a~ n s E t m i n y t">00h57</span>
+                    </p>
+                    <p>-Pandazopoulos, Isabelle: Héroïnes de la mythologie: Pénélope, la femme aux mille ruses (Gallimard-Jeunesse, 2021; 9-12 ans). 01h48</p>
+                    <p>-Paula E Silva, Marie de: Les enfants de la terre (KATA éditeur, 2020; 9-12 ans). 02h59</p>
+                    <p>-Pavlenko, Marie: Rita (Flammarion-Jeunesse, 2023; 13 ans et plus). Lu par Manon: 04h51</p>
+                    <p>
+                        -Pessan, Éric: Ils arrivent (Thierry Magnier, 2025; 9-12 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="k e~ z m i n y t">00h15</span>
+                    </p>
+                    <p>-Pessin, Delphine: Tomber les murs: affichons nos différences! (Pocket jeunesse, 2025; 9-12 ans). Lu par Manon: 03h59</p>
+                    <p>
+                        -Rundberg, Johan: Les mystères de Mika 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                        : Le corbeau de nuit (Thierry Magnier, 2023; traduit du suédois; 9-12 ans). Lu par Manon: 02h55
+                    </p>
+                    <p>
+                        -Sautier, Anaïs: Totop, psy pour monstres (École des loisirs, 2024; 5-8 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="v e~ n s e~ m i n y t">00h25</span>
+                    </p>
+                    <p>
+                        -Small, Steve: Hervé ne veut pas partager (Sarbacane, 2025; traduit de l’anglais; 0-4 ans). 
+                        <span class="alternative" pa:altphonemes="s E t m i n y t">00h07</span>
+                    </p>
+                    <p>-Szac, Murielle: L'Odyssée d'Homère (RMN-Grand Palais, 2025; 5-8 ans). Lu par Manon: 01h29</p>
+                    <p>-Tusseau, Jean-Pierre: Le roman de Mélusine (École des loisirs, 2020; 9-12 ans). Lu par Manon: 02h29</p>
+                    <p>
+                        -Wang, Andrea: Le goût du cresson (HongFei cultures, 2024; traduit de l’anglais; 5-8 ans). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="n 9 f m i n y t">00h09</span>
+                    </p>
+                </level2>
+                <level2 id="_021-017_Justice">
+                    <h2>Justice</h2>
+                    <p>-Bedos, Nicolas: La soif de honte (Éditions de l'Observatoire, 2025). Lu par Manon: 05h33</p>
+                    <p>-Darian, Caroline: Pour que l'on se souvienne: après le procès de Mazan, le combat pour toutes les victimes de soumission chimique (Lattès, 2025). Lu par Manon: 02h31</p>
+                    <p>-Esquerre, Alain: Le silence de Bétharram: le récit choc du lanceur d'alerte et ancien élève (M. Lafon, 2025). Lu par Manon: 03h39</p>
+                    <p>-Garcia, Manon: Vivre avec les hommes: réflexions sur le procès Pelicot (Flammarion, 2025). Lu par Manon: 04h02</p>
+                </level2>
+                <level2 id="_021-018_Livres_et_medias">
+                    <h2>Livres et médias</h2>
+                    <p>-Boissié, Romain: D'une bibliothèque à l'autre (la Manufacture de livres, 2025). Lu par Manon: 05h02</p>
+                    <p>-Leveneur-Martel, Laurence: Mythes et réalités de la télévision sociale: chaînes de télévision et réseaux sociaux (INA, 2024). 04h27</p>
+                    <p>-Olliéric, Dorothée: Maman s'en va-t-en guerre: ma vie de grand reporter (Rocher, 2024). 08h43</p>
+                    <p>-Wrona, Adeline: Émile de Girardin: le Napoléon de la presse (Gallimard, 2024). Lu par Manon: 06h22</p>
+                </level2>
+                <level2 id="_021-019_Medecine">
+                    <h2>Médecine</h2>
+                    <p>-Brives, Charlotte: Face à l’antibiorésistance: une écologie politique des microbes (Amsterdam, 2022). Lu par Manon: 07h16</p>
+                    <p>-Joly, Lucie: La dépression au féminin: démystifier, comprendre, guérir (Rocher, 2024). 07h41</p>
+                </level2>
+                <level2 id="_021-020_Moyen-Orient">
+                    <h2>Moyen-Orient</h2>
+                    <p>-Baron, Xavier: Histoire de la Syrie: de 1918 à nos jours (Tallandier, 2025). Lu par Manon: 08h26</p>
+                    <p>-Boniface, Pascal: Permis de tuer: Gaza (Max Milo, 2025). Lu par Manon: 06h10</p>
+                </level2>
+                <level2 id="_021-021_Musique">
+                    <h2>Musique</h2>
+                    <p>-Bernard, Michèle: Quand vous me rendrez visite (Éponymes, 2023). 12h19</p>
+                    <p>-Cave, Nick: Foi, espérance et carnage (La Table ronde, 2023; traduit de l’anglais). Lu par Manon: 07h31</p>
+                    <p>
+                        -Kang, Myeongseok: Beyond the story: 10 ans de souvenirs de 
+                        <span class="alternative" pa:altphonemes="b i t i E s">BTS</span>
+                         (Seuil, 2023). 13h26
+                    </p>
+                    <p>-Spears, Britney: La femme en moi (Le Livre de poche, 2024; traduit de l’anglais). 07h10</p>
+                    <p>-Wodrascka, Alain: Françoise Hardy: temps d'élégance (City, 2023). Lu par Manon: 04h10</p>
+                </level2>
+                <level2 id="_021-022_Nouvelles">
+                    <h2>Nouvelles</h2>
+                    <p>-Bola, Solange Amany: Lianes de violence (Harmattan Côte d'Ivoire, 2024). 02h51</p>
+                    <p>-Ogawa, Yôko: Scènes endormies dans la paume de la main (Actes Sud, 2025; traduit du japonais). Lu par Manon: 04h57</p>
+                    <p>
+                        -Shattuck, 
+                        <span class="alternative" pa:altphonemes="b E n">Ben</span>
+                        : La forme et la couleur des sons (Albin Michel, 2025; traduit de l’anglais). Lu par Manon: 07h49
+                    </p>
+                    <p>-Swift, Graham: Douze histoires d'après-guerre (Gallimard, 2025; traduit de l’anglais). Lu par Manon: 05h15</p>
+                </level2>
+                <level2 id="_021-023_Philosophie">
+                    <h2>Philosophie</h2>
+                    <p>-Bataille, Georges: La part maudite (Minuit, 2014). 05h50</p>
+                    <p>-Comte-Sponville, André: L'opportunité de vivre: ultimes études (PUF, 2025). 08h33</p>
+                    <p>-De Brabandere, Luc: Platon vs Aristote: une initiation joyeuse à la controverse philosophique (Sciences humaines éditions, 2025). Lu par Manon: 03h15</p>
+                    <p>-Foutakis, Patrice: Dionysos, Socrate, Nietzsche: affinités électives et intempestives (L'Harmattan, 2024). 06h52</p>
+                    <p>-Hartog, François: Départager l'humanité: humains, humanismes, inhumains (Gallimard, 2024). 13h13</p>
+                    <p>-Le Doeuff, Michèle: Cheveux longs, idées courtes: sexisme, philosophie et culture du viol (Payot, 2025). Lu par Manon: 02h23</p>
+                </level2>
+                <level2 id="_021-024_Policier">
+                    <h2>Policier</h2>
+                    <p>-Aguila, Thierry: Bonaventura (L'écailler, 2024). 09h19</p>
+                    <p>-Bal, Olivier: Malaven (XO, 2025). Lu par Manon: 10h46</p>
+                    <p>
+                        -Barde-Cabuçon, Olivier: Série Commissaire aux morts étranges 
+                        <span class="alternative" pa:altphonemes="t O m n 9 f">09</span>
+                        : Les sept vies du moine (Actes Sud, 2024). 11h36
+                    </p>
+                    <p>-Baron, Sylvie: Deux justicières (Éd. De Borée, 2022). 07h54</p>
+                    <p>
+                        -Bizien, Jean-Luc: Les enquêtes de l'aliéniste 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                        : La chambre mortuaire (Archipel, 2024). 11h05
+                    </p>
+                    <p>-Bussi, Michel: Les assassins de l'aube (Presses de la Cité, 2024). 09h53</p>
+                    <p>-Carchon, Yves: Deborah Worse (Cairn, 2021). 08h13</p>
+                    <p>-Colombié, Thierry: Une légende corse (Nouveau Monde éditions, 2024). 07h28</p>
+                    <p>
+                        -Cook, 
+                        <span class="alternative" pa:altphonemes="R o b i n">Robin</span>
+                        : Toxine (Albin Michel, 1999; traduit de l’anglais). 11h11
+                    </p>
+                    <p>-Del Pappas, Gilles: Constantin: la momie palermitaine (M + éditions, 2024). Lu par Manon: 05h23</p>
+                    <p>-Delcroix, Angélina: La résurrection du pire (Hugo Roman, 2025). Lu par Manon: 07h55</p>
+                    <p>-Destombes, Sandrine: Les disparus de la Durance (Pocket, 2024). 09h12</p>
+                    <p>-Dietrich, Pascale: L'agent (Liana Levi, 2024). 04h46</p>
+                    <p>-Ellroy, James: La colline aux suicidés (Rivages, 2020; traduit de l’anglais). 11h46</p>
+                    <p>-Emeraux, Éric: Quand l'abîme te regarde (Récamier, 2024). 18h29</p>
+                    <p>
+                        -Estrela, Aya: The South girl 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                        : KingUniversity (Plumes du Web, 2025). Lu par Manon: 09h38
+                    </p>
+                    <p>-Expert, Jacques: Ma sœur (Calmann-Lévy, 2025). Lu par Manon: 05h14</p>
+                    <p>
+                        -Fouassier, Éric: Le bureau des affaires occultes 
+                        <span class="alternative" pa:altphonemes="t O m k a t R">04</span>
+                        : Le chant maléfique (Albin Michel, 2024). Lu par Manon: 10h05
+                    </p>
+                    <p>-Fouassier, Éric: Requiem pour la dame blanche (Albin Michel, 2025). Lu par Manon: 09h07</p>
+                    <p>-Gélin, Simone: Des enfants au paradis (Cairn, 2022). 10h28</p>
+                    <p>-Giacometti, Éric: Les éveillées (Lattès, 2025). Lu par Manon: 06h14</p>
+                    <p>-Gouiran, Maurice: On n'est pas sérieux quand on a 17 ans (M + éditions, 2024). Lu par Manon: 07h06</p>
+                    <p>-Grebe, Camilla: Les ténèbres de Mörkret (Calmann-Lévy, 2025; traduit du suédois). Lu par Manon: 08h29</p>
+                    <p>-Julhiet, Alexandra: La nuit de l'ours (Calmann-Lévy, 2025). Lu par Manon: 07h03</p>
+                    <p>-Köping, Mattias: Cartel 1011 tome 1: Les bâtisseurs (Flammarion, 2024). Lu par Manon: 12h56</p>
+                    <p>-Lapena, Shari: Repas de famille (Presses de la Cité, 2024; traduit de l’anglais). 08h17</p>
+                    <p>-Ledun, Marin: Henua (Gallimard, 2025). 10h21</p>
+                    <p>-Lioure, Adrien: Sirocco (Alter real, 2024). 10h50</p>
+                    <p>-Macé-Scaron, Joseph: La croix des ténèbres (Presses de la Cité, 2025). Lu par Manon: 05h47</p>
+                    <p>-Mara, Andrea: Toutes ses fautes (Méra éditions, 2024; traduit de l’anglais). Lu par Manon: 09h13</p>
+                    <p>-Mara, Andrea: Ils n'ont rien vu (Méra éditions, 2024; traduit de l’anglais). Lu par Manon: 09h19</p>
+                    <p>-McFadden, Freida: La prof (City, 2025; traduit de l’anglais). Lu par Manon: 07h39</p>
+                    <p>
+                        -McFadden, Freida: La femme de ménage 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                        : Les secrets de la femme de ménage (City, 2023; traduit de l’anglais). Lu par Manon: 06h49
+                    </p>
+                    <p>-McIlvanney, Liam: Retour de flamme (Métailié, 2024; traduit de l’anglais). Lu par Manon: 13h12</p>
+                    <p>-Minier, Bernard: H (XO, 2025). Lu par Manon: 11h22</p>
+                    <p>-Patterson, James: Série Alex Cross 16: Tirs croisés (Le Livre de poche, 2016; traduit de l’anglais). 07h48</p>
+                    <p>-Patterson, James: Série Alex Cross 25: Criss Cross (Lattès, 2024; traduit de l’anglais). 09h06</p>
+                    <p>-Porazzi, Pierluigi: Jour zéro (Oiseau noir, 2024; traduit de l’italien). Lu par Manon: 10h08</p>
+                    <p>-Pulixi, Piergiorgio: Stella (Gallmeister, 2025; traduit de l’italien). Lu par Manon: 09h54</p>
+                    <p>-Query, Patrick: L'espion du Débarquement (Nouveau Monde éditions, 2024). 08h26</p>
+                    <p>-Ruiz Martin, David: La toile (Kubik éd., 2024). Lu par Manon: 07h30</p>
+                    <p>-Sciascia, Leonardo: Le jour de la chouette (Flammarion, 2024; traduit de l’italien). 04h45</p>
+                    <p>-Serge, Victor: L'affaire Toulaév (Nouveau Monde éditions, 2024). Lu par Manon: 11h40</p>
+                    <p>-Thilliez, Franck: Série Sharko 14: À retardement (Fleuve éditions, 2025). Lu par Manon: 09h34</p>
+                    <p>
+                        -Ulive-Schnell, 
+                        <span class="alternative" pa:altphonemes="v i s E n t e">Vicente</span>
+                        : Les poissons de Caracas (Intervalles, 2024). Lu par Manon: 04h26
+                    </p>
+                    <p>-Vallefuoco, Sara: Noir d'encre (Métailié, 2024; traduit de l’italien). Lu par Manon: 06h07</p>
+                    <p>-Villemin-Sicherman, Anne: La dernière chance d'Eléonore: une enquête d'Augustin Duroch (Calmann-Lévy, 2025). Lu par Manon: 10h48</p>
+                </level2>
+                <level2 id="_021-025_Psychologie">
+                    <h2>Psychologie</h2>
+                    <p>-Attali, François: Petit traité de nos pulsions: penser et panser nos pulsions pour retrouver le lien à la vie (Pocket, 2025). Lu par Manon: 05h03</p>
+                    <p>-Houdé, Olivier: 10 leçons de psychologie et pédagogie (PUF, 2006). 02h57</p>
+                </level2>
+                <level2 id="_021-026_Recits_de_voyage">
+                    <h2>Récits de voyage</h2>
+                    <p>-Adrian, Samuel: Une année sur la route (Pocket, 2023). 06h26</p>
+                    <p>-Boudart, Jean-Louis: La Seine en roue libre (Transboréal, 2024). 06h53</p>
+                    <p>-Désérable, François-Henri: Chagrin d'un chant inachevé: sur la route de Che Guevara (Gallimard, 2025). Lu par Manon: 04h01</p>
+                    <p>-Soudée, Guirec: L'océan me dit reviens: 181 jours à l'assaut de l'Atlantique (Pocket, 2024). Lu par Manon: 04h42</p>
+                </level2>
+                <level2 id="_021-027_Roman">
+                    <h2>Roman</h2>
+                    <p>-Alnaas, Mohammed: Un goût de thé amer (Le Bruit du monde, 2025; traduit de l’arabe). Lu par Manon: 03h07</p>
+                    <p>-Altrad, Mohed: Le désert en partage (Actes Sud, 2025). Lu par Manon: 06h56</p>
+                    <p>-Antoon, Sinan: Comme un parfum de lavande (Sindbad, 2025; traduit de l’arabe). Lu par Manon: 06h12</p>
+                    <p>-Audin, Michèle: La maison hantée (Minuit, 2025). 04h56</p>
+                    <p>-Baere, Sophie de: Le secret des mères (Lattès, 2025). 06h23</p>
+                    <p>-Baricco, Alessandro: Abel: un western métaphysique (Gallimard, 2025; traduit de l’italien). Lu par Manon: 02h57</p>
+                    <p>-Barrett, Colin: Fils prodigues (Rivages, 2025; traduit de l’anglais). Lu par Manon: 05h17</p>
+                    <p>-Bonneff, Léon: Aubervilliers (Arbre vengeur, 2024). 07h53</p>
+                    <p>Bono, Pierre: Les mauvais choix (Éditions de l'Onde, 2024). Lu par Manon: 01h55</p>
+                    <p>-Burnier, Marcia: Hors d'atteinte (Cambourakis, 2024). 04h02</p>
+                    <p>-Castel-Bloom, Orly: Biotope (Actes Sud, 2025; traduit de l’hébreu). 07h17</p>
+                    <p>-Chabaud, Cécile: Indigne (Écriture, 2023). 04h33</p>
+                    <p>-Chalumeau, Ambre: Les vivants (Stock, 2025). Lu par Manon: 04h08</p>
+                    <p>-Chan, Jessamine: L'école des bonnes mères (Buchet Chastel, 2023; traduit de l’anglais). 11h35</p>
+                    <p>-Crichton, Michael: Eruption (R. Laffont, 2024; traduit de l’anglais). Lu par Manon: 08h44</p>
+                    <p>-Delacourt, Grégoire: Polaroids du frère: roman-photo (Albin Michel, 2025). Lu par Manon: 02h48</p>
+                    <p>-Delannoy, Claire: L'affaire Charlotte Anslo (Albin Michel, 2025). Lu par Manon: 03h01</p>
+                    <p>-Dorner, Françoise: L'amour ne tient qu'à un fil (Albin Michel, 2025). Lu par Manon: 01h43</p>
+                    <p>-Dubois, Jean-Paul: Une année sous silence (Points, 2021). 05h32</p>
+                    <p>-Fallé, Nincemon: Ces soleils ardents (Lattès, 2024). 05h35</p>
+                    <p>-Féval, Paul: Châteaupauvre: voyage au dernier pays breton (Éditions Récits, 2010). 06h51</p>
+                    <p>-Féval, Paul: Les mystères de Londres (Phébus, 2006). 14h38</p>
+                    <p>-Foenkinos, David: Tout le monde aime Clara (Gallimard, 2025). 05h21</p>
+                    <p>-Forest, Philippe: Et personne ne sait (Gallimard, 2024). 03h19</p>
+                    <p>-Fuchs, Katharina: Le magasin des souvenirs: Angelika et Christine (Lattès, 2024; traduit de l’allemand). 13h48</p>
+                    <p>-Gastines, Eliott de: La frontière sauvage (Albin Michel, 2025). Lu par Manon: 05h36</p>
+                    <p>-Germouty, Claire: La maison (Albin Michel, 2011). 06h02</p>
+                    <p>-Giordano, Raphaëlle: Et ils vécurent heureux malgré tous leurs enfants (Récamier, 2024). 08h26</p>
+                    <p>-Hadni, Dounia: La hchouma (Albin Michel, 2025). Lu par Manon: 02h52</p>
+                    <p>-Hamilton, Walker: Tous les petits animaux (10—18, 2000; traduit de l’anglais). 03h16</p>
+                    <p>-Ishida, Syou: Chats sur ordonnance (Albin Michel, 2024; traduit du japonais). 06h55</p>
+                    <p>-James, Marlon: La sorcière de lune (Albin Michel, 2025; traduit de l’anglais). Lu par Manon: 21h50</p>
+                    <p>-Jayr, Laurent: Rogue trader (Kubik éd., 2023). 06h14</p>
+                    <p>-Jéhanno, Claire: Qu'importe la nuit (HarperCollins, 2025). Lu par Manon: 06h24</p>
+                    <p>-Josselsohn, Barbara: L'île des trahisons (City, 2024; traduit de l’anglais). 09h57</p>
+                    <p>-La Genardière, Philippe de: Les adieux (Actes Sud, 2025). Lu par Manon: 03h32</p>
+                    <p>-Lélu, Thomas: Jacques Daniel Nick Oussama (J'ai lu, 2009). 01h28</p>
+                    <p>-Léon, Christophe: Imago (Ramsay, 2023). 05h12</p>
+                    <p>-Maher, Marie: Faire sans (Alma éditeur, 2025). Lu par Manon: 01h31</p>
+                    <p>-Makine, Andreï: Prisonnier du rêve écarlate (Grasset, 2025). 06h52</p>
+                    <p>-Mamani Magne, Gabriel: Séoul, Sao Paulo (Métailié, 2025; traduit de l’espagnol). Lu par Manon: 02h55</p>
+                    <p>-Martin, Jessica: La profondeur de l'eau (Albin Michel, 2025). Lu par Manon: 04h34</p>
+                    <p>-Mathot, Claire: La saison du silence (Actes Sud, 2025). Lu par Manon: 03h32</p>
+                    <p>-Musso, Valentin: Voici demain (Julliard, 2025). Lu par Manon: 03h29</p>
+                    <p>-Natsukawa, Sôsuke: Le chat qui voulait sauver la bibliothèque (R. Laffont, 2025; traduit du japonais). Lu par Manon: 04h20</p>
+                    <p>-Nersesian, Arthur: Fuck up (La Croisée, 2023; traduit de l’anglais). 07h46</p>
+                    <p>-Patchett, Ann: Un été à soi (Actes Sud, 2025; traduit de l’anglais). Lu par Manon: 08h47</p>
+                    <p>-Pichat, Bérénice: La petite bonne (Les Avrils, 2024). 04h45</p>
+                    <p>-Pimiento, Mario: Le banc des vieux cons (Au diable Vauvert, 2024). 02h08</p>
+                    <p>-Powell, Dawn: Une époque exquise (La Table ronde, 2025; traduit de l’anglais). Lu par Manon: 09h36</p>
+                    <p>-Queneau, Raymond: Le dimanche de la vie (Gallimard, 2017). 06h12</p>
+                    <p>-Quignard, Pascal: Trésor caché (Albin Michel, 2025). 07h31</p>
+                    <p>-Quinn, Alice: Brille, tant que tu vis! (Bookelis, 2018). Lu par Manon: 04h34</p>
+                    <p>-Rapet, Judith: La mélodie des roses (Éd. De Borée, 2017). 09h48</p>
+                    <p>-Révah, Anne: La femme qui est dans mon lit (Mercure de France, 2025). Lu par Manon: 02h44</p>
+                    <p>
+                        -Sabard, Clarisse: Le secret des Agapanthes 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                        : Flora et Joséphine (Charleston, 2024). 14h39
+                    </p>
+                    <p>-Sax, Sam: T'es mort (La Croisée, 2025; traduit de l’anglais). Lu par Manon: 04h08</p>
+                    <p>-Schefer, Bertrand: Série noire (POL, 2024). 02h47</p>
+                    <p>-Sinno, Neige: La Realidad (POL, 2025). 07h26</p>
+                    <p>
+                        Slimani, Leïla: Le pays des autres 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : J'emporterai le feu (Gallimard, 2025). 13h17
+                    </p>
+                    <p>-Tadjer, Akli: Bel-Avenir (Flammarion, 2006). 06h50</p>
+                    <p>-Taïeb, Benjamin: Premier amour (Éditions Lunatique, 2024). 01h43</p>
+                    <p>-Tong Cuong, Valérie: Voltiges (Gallimard, 2024). 05h39</p>
+                    <p>-Trabucco Zeran, Alia: Propre (R. Laffont, 2024; traduit de l’espagnol). 08h23</p>
+                    <p>-Tran Huy, Minh: Ma grand-mère et le pays de la poésie (Flammarion, 2025). 03h57</p>
+                    <p>-Wells, Florence: Hydrogène (Les Éditions l'Alchimiste, 2025). Lu par Manon: 05h50</p>
+                    <p>-Whitehead, Colson: La règle du crime (Albin Michel, 2024; traduit de l’anglais). 10h51</p>
+                    <p>-Yan, Lianke: Aussi dur que l'eau (P. Picquier, 2025; traduit du chinois). Lu par Manon: 12h56</p>
+                </level2>
+                <level2 id="_021-028_Roman_classique">
+                    <h2>Roman classique</h2>
+                    <p>Sterne, Laurence: Voyage sentimental en France et en Italie (Gallimard, 2022; traduit de l’anglais). Lu par Manon: 05h03</p>
+                </level2>
+                <level2 id="_021-029_Roman_du_terroir">
+                    <h2>Roman du terroir</h2>
+                    <p>-Cappeau, Marie Nicole: Les chemins d'orgueil (Éd. De Borée, 2016). 09h55</p>
+                    <p>-Chalayer, Maurice: Les neiges du mont Argental (Éd. De Borée, 2018). 06h31</p>
+                    <p>-Crozat, Marijo: Les choix de la vigne: dans un village du Beaujolais (Édilivre, 2018). 05h26</p>
+                    <p>-Gleize, Georges-Patrick: Pas plus tard que l'aurore (TDO éditions, 2024). 11h06</p>
+                    <p>-Hanser, Amélie: Le vent des secrets (City, 2024). Lu par Manon: 08h47</p>
+                    <p>-Judenne, Roger: Une vie de dimanche (Éd. De Borée, 2023). 07h27</p>
+                    <p>-Langlois, Gilles: La colline au traître (City, 2024). Lu par Manon: 04h22</p>
+                    <p>-Malroux, Antonin: La source aux Trois Fontaines (Éd. De Borée, 2021). 06h55</p>
+                    <p>-Paraillous, Alain: Les peupliers de l'abandon (Éd. De Borée, 2025). Lu par Manon: 04h57</p>
+                    <p>-Senger, Geneviève: Une maison à elles (Calmann-Lévy, 2025). Lu par Manon: 06h30</p>
+                </level2>
+                <level2 id="_021-030_Roman_historique">
+                    <h2>Roman historique</h2>
+                    <p>-Aillon, Jean d': Les aventures de Guilhem d'Ussel, chevalier troubadour 11: Bouvines, 1214 (R. Laffont, 2024). 16h44</p>
+                    <p>-Aubarbier, Jean-Luc: Un kibboutz en Corrèze (Éd. De Borée, 2024). 14h45</p>
+                    <p>-Dickson, Shirley: Le secret des enfants perdus (City, 2022; traduit de l’anglais). Lu par Manon: 09h42</p>
+                    <p>-Giannone, Francesca: La porteuse de lettres (Albin Michel, 2025; traduit de l’italien). Lu par Manon: 11h00</p>
+                    <p>-Guénaire, Michel: La visite (Grasset, 2025). Lu par Manon: 01h59</p>
+                    <p>-Harry, Myriam: Le roman d'amour de Cléopâtre (Les éditions de l'Histoire, 2024). 04h23</p>
+                    <p>
+                        -Jacobs, Anna: Le vent de l'espoir 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                        : La terre de tous les possibles (Archipel, 2025; traduit de l’anglais). Lu par Manon: 10h48
+                    </p>
+                    <p>-McKinley, Tamara: La pension du Bord de mer 12: En attendant ton retour (Archipel, 2024; traduit de l’anglais). 10h40</p>
+                    <p>-Piedfert, Brigite: La dame d'Alvimare (Calmann-Lévy, 2024). Lu par Manon: 03h14</p>
+                    <p>-Pipet, Jacques: Astonia: Le Havre, 1944 l'amère libération (L'Harmattan, 2024). 06h34</p>
+                    <p>-See, Lisa: Le cercle de lady Tan (Albin Michel, 2025; traduit de l’anglais). Lu par Manon: 10h58</p>
+                    <p>
+                        -Troyat, Henri: Le sac et la cendre 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                         (J'ai lu, 2017). 13h03
+                    </p>
+                </level2>
+                <level2 id="_021-031_Roman_sentimental">
+                    <h2>Roman sentimental</h2>
+                    <p>-Bianca, Aimée: Ice Prince (Éditions Addictives, 2024). Lu par Manon: 06h20</p>
+                    <p>-Cassis, Maloria: À bout de souffle (HarperCollins, 2025). Lu par Manon: 06h49</p>
+                    <p>
+                        -Cole, Tillie: Sweet home 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : Sweet fall (Milady, 2024; traduit de l’anglais). Lu par Manon: 09h06
+                    </p>
+                    <p>
+                        -Dane, Delinda: Majesty 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                        : Fallen majesty (Hugo Roman, 2025). Lu par Manon: 10h05
+                    </p>
+                    <p>
+                        -Diaz, Hazel: Kiara, diamant écorché par le sang 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                         (New rules, 2024). Lu par Manon: 14h33
+                    </p>
+                    <p>-Huntington, Parker S.: My dark desire (Hugo Roman, 2025; traduit de l’anglais). Lu par Manon: 14h39</p>
+                    <p>
+                        -Kiefer, Lena: Westwell 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                         (Albin Michel, 2025). Lu par Manon: 10h30
+                    </p>
+                    <p>-Loeuille, Joëlle: Chocolat et fleurs de sel (City, 2021). Lu par Manon: 04h33</p>
+                    <p>-McAlistair, Kate: L'héritière du lotus rose (Archipoche, 2021). 17h01</p>
+                    <p>-Moncomble, Morgane: L'as de pique (Hugo Poche, 2024). Lu par Manon: 08h49</p>
+                    <p>-Pilcher, Rosamunde: September (Charleston, 2025; traduit de l’anglais). Lu par Manon: 16h52</p>
+                    <p>
+                        -Quill, C.S.: Abysses 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                         (Hugo Roman, 2025). Lu par Manon: 12h20
+                    </p>
+                    <p>
+                        -Rivens, Sarah: Lakestone 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                         (HLab, 2025). Lu par Manon: 18h03
+                    </p>
+                    <p>-Scott, Inara: Un amour à négocier (J'ai lu, 2013; traduit de l’anglais). 06h21</p>
+                    <p>-Selin, Théo: Réflexions (Baudelaire, 2024). 02h14</p>
+                    <p>-Simard, Geneviève: Au cœur de nos tempêtes (Éditions Kairos, 2024). 04h20</p>
+                    <p>-Syven, Lise: Pâques, coup de foudre et confusion (J'ai lu, 2025). Lu par Manon: 05h20</p>
+                    <p>
+                        -Walsh, Chloe: Boys of Tommen 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                        : Keeping 13 (Chatterley, 2025; traduit de l’anglais). Lu par Manon: 22h53
+                    </p>
+                    <p>
+                        -Wild, Laura S.: Bodyguards 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                        : Lennon (Hugo Roman, 2022). Lu par Manon: 07h01
+                    </p>
+                    <p>
+                        -Wild, Laura S.: Bodyguards 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                        : Cruz (Hugo Roman, 2022). Lu par Manon: 06h53
+                    </p>
+                    <p>
+                        -Wild, Laura S.: Bodyguards 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : Sawyer (Hugo Roman, 2022). Lu par Manon: 06h56
+                    </p>
+                    <p>
+                        -Wild, Laura S.: Bodyguards 
+                        <span class="alternative" pa:altphonemes="t O m k a t R">04</span>
+                        : Jaxon (Hugo Roman, 2023). Lu par Manon: 07h05
+                    </p>
+                    <p>
+                        -Wild, Laura S.: Bodyguards 
+                        <span class="alternative" pa:altphonemes="t O m s e~ k">05</span>
+                        : Oscar (Hugo Poche, 2025). Lu par Manon: 08h03
+                    </p>
+                </level2>
+                <level2 id="_021-032_Science-fiction">
+                    <h2>Science-fiction</h2>
+                    <p>-Agaeli, Sam: Le chêne et la foudre (Addictasy, 2024). Lu par Manon: 15h19</p>
+                    <p>
+                        -Castro, Adam-Troy: Andrea Cort 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : La guerre des marionnettes (Albin Michel, 2022; traduit de l’anglais). 19h18
+                    </p>
+                    <p>-Day, Thomas: La voie du sabre (Gallimard, 2025). Lu par Manon: 05h00</p>
+                    <p>-Guanzon, Thea: The hurricane wars (Calix, 2024; traduit de l’anglais). 13h22</p>
+                    <p>
+                        -Lafargue, Thibault: Le bouffon de la couronne 
+                        <span class="alternative" pa:altphonemes="t O m 9~">01</span>
+                         (ActuSF, 2025). Lu par Manon: 14h18
+                    </p>
+                    <p>-LaValle, Victor: Le changelin (ActuSF, 2024; traduit de l’anglais). Lu par Manon: 11h16</p>
+                    <p>-Miller, Sam J.: Kid Wolf et Kraken Boy (le Bélial, 2024; traduit de l’anglais). 03h27</p>
+                    <p>
+                        -
+                        <span class="alternative" pa:altphonemes="p a l m 9 R">Palmer</span>
+                        , Ada: Terra ignota 
+                        <span class="alternative" pa:altphonemes="t O m k a t R">04</span>
+                        : L'alphabet des créateurs (le Bélial, 2022; traduit de l’anglais). Lu par Manon: 15h26
+                    </p>
+                    <p>
+                        -Suri, Tasha: Les royaumes ardents 
+                        <span class="alternative" pa:altphonemes="t O m d @">02</span>
+                        : L'épée de laurier-rose (Hachette Heroes, 2024; traduit de l’anglais). Lu par Manon: 14h22
+                    </p>
+                    <p>
+                        -Weber, David: Honor Harrington 
+                        <span class="alternative" pa:altphonemes="t O m k a t O R z @ p a R t i y n">14-1</span>
+                        : Sans concession (Atalante, 2020; traduit de l’anglais). Lu par Manon: 
+                        <span class="alternative" pa:altphonemes="v e~ n s e~ k 9 R z e R o H i t">25h08</span>
+                    </p>
+                    <p>
+                        -Wells, Martha: Journal d'un assasynth 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : Cheval de Troie (Atalante, 2019; traduit de l’anglais). 05h19
+                    </p>
+                </level2>
+                <level2 id="_021-033_Sciences_politiques_et_economiques">
+                    <h2>Sciences politiques et économiques</h2>
+                    <p>-Applebaum, Anne: Autocratie(s): quand les dictateurs s'associent pour diriger le monde (Grasset, 2025; traduit de l’anglais). 05h25</p>
+                    <p>-Belaïch, Charlotte: La meute: enquête sur La France insoumise de Jean-Luc Mélenchon (Flammarion, 2025). Lu par Manon: 07h00</p>
+                    <p>-Bocquet, Pierre-Yves: La révolution nationale en 100 jours, et comment l'éviter (Gallimard, 2025). Lu par Manon: 01h15</p>
+                    <p>-Buisson, Marie-Laure: Espionnes: six agents secrets audacieuses (Presses de la Cité, 2024). 11h05</p>
+                    <p>-Duhamel, Patrice: La photo: Pétain-Mitterrand (Éditions de l'Observatoire, 2025). Lu par Manon: 04h18</p>
+                    <p>-Guérin, Michel: Walk-ins: ces grands espions de l'histoire qui ont fait défection (Mareuil, 2024). Lu par Manon: 07h45</p>
+                    <p>-Lauvergeon, Anne: Un secret si bien gardé (Grasset, 2025). Lu par Manon: 03h35</p>
+                    <p>-Oualdi, M'hamed: L'esclavage dans les mondes musulmans: des premières traites aux traumatismes (Amsterdam, 2024). 05h41</p>
+                    <p>-Ridel, Chloé: D'une guerre à l'autre: l'Europe face à son destin (Éd. de l'Aube, 2022). 04h42</p>
+                    <p>-Testefort, Jean-Philippe: Manifeste pour un avenir non-politique (Unicité, 2024). 03h55</p>
+                    <p>-Trinquand, Dominique: D'un monde à l'autre (R. Laffont, 2024). 05h09</p>
+                    <p>Védrine, Hubert: Nouveau dictionnaire amoureux de la géopolitique (Plon, 2025). 14h06</p>
+                </level2>
+                <level2 id="_021-034_Sciences_sociales">
+                    <h2>Sciences sociales</h2>
+                    <p>-Bohannon, Cat: Eve: 200 millions d'années d'évolution au féminin (Flammarion, 2025; traduit de l’anglais). Lu par Manon: 19h06</p>
+                    <p>-Calvi, Massimo: L'homme qui regardait la montagne (Bayard, 2024; traduit de l’italien). Lu par Manon: 01h46</p>
+                    <p>-Fitoussi, Samuel: Pourquoi les intellectuels se trompent (Éditions de l'Observatoire, 2025). Lu par Manon: 06h56</p>
+                    <p>-Hobson, Fred Colby: T'as pas le sida j'espère?!: Un parcours de vie de la sérophobie à la sérofierté (Librinova, 2020). Lu par Manon: 02h59</p>
+                    <p>-Hochmann, Thomas: On ne peut plus rien dire...: liberté d'expression (Anamosa, 2025). Lu par Manon: 01h30</p>
+                    <p>-Lamy, Rose: Ascendant beauf (Seuil, 2025). Lu par Manon: 02h39</p>
+                    <p>-Le Grand continent (périodique): L'empire de l'ombre: guerre et terre au temps de l'IA (Gallimard, 2025). Lu par Manon: 05h43</p>
+                    <p>-Milza, Pierre: Voyage en Ritalie (Payot, 2004). 20h33</p>
+                    <p>
+                        -Ortin, Morgane: Amours solitaires 
+                        <span class="alternative" pa:altphonemes="t O m t R w a">03</span>
+                        : Franchir la nuit (Albin Michel, 2025). Lu par Manon: 03h38
+                    </p>
+                    <p>-Shatz, Adam: Frantz Fanon: une vie en révolutions (La Découverte, 2025; traduit de l’anglais). Lu par Manon: 16h55</p>
+                    <p>-Sounac, Stéphanie: Les yeux qu'on ferme: récit d'une thanatopractrice (Éditions 41, 2024). 06h01</p>
+                    <p>-Tavoillot, Pierre-Henri: Voulons-nous encore vivre ensemble?: les défis de la convivialité (O. Jacob, 2024). Lu par Manon: 11h13</p>
+                </level2>
+                <level2 id="_021-035_Sports">
+                    <h2>Sports</h2>
+                    <p>-Finley, Moses Israel: 1000 ans de jeux Olympiques: 776 av. J.-C.—261 ap. J.-C (Perrin, 2008; traduit de l’anglais). 05h55</p>
+                    <p>-Seznec, Jean-Christophe: Le sport, psychologie d'une passion (O. Jacob, 2025). Lu par Manon: 05h48</p>
+                </level2>
+                <level2 id="_021-036_Theatre__Cinema">
+                    <h2>Théâtre / Cinéma</h2>
+                    <p>-Gélin, Fiona: Si fragile (Archipel, 2016). Lu par Manon: 04h37</p>
+                    <p>-Grinberg, Anouk: Dans le cerveau des comédiens: rencontres avec des acteurs et des scientifiques (O. Jacob, 2024). 07h16</p>
+                    <p>-Lombard, Philippe: Sous la casquette de Michel Audiard: les secrets de ses grandes répliques (Dunod, 2025). Lu par Manon: 04h23</p>
+                </level2>
+                <level2 id="_021-037_Vie_pratique">
+                    <h2>Vie pratique</h2>
+                    <p>-Maire du Poset, Yves: Bien se vendre en 2 minutes: toutes les clés pour construire un storytelling efficace et convaincre rapidement (Leduc.s éditions, 2025). Lu par Manon: 02h59</p>
+                </level2>
+                <p/>
+            </level1>
+            <level1 class="chap" id="_022_Partitions_en_braille_musical">
+                <h1>Partitions en braille musical</h1>
+                <level2 id="_022-000_Solfege">
+                    <h2>Solfège</h2>
+                    <p>Jollet, Jean-Clément : Jeux de rythmes et jeux de clés. Vol. 7 : formation musicale (G. Billaudot, 1995). 106 p.</p>
+                </level2>
+                <level2 id="_022-001_Piano">
+                    <h2>Piano</h2>
+                    <p>Chopin, Frédéric : Sonate pour piano N°1 en Ut Mineur. Op. 4 (Peters). 72 p.</p>
+                </level2>
+                <p/>
+            </level1>
+            <level1 class="chap" id="_023_Service_du_Materiel_Specialise">
+                <h1>Service du Matériel Spécialisé</h1>
+                <level2 id="_023-000_Nouveautes">
+                    <h2>Nouveautés</h2>
+                    <p>14260 - Lampadaire basse vision du jour TSL Lucia - Prix : 1 290,00 €</p>
+                    <p>14370 - Réglette loupe x1,5 - Prix : 14,00 €</p>
+                    <p>24364 - Adaptateurs pour cartes SIM - Prix : 5,00 €</p>
+                    <p>73515 - Sélection Daisy Version 2025 - Prix : 26,90 €</p>
+                    <p>81242 - Vario Digital 16’’ - Prix : 1 999,00 €</p>
+                    <p>81243 - Vario Digital 22’’ - Prix : 2 395,00 €</p>
+                    <p>81250 - Vidéomatic 20’’ avec plateau - Prix : 1 995,00 €</p>
+                    <p>
+                        81430 - MirrorPad 
+                        <span class="alternative" pa:altphonemes="p l y s">Plus</span>
+                         - Prix : 3 190,00 €
+                    </p>
+                    <p>81431 - MirrorPad Pro - Prix : 4 190,00 €</p>
+                    <p>Le MirrorPad est un téléagrandisseur compact tactile avec contrôle de votre smartphone.</p>
+                    <p>81865 - Hark Reader avec IA - Prix : 2 499,00 €</p>
+                </level2>
+                <level2 id="_023-001_Hausse_de_prix">
+                    <h2>Hausse de prix</h2>
+                    <p>11000 - Machine Perkins passe de 985,00 € à 1 055,00 €</p>
+                    <p>11020 - Machine Perkins unimanuelle passe de 1 100,00 € à 1 250,00 €</p>
+                    <p>13560 - Bloc quadrillé Séyès A4 100 feuilles ivoire perforées passe de 12,00 € à 15,00 €</p>
+                    <p>14405 - Surlunettes verres ambrés passe de 73,50 € à 79,90 €</p>
+                    <p>15001 - Cubes arithmétiques passent de 35,00 € à 39,00 €</p>
+                    <p>15002 - Cubes algébriques passent de 169,00 € à 179,00 €</p>
+                    <p>16112 - Compas à pointe sèche passe de 33,00 € à 35,90 €</p>
+                    <p>16126 - Triple décimètre gros caractères et tactiles passe de 20,00 € à 24,90 €</p>
+                    <p>16146 - Équerre 45—90° tactile et gros caractères passe de 8,90 € à 10,90 €</p>
+                    <p>16147 - Équerre 30—60° tactile et gros caractères passe de 8,90 € à 10,90 €</p>
+                    <p>16000 - Planche à dessiner 25×35 cm passe de 22,00 € à 25,00 €</p>
+                    <p>16500 - Feuilles à dessin 27×34 cm, 1 kg passe de 45,00 € à 49,00 €</p>
+                    <p>20000 - Mètre de couturière braille passe de 25,00 € à 29,00 €</p>
+                    <p>21020 - Balance Vivienne passe de 159,00 € à 190,00 €</p>
+                    <p>21212 - Indicateur criquet passe de 17,60 € à 21,90 €</p>
+                    <p>23226 - Mètre parlant Tape King de 310,00 € à 349,00 €</p>
+                    <p>23030 - Colorino passe de 219,00 € à 249,00 €</p>
+                    <p>24020 - Pennytalks passe de 129,00 € à 175,00 €</p>
+                    <p>24045 - Penfriend passe de 145,00 € à 175,00 €</p>
+                    <p>24065 - Milestone 112 passe de 279,00 € à 319,00 €</p>
+                    <p>24075 - Milestone 212 passe de 359,00 € à 399,00 €</p>
+                    <p>24055 - Milestone 312 passe de 479,00 € à 499,00 €</p>
+                    <p>24571 - Télécommande 1 bouton pour balises sonores TN3P passe de 49,00 € à 64,90 €</p>
+                    <p>24575 - Télécommande 2 boutons pour balises sonores Actitam 2 passe de 82,00 € à 109,90 €</p>
+                    <p>24480 - Stratus 4 passe de 388,00 € à 399,00 €</p>
+                    <p>24500 - Stratus 4M passe de 444,00 € à 449,00 €</p>
+                    <p>26707 - Clover 7S passe de 885,00 € à 890,00 €</p>
+                    <p>26706 - Clover 6 passe de 870,00 € à 995,00 €</p>
+                    <p>26710 - Clover 10 passe de 1 479,00 € à 1 490,00 €</p>
+                    <p>26745 - Cloverbook Pro passe de 2 890,00 € à 3 299,00 €</p>
+                    <p>
+                        26740 - Cloverbook 
+                        <span class="alternative" pa:altphonemes="l a j t">Lite</span>
+                         passe de 1 795,00 € à 1 999,00 €
+                    </p>
+                    <p>29006 - Butées adhésives × 102 passe de 11,50 € à 14,90 €</p>
+                    <p>31003 - Montre parlante 1 bouton dorée passe de 40,00 € à 49,90 €</p>
+                    <p>31004 - Montre parlante 1 bouton fond bleu passe de 40,00 € à 49,90 €</p>
+                    <p>31013 - Montre parlante 1 bouton homme passe de 40,00 € à 49,90 €</p>
+                    <p>31213 - Montre parlante 1 bouton femme passe de 40,00 € à 49,90 €</p>
+                    <p>31355 - Montre parlante date homme bracelet métallique bicolore passe de 50,00 € à 59,90 €</p>
+                    <p>31365 - Montre parlante date femme bracelet métallique bicolore passe de 50,00 € à 59,90 €</p>
+                    <p>31407 - Montre porte-clefs parlant passe de 13,90 € à 19,90 €</p>
+                    <p>31408 - Montre porte-clefs date parlant blanc passe de 16,00 € à 21,90 €</p>
+                    <p>31409 - Montre porte-clefs date parlant noir passe de 16,00 € à 21,90 €</p>
+                    <p>31410 - MY TIME horloge parlante pour séniors passe de 99,00 € à 109,90 €</p>
+                    <p>31610 - Montre parlante radio contrôlée homme passe de 60,00 € à 69,90 €</p>
+                    <p>31615 - Montre parlante radio contrôlée femme passe de 60,00 € à 69,90 €</p>
+                    <p>31620 - Montre parlante radio contrôlée carrée, bracelet tissé passe de 60,00 € à 69,90 €</p>
+                    <p>31625 - Montre parlante radio contrôlée pendentif passe de 60,00 € à 69,90 €</p>
+                    <p>31630 - Montre parlante radio contrôlée sport passe de 60,00 € à 69,90 €</p>
+                    <p>31635 - Montre parlante radio contrôlée bracelet métal extensible passe de 60,00 € à 69,90 €</p>
+                    <p>31700 - Montre Dianatalks small passe de 74,50 € à 99,00 €</p>
+                    <p>31705 - Montre Dianatalks large passe de 74,50 € à 99,00 €</p>
+                    <p>31710 - Montre Dianatalks royal passe de 74,50 € à 99,00 €</p>
+                    <p>33210 - Réveil braille de voyage passe de 45,00 € 45,90 €</p>
+                    <p>34060 - Réveil de chevet parlant passe de 18,00 € à 27,90 €</p>
+                    <p>37350 - Réveil de chevet grands caractères passe de 49,00 € à 52,90 €</p>
+                    <p>50000 - Jeu de 32 cartes braille passe de 11,00 € à 14,90 €</p>
+                    <p>50001 - Jeu de 54 cartes braille passe de 14,00 € à 19,90 €</p>
+                    <p>53060 - Rubik’s cube passe de 36,90 € à 39,90 €</p>
+                    <p>54316 - Memory braille et relief passe de 34,90 € à 39,90 €</p>
+                    <p>52300 - Puissance 4 passe de 33,90 € à 36,90 €</p>
+                    <p>55020 - Scrabble gros caractères passe de 59,90 € à 69,90 €</p>
+                    <p>56000 - Balle à main diamètre 16 cm passe de 22,00 € à 29,90 €</p>
+                    <p>56020 - Ballon football - torball passe de 37,00 € à 44,90 €</p>
+                    <p>73515 - La sélection des ouvrages au format Daisy passe de 22,90 € à 26,90 €</p>
+                    <p>82900 - Mac — 1 utilisateur passe de 615,00 € à 700,00 €</p>
+                    <p>82920 - Win — 1 utilisateur passe de 615,00 € à 700,00 €</p>
+                    <p>82921 - Win — 5 utilisateurs passe de 2410,00 € à 2760,00 €</p>
+                    <p>82922 - Win — 10 utilisateurs passe de 4650,00 € à 5320,00 €</p>
+                    <p>82924 - MAJ – Mac - win — 1 - Achat 2022 passe de 305,00 € à 350,00 €</p>
+                    <p>82925 - MAJ – Mac - win — 1 - Achat 2023 passe de 220,00 € à 250,00 €</p>
+                    <p>82926 - MAJ - Win — 5 - Achat 2022 passe de 1295,00 € à 1480,00 €</p>
+                    <p>82927 - MAJ - Win — 5 - Achat 2023 passe de 845,00 € à 970,00 €</p>
+                    <p>82930 - MAJ - Mac/win — 1 - Achat 2021 passe de 395,00 € à 450,00 €</p>
+                    <p>82931 - MAJ - Win — 5 - Achat 2021 passe de 1740,00 € à 1990,00 €</p>
+                    <p>82932 - MAJ - Win — 10 - Achat 2021 passe de 3420,00 € à 3910,00 €</p>
+                    <p>82933 - MAJ - Win — 10 - Achat 2022 passe de 2525,00 € à 2890,00 €</p>
+                    <p>82934 - MAJ - Win — 10 - Achat 2023 passe de 1630,00 € à 1870,00 €</p>
+                </level2>
+                <level2 id="_023-002_Baisse_de_prix">
+                    <h2>Baisse de prix</h2>
+                    <p>Le Mezzo Focus 20’’ + plateau XY est désormais au prix de 2 695 € au lieu de 2 995 €</p>
+                    <p>Le Mezzo Focus 24’’ + plateau XY est désormais au prix de 2 995 € au lieu de 3 195 €</p>
+                </level2>
+                <level2 id="_023-003_Informations_generales">
+                    <h2>Informations générales</h2>
+                    <p>-Les Zoomtext 2025 sur clé USB Niveau 1 et 2 +2 Maj, référence 82044 et 82054, ne seront disponibles que dans la limite des stocks du fournisseur.</p>
+                    <p>-Le Rango référence 49200 est désormais livré avec les écouteurs Noor.</p>
+                    <p>-Les couleurs du jeu «Le Memory braille et relief» référence 54316 et du «Rubik’s cube 3D» référence 53060 ont changé.</p>
+                    <p>-La conception du jeu «Puissance 4» a été modifiée.</p>
+                    <p>-La coque pour le Blindshell Classic 2 (réf. 25327) et la batterie pour le Blindshell Classic 2 (réf. 98265) conviennent également pour le Blindshell Classic 3.</p>
+                    <p>Tarif en ligne sur le site de la boutique dans la rubrique «Téléchargements».</p>
+                    <p>N’hésitez pas à consulter régulièrement notre site pour les Nouveautés, les Bonnes Affaires, les Actualités telles que les horaires de notre boutique et autres informations utiles.</p>
+                </level2>
+                <level2 id="_023-004_Suppressions">
+                    <h2>Suppressions</h2>
+                    <p>14363 - Loupe réglette ×2 avec ligne repère rouge</p>
+                    <p>14364 - Loupe réglette ×2</p>
+                    <p>14990 - Téléphone Phone Easy 311</p>
+                    <p>24782 - Casque Bluetooth à conduction osseuse</p>
+                    <p>76111 - CD Prisonnier au berceau</p>
+                    <p>78527 - CD, noir et braille - Les drôles de voisins de Roseline Semelle</p>
+                    <p>81835 - Orcam MyEye Smart</p>
+                    <p>81851 - Orcam Read 3</p>
+                </level2>
+                <p/>
+            </level1>
+            <level1 id="_024_Autres_mentions">
+                <h1>Autres mentions</h1>
+                <p>Date de publication : Mars 2025</p>
+                <p>ISBN : ISSN : 2650—4545</p>
+                <p>
+                    Association Valentin Haüy, 5 rue Duroc 75343 Paris Cedex 07 - tél. : 01 44 49 27 27 - E-mail : 
+                    <a href="mailto:mediatheque@avh.asso.fr">mediatheque@avh.asso.fr</a>
+                     - Site Internet : 
+                    <a href="https://www.avh.asso.fr">https://www.avh.asso.fr</a>
+                </p>
+            </level1>
+        </bodymatter>
+    </book>
+</dtbook>

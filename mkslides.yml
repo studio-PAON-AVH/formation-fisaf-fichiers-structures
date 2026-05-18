@@ -5,7 +5,7 @@ slides:
   separator_notes: "^Notes?:"
 
 index:
-  title: "Formation FISAF – Fichiers Structurés pour la Transcription et l'Édition Numérique Adaptée"
+  title: "Comprendre et produire des fichiers structurés"
 
 revealjs:
   history: true
