@@ -43,6 +43,10 @@ Pour rappel, le XML DTBook est le format numérique développé par le DAISY Con
 
 ## Les logiciels du DAISY Consortium
 
+Ce que l'on va installer :
+- DAISY Pipeline (App)
+- SaveAsDAISY (complément word)
+
 Notes:
 Le DAISY Consortium propose plusieurs outils gratuits et open source pour la production de publications accessibles. Nous allons nous concentrer sur les deux outils principaux utilisés dans notre chaîne de production : DAISY Pipeline et SaveAsDAISY.
 
@@ -56,8 +60,8 @@ Le DAISY Consortium propose plusieurs outils gratuits et open source pour la pro
 - 💻 Disponible sur Windows, macOS, Linux
 - 🔄 Convertit entre de nombreux formats :
   - DTBook → EPUB 3
-  - DTBook → MP3 (synthèse vocale)
-  - DTBook → MP3 (synthèse vocale)
+  - DTBook → MP3
+  - DTBook → DAISY3
   - ...
 
 **[DAISY Pipeline app](https://github.com/daisy/pipeline-ui/releases/latest)** : version *bureau* du pipeline
@@ -71,8 +75,7 @@ DAISY Pipeline est l'outil de transformation central du DAISY Consortium. Il fon
 
 <img class="r-stretch" src="images/dpapp-start.png" />
 
-Lancement d'une conversion au choix
-- 
+
 Sélection d'un fichier ou d'un script de conversion pour démarrer
 - Scripts de transformation préconfigurés
 - Traitement par lots possible
