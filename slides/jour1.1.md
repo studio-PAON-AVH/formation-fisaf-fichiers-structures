@@ -458,7 +458,7 @@ Données complémentaires (métadonnée) spécifiques a un élément
 - Identifiants ou références a un identifiant (note et appel de note)
 - Texte alternatif pour les images
 
-Notes :
+Notes:
 
 Dans vos balises "ouvrantes" d'éléments, vous allez pouvoir ajouter d'autres informations supplémentaires qu'on appelle des "attributs".
 (Si je reprend mon image du dossier dans un système de fichier, c'est un peu comme des métadonnées associés au dossier, visible par exemple en faisant clique droit et "propriété" sur un dossier dans l'explorateur windows.)
