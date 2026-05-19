@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtbook PUBLIC '-//NISO//DTD dtbook 2005-3//EN' 'http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd' [
+]>
+
+<dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-3" xml:lang="fr-FR">
+	<head>
+		<meta name="dtb:uid" content="AUTO-UID-4122536811071627575" />
+		<meta name="dtb:generator" content="DAISY Pipeline 2 word-to-dtbook 1.0.0" />
+		<meta name="dc:Title" content="LES FLEURS DU MAL" />
+		<meta name="dc:Creator" content="PAVIE Nicolas" />
+		<meta name="dc:Date" content="2026-05-19" />
+		<meta name="dc:Publisher" content="Association Valentin Haüy" />
+		<meta name="dc:Description" content="Ceci est un extrait des fleurs du mal" />
+		<meta name="dc:Identifier" content="AUTO-UID-4122536811071627575" />
+		<meta name="dc:Language" content="fr-FR" />
+		<meta name="dc:Language" content="en-GB" />
+		<meta name="dc:Language" content="en-US" />
+		<meta name="dc:Language" content="sv-SE" />
+	</head>
+	<book showin="blp">
+		<frontmatter>
+			<doctitle>LES FLEURS DU MAL</doctitle>
+			<docauthor>PAVIE Nicolas</docauthor>
+		</frontmatter>
+		<bodymatter id="bodymatter_0001">
+			<level1>
+				<doctitle xml:lang="fr-FR">LES FLEURS DU MAL</doctitle>
+				<p>Par CHARLES BAUDELAIRE</p>
+				<p><em>Préface par Henry FRICHET</em></p>
+				<p><imggroup>
+						<img src="exercice2-Picture%201.jpg" alt="Test" id="rId81" />
+					</imggroup>
+				</p>
+			</level1>
+			<level1>
+				<h1> PRÉFACE</h1>
+				<p>Charles Baudelaire avait un ami, Auguste Poulet-Malassis, ancien élève de l'école
+					des Chartes, qui s'était fait éditeur par goût pour les raffinements
+					typographiques et pour la littérature qu'il jugeait en érudit et en artiste
+					beaucoup plus qu'en commerçant; aussi bien ne fit- il jamais fortune, mais ses
+					livres devenus assez rares sont depuis longtemps très recherchés des
+					bibliophiles.</p>
+				<p> Les poésies de Baudelaire disséminées un peu partout dans les petits journaux
+					d'avant-garde comme le <em>Corsaire</em> et jusque dans la grave <em>Revue des
+					Deux-Mondes</em>, n'avaient point encore, en 1857, été réunies en volume.
+					Poulet-Malassis, que le génie original de Baudelaire enthousiasmait, s'offrit de
+					les publier sous le titre de <em>Fleurs du Mal</em>, titre neuf, audacieux,
+					longtemps cherché et trouvé enfin non point par Baudelaire ni par l'éditeur,
+					mais par Hippolyte Babou.</p>
+				<dl>
+					<dd> Les _Fleurs du Mal_ se présentaient comme un bouquet poétique composé de
+						fleurs rares et vénéneuses d'un parfum encore ignoré. Ce fut un
+						succès--succès d'ailleurs préparé par la _Revue des Deux- Mondes_ qui, en
+						accueillant un an auparavant quelques poésies de Baudelaire, avait mis sa
+						responsabilité à couvert par une note singulièrement prudente. De nos jours
+						une pareille note ressemblerait fort à une réclame déguisée:</dd>
+				</dl>
+				<p> « Ce qui nous paraît ici mériter l'intérêt, disait-elle, c'est l'expression
+					vive, curieuse, même dans sa violence, de quelques défaillances, de quelques
+					douleurs morales, que, sans les partager ni les discuter, on doit tenir à
+					connaître comme un des signes de notre temps. Il nous semble, d'ailleurs, qu'il
+					est des cas où la publicité n'est pas seulement un encouragement, où elle peut
+					avoir l'influence d'un conseil utile et appeler le vrai talent à se dégager, à
+					se fortifier, en élargissant ses voies, en étendant son horizon. »</p>
+				<p> C'était se méprendre étrangement que de compter sur la publicité pour amener
+					Baudelaire à résipiscence; le parquet impérial ne prit pas tant de ménagements.
+					Le livre à peine paru, fut déféré aux tribunaux. Tandis que Baudelaire se hâtait
+					de recueillir en brochure les articles justificatifs d'Edmond Thierry, Barbey
+					d'Aurevilly, Charles Asselineau, etc..., il sollicitait l'amitié de Sainte-Beuve
+					et de Flaubert (tout récemment poursuivi pour avoir écrit _Madame Bovary_), des
+					moyens de défense dont les minutes ont été conservées et dont il transmettait la
+					teneur à son avocat, Me Chaix d'Est-Ange. Sur le réquisitoire de M. Pinard
+					(alors avocat général et plus tard ministre de l'Intérieur), le délit d'offense
+					à la morale religieuse fut écarté, mais en raison de la prévention d'outrage à
+					la morale publiques et aux bonnes moeurs, la Cour prononça la suppression de six
+					pièces: _Lesbos, Femmes damnées, le Lethé, A celle qui est trop gaie, les Bijoux
+					et les Métamorphoses du Vampire,_ et la condamnation à une amende de l'auteur et
+					de l'éditeur (21 août 1857).</p>
+				<p> Le dommage matériel ne fut pas considérable pour Malassis; l'édition était
+					presque épuisée lors de la saisie.</p>
+				<p> Tout d'abord, Baudelaire voulut protester. On a retrouvé dans ses papiers le
+					brouillon de divers projets de préfaces qu'il abandonna lors de la réimpression
+					à la fois diminuée et augmentée des _Fleurs du Mal_ en 1861. Cette mutilation de
+					sa pensée par autorité de justice avait eu pour résultat de rendre les
+					directeurs de journaux et de revues très méfiants à son égard, lorsqu'il leur
+					présentait quelques pages de prose ou des poésies nouvelles; sa situation
+					pécuniaire s'en ressentit. Il travaillait lentement, à ses heures, toujours
+					préoccupé d'atteindre l'idéale perfection et ne traitant d'ailleurs que des
+					sujets auxquels le grand public était alors (encore plus qu'aujourd'hui)
+					complètement étranger.</p>
+				<p> Lorsque Baudelaire posa en 1862 sa candidature aux fauteuils académiques laissés
+					vacants par la mort de Scribe et du Père Lacordaire, il était, dans sa pensée,
+					de protester ainsi contre la condamnation des _Fleurs du Mal._ L'insuccès de
+					Baudelaire à l'Académie n'était pas douteux. Ses amis, ses vrais amis, Alfred de
+					Vigny et Sainte-Beuve, lui conseillèrent de se désister, ce qu'il fit d'ailleurs
+					en des termes dont on apprécia la modestie et la convenance.</p>
+				<p> On a beaucoup parlé de la vie douloureuse de Baudelaire: manque d'argent, santé
+					précaire, absence de tendresse féminine, car sa maîtresse Jeanne Duval, une
+					jolie fille de couleur qu'il appelait son « vase de tristesse », n'était qu'une
+					sotte dont le coeur et la pensée étaient loin de lui. Son seul esprit, son
+					méchant esprit était de tourner en ridicule les manies de son ami. Cependant
+					elle était charmante, nous dit Théodore de Banville, « elle portait bien sa
+					brune tête ingénue et superbe, couronnée d'une chevelure violemment crespelée et
+					dont la démarche de reine pleine d'une grâce farouche, avait à la fois quelque
+					chose de divin et de bestial ». Et Banville ajoute: « Baudelaire faisait parfois
+					asseoir Jeanne devant lui dans un grand fauteuil; il la regardait avec amour et
+					l'admirait longuement; il lui disait des vers dans une langue qu'elle ne savait
+					pas. Certes, c'est là peut-être le meilleur moyen de causer avec une femme dont
+					les paroles détonneraient, sans doute, dans l'ardente symphonie que chante sa
+					beauté; mais il est naturel aussi que la femme n'en convienne pas et s'étonne
+					d'être adorée au même titre qu'une belle chatte. »</p>
+				<p> Baudelaire n'aima qu'elle et il l'aima exclusivement pour sa beauté, car depuis
+					longtemps, peut-être depuis toujours, il avait senti qu'il était seul auprès
+					d'elle, que les hommes sont irrévocablement seuls. Personne ne comprend
+					personne. Nous n'avons d'autre demeure que nous- mêmes. Tout son dandysme fut
+					fait de ce splendide isolement. Toutefois sa sensibilité était d'autant plus
+					profonde qu'elle semblait moins apparente. Rien ne la révélait. Il avait l'air
+					froid, quelque peu distant, mais il subjuguait. Ses yeux couleur de tabac
+					d'Espagne, son épaisse chevelure sombre, son élégance, son intelligence,
+					l'enchantement de sa voix chaude et bien timbrée, plus encore que son éloquence
+					naturelle qui lui faisait développer des paradoxes avec une magnifique
+					intelligence et on ne saurait dire quel magnétisme personnel qui se dégageait de
+					toutes les impressions refoulées au-dedans de lui, le rendaient extrêmement
+					séduisant. Hélas! toutes ces belles qualités ne le servirent point--du moins
+					financièrement--il ignorait l'art de monnayer son génie. Ainsi, pratiquement du
+					moins, comme tant d'autres, il se trouva desservi par sa fierté, sa délicatesse,
+					par le meilleur de lui-même.</p>
+				<p> Baudelaire habitait dans l'île Saint-Louis, sur le quai d'Anjou, en ce vieil et
+					triste hôtel Pimodan plein de souvenirs somptueux et nostalgiques. Il avait
+					choisi là un appartement composé de plusieurs pièces très hautes de plafond et
+					dont les fenêtres s'ouvraient sur le fleuve qui roule ses eaux glauques et
+					indifférentes au milieu de la vie morbide et fiévreuse. Les pièces étaient
+					tapissées d'un papier aux larges rayures rouges et noires, couleurs diaboliques,
+					qui s'accordaient avec les draperies d'un lourd damas. Les meubles étaient
+					antiques, voluptueux. De larges fauteuils, de paresseux divans invitaient à la
+					rêverie. Aux murs des lithographies et des tableaux signés de son ami Delacroix,
+					pures merveilles presque sans importance alors, mais que se disputeraient
+					aujourd'hui à coups de millions les princes de la finance américaine.</p>
+				<p> Au temps de Baudelaire, c'est-à-dire vers le milieu du dix-neuvième siècle,
+					l'île Saint-Louis ressemblait par la paix silencieuse qui régnait à travers ses
+					rues et ses quais à certaines villes de province où l'on va nu-tête chez le
+					voisin, où l'on s'attarde à bavarder au seuil des maisons et à y prendre le
+					frais par les beaux soirs d'été à l'heure où la nuit tombe. Artistes et
+					écrivains allaient se dire bonjour sans quitter leur costume d'intérieur et
+					flânaient en négligé sur le quai Bourbon et sur le quai d'Anjou, si parfaitement
+					déserts que c'était une joie d'y regarder couler l'eau et d'y boire la lumière.</p>
+				<p> Un jour, Baudelaire, coiffé uniquement de sa noire chevelure, prenait un bain de
+					soleil sur le quai d'Anjou, tout en croquant de délicieuses pommes de terre
+					frites qu'il prenait une à une dans un cornet de papier, lorsque vinrent à
+					passer en calèche découverte de très grandes dames amies de sa mère,
+					l'ambassadrice, et qui s'amusèrent beaucoup à voir ainsi le poète picorer une
+					nourriture aussi démocratique. L'une d'elles, une duchesse, fit arrêter la
+					voiture et appela Baudelaire.</p>
+				<p> --« C'est donc bien bon, demanda-t-elle ce que vous mangez là?</p>
+				<p> --Goûtez, madame, dit le poète en faisant les honneurs de son cornet de pommes
+					de terre frites avec une grâce suprême. »</p>
+				<p> Et il les amusa si bien par ce régal inattendu et par sa conversation qu'elles
+					seraient restées là jusqu'à la fin du monde.</p>
+				<p> Quelques jours plus tard, la duchesse rencontrant Baudelaire dans le salon d'une
+					vieille parente à elle, lui demanda si elle n'aurait pas l'occasion de manger
+					encore des pommes de terre frites.</p>
+				<p> --« Non, madame, répondit finement le poète, car elles sont, en effet, très
+					bonnes, mais seulement la première fois qu'on en mange. »</p>
+				<p> Cette petite anecdote racontée par les historiens du poète est devenue
+					classique; mais nous n'avons pu résister au plaisir de la répéter ici.</p>
+				<p> Baudelaire, plus ou moins pauvre, car la fortune laissée par son père avait été
+					dévorée rapidement, fut toujours plein de délicatesse et doué de cet esprit de
+					finesse fait de belle humeur et d'ironie souriante. Cependant ses embarras
+					d'argent devenus chroniques, aussi bien que son état maladif, rendirent
+					lamentables les dernières années du poète. Frappé de paralysie générale, ayant
+					perdu la mémoire des mots, après une longue agonie, il s'éteignit à quarante-six
+					ans. Sa mère et son ami Charles Asselineau étaient à son chevet. Ses oeuvres lui
+					ont survécu, mais la place d'honneur qu'il méritait par son génie parmi les
+					romantiques ne lui fut vraiment accordée qu'à l'aube de ce siècle. On l'avait
+					tenu jusqu'alors pour un très habile ciseleur de phrases, le Benvenuto Cellini
+					des vers, mais c'était presque un incompris, un névrosé.<noteref
+						class="Footnote" idref="#footnote-1">1</noteref></p>
+				
+				<p> Il commença, dit-on, par étonner les sots, mais il devait étonner bien davantage
+					les gens d'esprit en laissant à la postérité ce livre immortel: _les Fleurs du
+					Mal._</p>
+				<author xml:lang="fr-FR"> Henry FRICHET.</author>
+				<p>- test list 1</p>
+				<p>- test list 2</p>
+				<list type="ul">
+					<li><p>Test</p></li>
+					<li><p>Test 2</p></li>
+					<li><p>Test 3</p></li>
+				</list>
+				<note id="footnote-1" class="Footnote">
+					<p> Note de bas de page</p>
+				</note>
+			</level1>
+			<level1>
+				<h1> AU LECTEUR</h1>
+				<epigraph xml:lang="fr-FR">
+					<p>Test d’épigraphe en début de fichier.</p>
+					<p>Test d’épigraphe en début de
+					fichier paragraphe 2.</p>
+					<p>Moi-même</p>
+				</epigraph>
+				<poem xml:lang="fr-FR">
+					<linegroup xml:lang="fr-FR">
+						<line> La sottise, l'erreur, le péché, la lésine,</line>
+						<line> Occupent nos esprits et travaillent nos corps,</line>
+						<line> Et nous alimentons nos aimables remords,</line>
+						<line> Comme les mendiants nourrissent leur vermine.</line>
+						<line />
+						<line> Nos péchés sont têtus, nos repentirs sont lâches,</line>
+						<line> Nous nous faisons payer grassement nos aveux,</line>
+						<line> Et nous rentrons gaîment dans le chemin bourbeux,</line>
+						<line> Croyant par de vils pleurs laver toutes nos taches.</line>
+						<line />
+						<line> Sur l'oreiller du mal c'est Satan Trismégiste</line>
+						<line> Qui berce longuement notre esprit enchanté,</line>
+						<line> Et le riche métal de notre volonté</line>
+						<line> Est tout vaporisé par ce savant chimiste.</line>
+						<line />
+						<line> C'est le Diable qui tient les fils qui nous remuent!</line>
+						<line> Aux objets répugnants nous trouvons des appas;</line>
+						<line> Chaque jour vers l'Enfer nous descendons d'un pas,</line>
+						<line> Sans horreur, à travers des ténèbres qui puent.</line>
+						<line />
+						<line> Ainsi qu'un débauché pauvre qui baise et mange</line>
+						<line> Le sein martyrisé d'une antique catin,</line>
+						<line> Nous volons au passage un plaisir clandestin</line>
+						<line> Que nous pressons bien fort comme une vieille orange.</line>
+						<line />
+						<line> Serré, fourmillant, comme un million d'helminthes,</line>
+						<line> Dans nos cerveaux ribote un peuple de Démons,</line>
+						<line> Et, quand nous respirons, la Mort dans nos poumons</line>
+						<line> Descend, fleuve invisible, avec de sourdes plaintes.</line>
+						<line />
+						<line> Si le viol, le poison, le poignard, l'incendie,</line>
+						<line> N'ont pas encore brodé de leurs plaisants desseins</line>
+						<line> Le canevas banal de nos piteux destins,</line>
+						<line> C'est que notre âme, hélas! n'est pas assez hardie.</line>
+						<line />
+						<line> Mais parmi les chacals, les panthères, les lices,</line>
+						<line> Les singes, les scorpions, les vautours, les serpents,</line>
+						<line> Les monstres glapissants, hurlants, grognants, rampants</line>
+						<line> Dans la ménagerie infâme de nos vices,</line>
+						<line />
+						<line> Il en est un plus laid, plus méchant, plus immonde!</line>
+						<line> Quoiqu'il ne pousse ni grands gestes ni grands cris,</line>
+						<line> Il ferait volontiers de la terre un débris</line>
+						<line> Et dans un bâillement avalerait le monde;</line>
+						<line />
+						<line> C'est l'Ennui!--L'oeil chargé d'un pleur involontaire,</line>
+						<line> Il rêve d'échafauds en fumant son houka.</line>
+						<line> Tu le connais, lecteur, ce monstre délicat,</line>
+						<line> --Hypocrite lecteur,--mon semblable,--mon frère!</line>
+					</linegroup>
+				</poem>
+				<blockquote xml:lang="fr-FR">
+					<p>Ceci est un bloque de citation</p>
+					<p>Avec plusieurs paragraphe</p>
+					<author>moi même</author>
+				</blockquote>
+			</level1>
+			<level1>
+				<h1> SPLEEN ET IDÉAL</h1>
+				<level2>
+					<h2> BENEDICTION</h2>
+					<p> Lorsque, par un décret des puissances suprêmes,</p>
+					<p> Le Poète apparaît en ce monde ennuyé,</p>
+					<p> Sa mère épouvantée et pleine de blasphèmes</p>
+					<p> Crispe ses poings vers Dieu, qui la prend en pitié:</p>
+					<p> « Ah! que n'ai-je mis bas tout un noeud de vipères,</p>
+					<p> Plutôt que de nourrir cette dérision!</p>
+					<p> Maudite soit la nuit aux plaisirs éphémères</p>
+					<p> Où mon ventre a conçu mon expiation!</p>
+					<p> « Puisque tu m'as choisie entre toutes les femmes</p>
+					<p> Pour être le dégoût de mon triste mari,</p>
+					<p> Et que je ne puis pas rejeter dans les flammes,</p>
+					<p> Comme un billet d'amour, ce monstre rabougri,</p>
+					<p> « Je ferai rejaillir la haine qui m'accable</p>
+					<p> Sur l'instrument maudit de tes méchancetés,</p>
+					<p> Et je tordrai si bien cet arbre misérable,</p>
+					<p> Qu'il ne pourra poussa ses boutons empestés! »</p>
+					<p> Elle ravale ainsi l'écume de sa haine,</p>
+					<p> Et, ne comprenant pas les desseins éternels,</p>
+					<p> Elle-même prépare au fond de la Géhenne</p>
+					<p> Les bûchers consacrés aux crimes maternels.</p>
+					<p> Pourtant, sous la tutelle invisible d'un Ange,</p>
+					<p> L'Enfant déshérité s'enivre de soleil,</p>
+					<p> Et dans tout ce qu'il boit et dans tout ce qu'il mange</p>
+					<p> Retrouve l'ambroisie et le nectar vermeil.</p>
+					<p> Il joue avec le vent, cause avec le nuage</p>
+					<p> Et s'enivre en chantant du chemin de la croix;</p>
+					<p> Et l'Esprit qui le suit dans son pèlerinage</p>
+					<p> Pleure de le voir gai comme un oiseau des bois.</p>
+					<p> Tous ceux qu'il veut aimer l'observent avec crainte,</p>
+					<p> Ou bien, s'enhardissant de sa tranquillité,</p>
+					<p> Cherchent à qui saura lui tirer une plainte,</p>
+					<p> Et font sur lui l'essai de leur férocité.</p>
+					<p> Dans le pain et le vin destinés à sa bouche</p>
+					<p> Ils mêlent de la cendre avec d'impurs crachats;</p>
+					<p> Avec hypocrisie ils jettent ce qu'il touche,</p>
+					<p> Et s'accusent d'avoir mis leurs pieds dans ses pas.</p>
+					<p> Sa femme va criant sur les places publiques:</p>
+					<p> « Puisqu'il me trouve assez belle pour m'adorer,</p>
+					<p> Je ferai le métier des idoles antiques,</p>
+					<p> Et comme elles je veux me faire redorer;</p>
+					<p> « Et je me soûlerai de nard, d'encens, de myrrhe,</p>
+					<p> De génuflexions, de viandes et de vins,</p>
+					<p> Pour savoir si je puis dans un coeur qui m'admire</p>
+					<p> Usurper en riant les hommages divins!</p>
+					<p> « Et, quand je m'ennuîrai de ces farces impies,</p>
+					<p> Je poserai sur lui ma frêle et forte main;</p>
+					<p> Et mes ongles, pareils aux ongles des harpies,</p>
+					<p> Sauront jusqu'à son coeur se frayer un chemin.</p>
+					<p> « Comme un tout jeune oiseau qui tremble et qui palpite,</p>
+					<p> J'arracherai ce coeur tout rouge de son sein,</p>
+					<p> Et, pour rassasier ma bête favorite,</p>
+					<p> Je le lui jetterai par terre avec dédain! »</p>
+					<p> Vers le Ciel, où son oeil voit un trône splendide,</p>
+					<p> Le Poète serein lève ses bras pieux,</p>
+					<p> Et les vastes éclairs de son esprit lucide</p>
+					<p> Lui dérobent l'aspect des peuples furieux:</p>
+					<p> « Soyez béni, mon Dieu, qui donnez la souffrance</p>
+					<p> Comme un divin remède à nos impuretés,</p>
+					<p> Et comme la meilleure et la plus pure essence</p>
+					<p> Qui prépare les forts aux saintes voluptés!</p>
+					<p> « Je sais que vous gardez une place au Poète</p>
+					<p> Dans les rangs bienheureux des saintes Légions,</p>
+					<p> Et que vous l'invitez à l'éternelle fête</p>
+					<p> Des Trônes, des Vertus, des Dominations.</p>
+					<p> « Je sais que la douleur est la noblesse unique</p>
+					<p> Où ne mordront jamais la terre et les enfers,</p>
+					<p> Et qu'il faut pour tresser ma couronne mystique</p>
+					<p> Imposer tous les temps et tous les univers.</p>
+					<p> « Mais les bijoux perdus de l'antique Palmyre,</p>
+					<p> Les métaux inconnus, les perles de la mer,</p>
+					<p> Par votre main montés, ne pourraient pas suffire</p>
+					<p> A ce beau diadème éblouissant et clair;</p>
+					<p> « Car il ne sera fait que de pure lumière,</p>
+					<p> Puisée au foyer saint des rayons primitifs,</p>
+					<p> Et dont les yeux mortels, dans leur splendeur entière,</p>
+					<p> Ne sont que des miroirs obscurcis et plaintifs! »</p>
+				</level2>
+				<level2>
+					<h2> L'ALBATROS</h2>
+					<p> Souvent, pour s'amuser, les hommes d'équipage</p>
+					<p> Prennent des albatros, vastes oiseaux des mers,</p>
+					<p> Qui suivent, indolents compagnons de voyage,</p>
+					<p> Le navire glissant sur les gouffres amers.</p>
+					<p> A peine les ont-ils déposés sur les planches,</p>
+					<p> Que ces rois de l'azur, maladroits et honteux,</p>
+					<p> Laissent piteusement leurs grandes ailes blanches</p>
+					<p> Comme des avirons traîner à côté d'eux.</p>
+					<p> Ce voyageur ailé, comme il est gauche et veule!</p>
+					<p> Lui, naguère si beau, qu'il est comique et laid!</p>
+					<p> L'un agace son bec avec un brûle-gueule,</p>
+					<p> L'autre mime, en boitant, l'infirme qui volait!</p>
+					<p> Le Poète est semblable au prince des nuées</p>
+					<p> Qui hante la tempête et se rit de l'archer;</p>
+					<p> Exilé sur le sol au milieu des huées,</p>
+					<p> Ses ailes de géant l'empêchent de marcher.</p>
+				</level2>
+				<level2>
+					<h2> ELEVATION</h2>
+					<p> Au-dessus des étangs, au-dessus des vallées,</p>
+					<p> Des montagnes, des bois, des nuages, des mers,</p>
+					<p> Par delà le soleil, par delà les éthers,</p>
+					<p> Par delà les confins des sphères étoilées,</p>
+					<p> Mon esprit, tu te meus avec agilité,</p>
+					<p> Et, comme un bon nageur qui se pâme dans l'onde,</p>
+					<p> Tu sillonnes gaîment l'immensité profonde</p>
+					<p> Avec une indicible et mâle volupté.</p>
+					<p> Envole-toi bien loin de ces miasmes morbides,</p>
+					<p> Va te purifier dans l'air supérieur,</p>
+					<p> Et bois, comme une pure et divine liqueur,</p>
+					<p> Le feu clair qui remplit les espaces limpides.</p>
+					<p> Derrière les ennuis et les vastes chagrins</p>
+					<p> Qui chargent de leur poids l'existence brumeuse,</p>
+					<p> Heureux celui qui peut d'une aile vigoureuse</p>
+					<p> S'élancer vers les champs lumineux et sereins!</p>
+					<p> Celui dont les pensers, comme des alouettes,</p>
+					<p> Vers les cieux le matin prennent un libre essor,</p>
+					<p> --Qui plane sur la vie et comprend sans effort</p>
+					<p> Le langage des fleurs et des choses muettes!</p>
+				</level2>
+				<level2>
+					<h2> LES PHARES</h2>
+					<p> Rubens, fleuve d'oubli, jardin de la paresse,</p>
+					<p> Oreiller de chair fraîche où l'on ne peut aimer,</p>
+					<p> Mais où la vie afflue et s'agite sans cesse,</p>
+					<p> Comme l'air dans le ciel et la mer dans la mer;</p>
+					<p> Léonard de Vinci, miroir profond et sombre,</p>
+					<p> Où des anges charmants, avec un doux souris</p>
+					<p> Tout chargé de mystère, apparaissent à l'ombre</p>
+					<p> Des glaciers et des pins qui ferment leur pays;</p>
+					<p> Rembrandt, triste hôpital tout rempli de murmures,</p>
+					<p> Et d'un grand crucifix décoré seulement,</p>
+					<p> Où la prière en pleurs s'exhale des ordures,</p>
+					<p> Et d'un rayon d'hiver traversé brusquement;</p>
+					<p> Michel-Ange, lieu vague où l'on voit des Hercules</p>
+					<p> Se mêler à des Christ, et se lever tout droits</p>
+					<p> Des fantômes puissants, qui dans les crépuscules</p>
+					<p> Déchirent leur suaire en étirant leurs doigts;</p>
+					<p> Colères de boxeur, impudences de faune,</p>
+					<p> Toi qui sus ramasser la beauté des goujats,</p>
+					<p> Grand coeur gonflé d'orgueil, homme débile et jaune,</p>
+					<p> Puget, mélancolique empereur des forçats;</p>
+					<p> Watteau, ce carnaval où bien des coeurs illustres,</p>
+					<p> Comme des papillons, errent en flamboyant,</p>
+					<p> Décors frais et légers éclairés par des lustres</p>
+					<p> Qui versent la folie à ce bal tournoyant;</p>
+					<p> Goya, cauchemar plein de choses inconnues,</p>
+					<p> De foetus qu'on fait cuire au milieu des sabbats,</p>
+					<p> De vieilles au miroir et d'enfants toutes nues,</p>
+					<p> Pour tenter les Démons ajustant bien leurs bas;</p>
+					<p> Delacroix, lac de sang hanté des mauvais anges,</p>
+					<p> Ombragé par un bois de sapin toujours vert,</p>
+					<p> Où, sous un ciel chagrin, des fanfares étranges</p>
+					<p> Passent, comme un soupir étouffé de Weber;</p>
+					<p> Ces malédictions, ces blasphèmes, ces plaintes,</p>
+					<p> Ces extases, ces cris, ces pleurs, ces _Te Deum,_</p>
+					<p> Sont un écho redit par mille labyrinthes;</p>
+					<p> C'est pour les coeurs mortels un divin opium.</p>
+					<p> C'est un cri répété par mille sentinelles,</p>
+					<p> Un ordre renvoyé par mille porte-voix;</p>
+					<p> C'est un phare allumé sur mille citadelles,</p>
+					<p> Un appel de chasseurs perdus dans les grands bois!</p>
+					<p> Car c'est vraiment, Seigneur, le meilleur témoignage</p>
+					<p> Que nous puissions donner de notre dignité</p>
+					<p> Que cet ardent sanglot qui roule d'âge en âge</p>
+					<p> Et vient mourir au bord de votre éternité!</p>
+				</level2>
+			</level1>
+			<level1>
+				<h1> Informations Gutenberg</h1>
+				<p>The Project Gutenberg eBook of Les Fleurs du Mal</p>
+				<p xml:lang="en-GB">Produced by Tonya Allen, Julie Barkley, Juliet Sutherland,
+					Charles Franks and the Online Distributed Proofreading Team.</p>
+				<p xml:lang="en-GB">This eBook is for the use of anyone anywhere in the United
+					States and most other parts of the world at no cost and with almost no
+					restrictions whatsoever. You may copy it, give it away or re-use it under the
+					terms of the Project Gutenberg License included with this eBook or online at
+					www.gutenberg.org. If you are not located in the United States, you will have to
+					check the laws of the country where you are located before using this eBook.</p>
+				<p>Title: Les Fleurs du Mal</p>
+				<p>Author: Charles Baudelaire</p>
+				<p xml:lang="en-GB">Release date: July 1, 2004 [eBook #6099]</p>
+				<p xml:lang="en-GB">Most recently updated: January 22, 2020</p>
+				<p xml:lang="en-GB">Language: French</p>
+				<p xml:lang="en-GB">Other information and formats: www.gutenberg.org/ebooks/6099</p>
+				<p xml:lang="en-GB">Credits: Produced by Tonya Allen, Julie Barkley, Juliet
+					Sutherland, Charles Franks and the Online Distributed Proofreading Team.</p>
+			</level1>
+		</bodymatter>
+	</book>
+</dtbook>
