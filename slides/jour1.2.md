@@ -166,7 +166,7 @@ Quelques sources de fichiers XML DTBook pour vos essais :
 |--------|-------------|
 | **[Echantillons du DAISY Consortium](https://daisy.org/info-help/document-archive/sample-files/)** | Fichiers d'exemple sur daisy.org |
 | **[Echantillon du DAISY Pipeline](https://github.com/daisy/pipeline-samples/tree/master/dtbook)** | Fichiers d'exemples et de tests pour le DAISY Pipeline.org |
-| **[Les exemples pour ce cours]()**| Fichiers pour ce cours |
+| **[Les exemples pour ce cours](https://github.com/studio-PAON-AVH/formation-fisaf-fichiers-structures/tree/main/slides/exercices)**| Fichiers pour ce cours |
 
 Et quand vous serez transcripteurs :
 
