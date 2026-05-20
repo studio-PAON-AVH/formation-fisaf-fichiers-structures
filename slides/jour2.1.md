@@ -98,12 +98,21 @@ L'EPUB a une longue histoire qui remonte à 1999 avec le format Open eBook. La t
 
 ## Les différents types d'EPUB
 
-### EPUB Reflow (Reflowable)
+### EPUB Reflow (recomposable)
 
 - Le texte **s'adapte** à la taille de l'écran
 - Idéal pour les **textes longs** (romans, essais)
 - Taille de police modifiable par l'utilisateur
 - **Le plus courant et le plus accessible**
+
+
+Notes:
+La distinction entre EPUB Reflow et Fixed Layout est fondamentale pour l'accessibilité. L'EPUB Reflow est de loin le plus accessible : l'utilisateur peut adapter la taille de police, les couleurs, l'interlignage selon ses besoins. Le Fixed Layout impose une mise en page figée qui peut rendre la lecture très difficile sur un petit écran ou pour les utilisateurs de lecteurs d'écran. Dans notre contexte d'édition adaptée, nous nous concentrons sur le Reflow.
+
+---
+
+## Les différents types d'EPUB
+
 
 ### EPUB Fixed Layout (Mise en page fixe)
 
@@ -216,10 +225,60 @@ Quid des formats DAISY ?
   - ⛔ Pas de choix de consultation de note
   - Application / matériel spécialisés
 
+
+Notes:
+Vous avez peut etre remarquer que nous n'avons pas beaucoup reparler des 
+autres formats dont nous avons parler hier, notamment les formats de publication
+du DAISY consortium.
+
+Le DAISY2 ou DAISY2.02 est le format le plus ancien et celui que nous distribuons a l'AVH.
+C'est le format historique du DAISY Consortium, pour lequel un grand nombre d'usager aveugles ou malvoyants possède du matériel compatible.
+Ce format pose cependant quelques problemes, qui sont pour une partie lié aux technologies utilisé par le format pour la structuration du contenu.
+Vous avez du coup des limitations sur certaines options de navigation, notamment pour le contenu dit "skipable" tel que les notes de bas de pages, qui
+sont généralement structurés au même niveau que le contenu
+
+Le DAISY3 corrige des probleme du DAISY2, surtout du point des éléments skipables, mais pour ça il utilise un format de contenu beacuoup plus contraint qui est le XML DTBook
+
+Si nous nous concentrons aujourd'hui sur l'EPUB3, c'est d'abord parceque le 
+format continue a évoluer, et le DAISY Consortium fait le pari que ce format
+sera plus facile a faire adopter aux fabricants de logiciels et de matériel spécialisé, celui-ci étant déjà répandu pour les publications numériques de nombreux éditeurs de par le monde.
+
+---
+
+## Comparaison entre EPUB et DAISY
+
+Quid des formats DAISY ?
+
+
 **DAISY3**, mieux qu'avant mais moins répandu
   - Plus d'option de lecture
   - XML DTBook *under the hood*
   - Application / matériel spécialisés
+
+
+
+Notes:
+Vous avez peut etre remarquer que nous n'avons pas beaucoup reparler des 
+autres formats dont nous avons parler hier, notamment les formats de publication
+du DAISY consortium.
+
+Le DAISY2 ou DAISY2.02 est le format le plus ancien et celui que nous distribuons a l'AVH.
+C'est le format historique du DAISY Consortium, pour lequel un grand nombre d'usager aveugles ou malvoyants possède du matériel compatible.
+Ce format pose cependant quelques problemes, qui sont pour une partie lié aux technologies utilisé par le format pour la structuration du contenu.
+Vous avez du coup des limitations sur certaines options de navigation, notamment pour le contenu dit "skipable" tel que les notes de bas de pages, qui
+sont généralement structurés au même niveau que le contenu
+
+Le DAISY3 corrige des probleme du DAISY2, surtout du point des éléments skipables, mais pour ça il utilise un format de contenu beacuoup plus contraint qui est le XML DTBook
+
+Si nous nous concentrons aujourd'hui sur l'EPUB3, c'est d'abord parceque le 
+format continue a évoluer, et le DAISY Consortium fait le pari que ce format
+sera plus facile a faire adopter aux fabricants de logiciels et de matériel spécialisé, celui-ci étant déjà répandu pour les publications numériques de nombreux éditeurs de par le monde.
+
+---
+
+## Comparaison entre EPUB et DAISY
+
+Quid des formats DAISY ?
 
 **EPUB3**, un format qui évolue
   - Plus de liberté sans sacrifier l'accessibilité
@@ -292,9 +351,9 @@ Thorium Reader offre de nombreuses possibilités de personnalisation qui sont es
 - 🌐 [yourdolphin.com](https://www.yourdolphin.com/)
 - Développé par Dolphin Computer Access
 - Conçu **spécifiquement** pour les personnes déficientes visuelles
-- Support EPUB, DAISY, MP3, PDF
+- Support EPUB et DAISY
 - Interface simplifiée et très accessible
-- Connexion aux bibliothèques numériques (Bookshare, BNFA…)
+- Connexion aux bibliothèques numériques
 
 Notes:
 EasyReader est une application commerciale spécialement conçue pour les personnes déficientes visuelles. Son interface est simplifiée et son intégration avec les bibliothèques numériques comme Bookshare et la BNFA en fait un outil apprécié des usagers. Il est disponible sur Windows, macOS, iOS et Android. Il existe une version gratuite limitée et une version complète payante.
@@ -324,6 +383,13 @@ Calibre est un logiciel de gestion de bibliothèque numérique très complet et 
 - Vue arborescence des fichiers de l'EPUB
 - Aperçu en temps réel
 - Outils de nettoyage et validation
+
+Notes:
+L'éditeur Codex intégré à Calibre permet d'ouvrir et de modifier directement les fichiers internes d'un EPUB. C'est utile pour des corrections ciblées qu'il serait difficile de faire autrement : supprimer un style CSS problématique, corriger une métadonnée, ajouter un attribut d'accessibilité manquant. Il n'est pas recommandé pour créer un EPUB de zéro.
+
+---
+
+## Calibre/Codex
 
 **Usage typique :**
 - Corrections mineures après conversion
