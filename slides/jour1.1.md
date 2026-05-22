@@ -894,7 +894,7 @@ De la sémantique dans le texte
 |----------|-----------------------|------|
 | **Notepad++** | XML Tools | [notepad-plus-plus.org](https://notepad-plus-plus.org/) |
 | **Visual Studio Code** | XML (par RedHat) | [code.visualstudio.com](https://code.visualstudio.com/) |
-| **XML Copy Editor** | - | [xmlcopyeditor.sourceforge.net](http://xmlcopyeditor.sourceforge.net/) (gratuit) |
+| **XML Copy Editor** | - | [xmlcopyeditor.sourceforge.net](http://xmlcopyeditor.sourceforge.net/)|
 | **Sublime Text** | Exalt | [sublimetext.com](https://www.sublimetext.com/) (payant) |
 | **XMLSpy** | - | [altova.com](https://www.altova.com/fr/xmlspy-xml-editor) (payant) |
 | **Oxygen XML Editor** | - | [oxygenxml.com](https://www.oxygenxml.com/) (payant) |
@@ -914,11 +914,13 @@ Pour dépanner, les navigateurs web peuvent afficher les fichiers XML mais sans 
 
 ## Points clés à retenir – Matin J1
 
-- 📚 L'édition numérique adaptée : rendre accessibles les livres aux personnes empêchés de lire
-- 🏗️ Les formats structurés : séparation du contenu, de la structure et de la présentation (WYSIWYM)
-- 🔤 XML : un langage de balisage extensible et rigoureux
-- 📖 Le XML DTBook pour la structuration de livre numérique
-- 🛠️ Des outils pour visualiser et éditer du XML
+- 📚 L'édition numérique adaptée : 
+  - *rendre accessibles les livres aux personnes empêchés de lire*
+- 🏗️ Les formats structurés : 
+  - séparation *contenu* / *structure* / *présentation* (WYSIWYM)
+- 🔤 XML : un langage de *balisage extensible* et rigoureux
+- 📖 Le XML DTBook pour la *structuration de livres numériques*
+- 🛠️ Des outils pour *visualiser et éditer du XML*
 
 Notes:
 Voici les points essentiels à retenir de cette matinée. La clé de l'accessibilité numérique réside dans la qualité de la structuration des documents. Un document bien structuré avec des styles sémantiques peut être converti vers de nombreux formats accessibles. Cet après-midi, nous allons mettre ces connaissances en pratique avec les outils du DAISY Consortium.

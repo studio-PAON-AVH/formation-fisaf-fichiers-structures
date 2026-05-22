@@ -65,7 +65,7 @@ Pour les EPUBs Fixed Layout ou avec des mises en page complexes, la conversion s
 
 ## Via WordToEPUB du DAISY Consortium
 
-**[WordToEPUB](https://daisy.org/wordtoepub)**, complément word du DAISY Consortium
+**[WordToEPUB](https://daisy.org/activities/software/wordtoepub)**, complément word du DAISY Consortium
 
 Spécialisé dans la **conversion Word → EPUB 3 accessible** MAIS
 
@@ -88,7 +88,7 @@ Attention toutefois : l'outils convertit les niveaux de titre "tel quel", donc s
 
 **A vous de jouer !**
 
-1. Télécharger et installer [WordToEPUB](https://daisy.org/wordtoepub)
+1. Télécharger et installer [WordToEPUB](https://daisy.org/activities/software/wordtoepub)
 2. Récupérer le fichier [`exercice4.epub`](exercices/exercice4.epub)
 3. Convertisser le fichier en docx
   - Via Calibre, en fichier `exercice4_calibre.docx`
@@ -407,7 +407,7 @@ L'objectif est d'obtenir un rapport EPUBCheck sans erreur ni avertissement, ou e
 
 **ACE** (*Accessibility Checker for EPUB*) est l'outil d'audit d'accessibilité
 
-- 🌐 [daisy.org/ace](https://daisy.org/ace)
+- 🌐 [daisy.org/activities/software/ace](https://daisy.org/activities/software/ace)
 - Vérifie la **conformité WCAG** et **EPUB Accessibility**
 - Génère un rapport HTML détaillé
 
@@ -530,9 +530,9 @@ Ces deux jours vous ont donné les bases théoriques et pratiques pour produire 
 |-----------|-----|
 | **DAISY Consortium** | daisy.org |
 | **Inclusive Publishing** | daisy.org |
-| **WordToEPUB** | daisy.org/wordtoepub |
+| **WordToEPUB** | daisy.org/activities/software/wordtoepub |
 | **Thorium Reader** | edrlab.org/thorium-reader |
-| **ACE** | daisy.org/ace |
+| **ACE** | daisy.org/activities/software/ace |
 | **EPUBCheck** | github.com/w3c/epubcheck |
 | **EPUB Accessibility 1.1** | w3.org/TR/epub-a11y-11 |
 | **WCAG 2.1** | w3.org/TR/WCAG21 |

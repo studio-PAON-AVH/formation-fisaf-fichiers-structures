@@ -15,8 +15,8 @@ Bienvenue dans la session pratique de ce premier après-midi. Nous allons mettre
 ## Au programme cet après-midi
 
 1. Les logiciels du DAISY Consortium pour produire du XML DTBook
-   - DAISY Pipeline App
-   - Le complément Word SaveAsDAISY
+   - L'application *DAISY Pipeline App*
+   - Le complément Word *SaveAsDAISY*
 2. Du XML DTBook à Word *(exercices pratiques)*
 3. Structurer un document dans Word *(exercices pratiques)*
 4. Convertir un fichier Word en XML DTBook *(exercices pratiques)*
@@ -32,7 +32,7 @@ Cet après-midi est organisé en quatre parties. Nous commençons par une prése
 - Il utilise des balises sémantiques (`<level1>`, `<h1>`, `<p>`…)
 - On peut le lire avec un éditeur texte ou un outil XML
 
-**Aujourd'hui : mettons-le en pratique ! 🛠️**
+**Mettons-le en pratique ! 🛠️**
 
 Notes:
 Pour rappel, le XML DTBook est le format numérique développé par le DAISY Consortium pour les livres accessibles. Sa structure hiérarchique (level1 à level6) correspond aux chapitres et sections d'un ouvrage. Aujourd'hui nous allons voir comment produire ce format à partir de documents Word, et inversement.
@@ -56,12 +56,11 @@ Le DAISY Consortium propose plusieurs outils gratuits et open source pour la pro
 
 **DAISY Pipeline** : *serveur* de conversion de documents accessibles
 
-- 🌐 Site : [daisy.org/pipeline](https://daisy.org/pipeline)
+- 🌐 Site : [daisy.org/activities/software/pipeline](https://daisy.org/activities/software/pipeline)
 - 💻 Disponible sur Windows, macOS, Linux
-- 🔄 Convertit entre de nombreux formats :
-  - DTBook → EPUB 3
-  - DTBook → MP3
-  - DTBook → DAISY3
+- 🔄 Nombreuses conversions :
+  - DTBook → ODT, RTC, EPUB3, DAISY3...
+  - Word → XML DTBook, EPUB3, DAISY3
   - ...
 
 **[DAISY Pipeline app](https://github.com/daisy/pipeline-ui/releases/latest)** : version *bureau* du pipeline
@@ -77,7 +76,7 @@ DAISY Pipeline est l'outil de transformation central du DAISY Consortium. Il fon
 
 
 Sélection d'un fichier ou d'un script de conversion pour démarrer
-- Scripts de transformation préconfigurés
+- Organisation en *Scripts* et *Jobs*
 - Traitement par lots possible
 
 Notes:
@@ -88,8 +87,7 @@ Le fonctionnement de DAISY Pipeline est basé sur des scripts de transformation.
 ## Le complément Word SaveAsDAISY
 
 **SaveAsDAISY** est un complément Microsoft Word
-
-- 🌐 Site : [daisy.org/save-as-daisy-microsoft-word-add-in](https://daisy.org/save-as-daisy-microsoft-word-add-in)
+- 🌐 Site : [daisy.org/activities/software/save-as-daisy-ms-word-add-in/](https://daisy.org/activities/software/save-as-daisy-ms-word-add-in/)
 - 🖥️ Compatible Word 2010 – 2019 / Office 365
 - ⚙️ Ajoute un onglet *Accessibilité* dans Word
 
