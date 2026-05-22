@@ -69,7 +69,7 @@ Pour les EPUBs Fixed Layout ou avec des mises en page complexes, la conversion s
 
 Spécialisé dans la **conversion Word → EPUB 3 accessible** MAIS
 
-> **Peut aussi reconvertir un EPUB en Word avec`EPUBToWord.exe`**
+> **Peut aussi reconvertir un EPUB en Word avec `EPUBToWord.exe`**
 
 Si pas dans votre liste d'applications, voir dossier:<br/>
 `C:\Program Files (x86)\DAISY\WordToEPUB`

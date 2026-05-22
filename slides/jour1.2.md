@@ -72,7 +72,7 @@ DAISY Pipeline est l'outil de transformation central du DAISY Consortium. Il fon
 
 ## DAISY Pipeline App
 
-<img class="r-stretch" src="images/dpapp-start.png" />
+<img height="400px" src="images/dpapp-start.png" />
 
 
 Sélection d'un fichier ou d'un script de conversion pour démarrer
@@ -103,7 +103,7 @@ SaveAsDAISY est un complément qui s'installe directement dans Microsoft Word. U
 
 ## SaveAsDAISY – Onglet *Accessibilité*
 
-<img class="r-stretch" src="images/SAD-ribbon.png" />
+<img width="1080px" src="images/SAD-ribbon.png" />
 
 Notes:
 
@@ -181,7 +181,7 @@ Le serveur hélène a été racheté par l'Association Valentin Haüy. Ses fichi
 
 ---
 
-## 2.b – Convertir un DTBook en fichier Word
+## Convertir un DTBook en fichier Word
 
 **Via DAISY Pipeline App :** *(demo live)*
 
@@ -225,7 +225,7 @@ La qualité d'un fichier DTBook (ou EPUB) dépend directement de la qualité de 
 
 ---
 
-## 3.a – Les règles d'accessibilité d'un document Word
+## Les règles d'accessibilité d'un document Word
 
 **Règles fondamentales :**
 
@@ -269,16 +269,13 @@ Un Titre 3 doit toujours être précédé d'un Titre 2, lui-même précédé d'u
 
 Styles complémentaires pour la structuration
 
-> Finissant en *(DAISY)*
-
-> **Styles convertis en balises du DTBook correspondante**
+> Finissant en **(DAISY)** == **convertit en balises DTBook**
 
 Exemples :
-- `covertitle` (titre de couverture) : *Covertitle (DAISY)*
-- `bridgehead` (intertitre) : *Bridgehead (DAISY)*
-- `pagenumber` (numéro original de la page dans l'imprimé) : *Page Number (DAISY)*
-- `blockquote` (bloque de citation)
-  - *Blockquote - Author (DAISY)*, *Blockquote (DAISY)*
+- *Covertitle (DAISY)* : `covertitle` (titre de couverture)
+- *Bridgehead (DAISY)* :  `bridgehead` (intertitre)
+- *Page Number (DAISY)* : `pagenumber` (numéro original de la page dans l'imprimé)
+- *Blockquote (DAISY)* : `blockquote` (bloque de citation)
 
 Notes:
 Les styles DAISY étendent les possibilités de structuration de Word pour couvrir des éléments spécifiques à l'édition adaptée. 
@@ -300,7 +297,7 @@ Les styles DAISY étendent les possibilités de structuration de Word pour couvr
 **Durée : 30 minutes**
 
 Notes:
-Je vous donne un cas un peu emblématique : un texte quasi brut sans structuration "marqué" mais identifiable tout de même.
+Je vous donne un cas un peu emblématique : un texte "quasi brut" sans structuration "marqué" mais identifiable tout de même.
 
 Ce que je vous passe ici est ce que vous pouvez récupérer depuis le projet gutemberg en "texte brute" (légèrement modifié pour reproduire les paragraphes).
 
@@ -351,11 +348,12 @@ Il est préférable d'utiliser d'abord le vérificateur d'accessibilité Word.
 Checklist avant d'exporter :
 
 - ☑ Tous les titres utilisent les styles Word Titre 1/2/3…
-  - (Se verra dans le panel "navigation")
+  - Hierarchie sans "vide"
+  - Se verra dans le panel "navigation"
 - ☑ Toutes les images ont un texte alternatif
-- ☑ Les listes sont bien marqué avec un style de puces ou numéro
+- ☑ Les listes sont bien marquées avec un style de puces ou numéro
 - ☑ La langue du document est définie
-- ☑ Les métadonnées (titre, auteur) sont renseignées
+- ☑ Les métadonnées (titre, auteur etc.) sont renseignées
 - ☑ Le vérificateur d'accessibilité Word ne signale pas d'erreur
 
 Notes:

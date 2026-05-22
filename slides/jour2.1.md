@@ -102,7 +102,7 @@ L'EPUB a une longue histoire qui remonte à 1999 avec le format Open eBook. La t
 
 - Le texte **s'adapte** à la taille de l'écran
 - Idéal pour les **textes longs** (romans, essais)
-- Taille de police modifiable par l'utilisateur
+- **Police modifiable** par l'utilisateur
 - **Le plus courant et le plus accessible**
 
 
@@ -118,8 +118,8 @@ La distinction entre EPUB Reflow et Fixed Layout est fondamentale pour l'accessi
 
 - Mise en page **identique** quelle que soit la taille d'écran
 - Idéal pour les **livres illustrés**, BD, livres enfants
-- Moins accessible (texte non redimensionnable)
-- Similaire à un PDF enrichi
+- *Moins accessible* (texte non redimensionnable)
+- *Similaire à un PDF enrichi*
 
 Notes:
 La distinction entre EPUB Reflow et Fixed Layout est fondamentale pour l'accessibilité. L'EPUB Reflow est de loin le plus accessible : l'utilisateur peut adapter la taille de police, les couleurs, l'interlignage selon ses besoins. Le Fixed Layout impose une mise en page figée qui peut rendre la lecture très difficile sur un petit écran ou pour les utilisateurs de lecteurs d'écran. Dans notre contexte d'édition adaptée, nous nous concentrons sur le Reflow.
