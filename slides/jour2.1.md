@@ -161,15 +161,17 @@ Cela crée une obligation légale et un marché potentiel pour l'expertise en é
 
 | Standard | Description |
 |----------|-------------|
-| **WCAG 2.1/2.2** | Web Content Accessibility Guidelines (W3C) |
-| **EPUB Accessibility 1.1** | Profil d'accessibilité pour les EPUBs |
-| **ARIA** | Rôles et propriétés pour l'accessibilité web |
+| **[WCAG 2.1/2.2](https://www.w3.org/Translations/WCAG22-fr/)** | Web Content Accessibility Guidelines (W3C) |
+| **[EPUB Accessibility 1.1](https://www.w3.org/TR/epub-a11y-11/)** | Profil d'accessibilité pour les EPUBs |
+| **[ARIA](https://www.w3.org/TR/wai-aria/)** | Rôles et propriétés pour l'accessibilité web |
 | **EN 301 549** | Norme européene d'accessibilité des TIC |
 
 Notes:
 Les WCAG (Web Content Accessibility Guidelines) sont la référence internationale pour l'accessibilité numérique. 
 Elles s'organisent en trois niveaux : A (minimum), AA (standard courant) et AAA (optimal).
 L'EPUB Accessibility 1.1 est un profil spécifique aux EPUBs qui exige la conformité WCAG 2.1 niveau AA. 
+Le standard ARIA définit une liste d'attributs pouvant être ajouter aux éléments du (x)html pour en améliorer ou corriger l'accessibilité.
+
 La norme EN 301 549 (v3.2.1 depuis Mars 2021) est la norme européen qui référence les WCAG 2.1 pour les publications numériques dans le cas des marché publiques.
 (Mais cette norme ne s'applique pas qu'au publications numériques) 
 
@@ -222,7 +224,7 @@ Quid des formats DAISY ?
 
 **DAISY2** très répandu
   - 📖 Format de publication "historique" du DAISY Consortium
-  - ⛔ Pas de choix de consultation de note
+  - ⛔ Options de lecture limitée (i.e. contenu évitable)
   - Application / matériel spécialisés
 
 
@@ -234,14 +236,8 @@ du DAISY consortium.
 Le DAISY2 ou DAISY2.02 est le format le plus ancien et celui que nous distribuons a l'AVH.
 C'est le format historique du DAISY Consortium, pour lequel un grand nombre d'usager aveugles ou malvoyants possède du matériel compatible.
 Ce format pose cependant quelques problemes, qui sont pour une partie lié aux technologies utilisé par le format pour la structuration du contenu.
-Vous avez du coup des limitations sur certaines options de navigation, notamment pour le contenu dit "skipable" tel que les notes de bas de pages, qui
-sont généralement structurés au même niveau que le contenu
+Vous avez du coup des limitations sur certaines options de navigation, notamment pour le contenu "évitable" tel que les notes de bas de pages, qui sont généralement structurés au même niveau que le contenu
 
-Le DAISY3 corrige des probleme du DAISY2, surtout du point des éléments skipables, mais pour ça il utilise un format de contenu beacuoup plus contraint qui est le XML DTBook
-
-Si nous nous concentrons aujourd'hui sur l'EPUB3, c'est d'abord parceque le 
-format continue a évoluer, et le DAISY Consortium fait le pari que ce format
-sera plus facile a faire adopter aux fabricants de logiciels et de matériel spécialisé, celui-ci étant déjà répandu pour les publications numériques de nombreux éditeurs de par le monde.
 
 ---
 
@@ -251,28 +247,16 @@ Quid des formats DAISY ?
 
 
 **DAISY3**, mieux qu'avant mais moins répandu
-  - Plus d'option de lecture
-  - XML DTBook *under the hood*
+  - Plus de sémantique embarquée
+    - XML DTBook pour le contenu texte
+    - Plus d'options de lecture
   - Application / matériel spécialisés
 
 
 
 Notes:
-Vous avez peut etre remarquer que nous n'avons pas beaucoup reparler des 
-autres formats dont nous avons parler hier, notamment les formats de publication
-du DAISY consortium.
-
-Le DAISY2 ou DAISY2.02 est le format le plus ancien et celui que nous distribuons a l'AVH.
-C'est le format historique du DAISY Consortium, pour lequel un grand nombre d'usager aveugles ou malvoyants possède du matériel compatible.
-Ce format pose cependant quelques problemes, qui sont pour une partie lié aux technologies utilisé par le format pour la structuration du contenu.
-Vous avez du coup des limitations sur certaines options de navigation, notamment pour le contenu dit "skipable" tel que les notes de bas de pages, qui
-sont généralement structurés au même niveau que le contenu
 
 Le DAISY3 corrige des probleme du DAISY2, surtout du point des éléments skipables, mais pour ça il utilise un format de contenu beacuoup plus contraint qui est le XML DTBook
-
-Si nous nous concentrons aujourd'hui sur l'EPUB3, c'est d'abord parceque le 
-format continue a évoluer, et le DAISY Consortium fait le pari que ce format
-sera plus facile a faire adopter aux fabricants de logiciels et de matériel spécialisé, celui-ci étant déjà répandu pour les publications numériques de nombreux éditeurs de par le monde.
 
 ---
 
@@ -287,21 +271,11 @@ Quid des formats DAISY ?
 
 
 Notes:
-Vous avez peut etre remarquer que nous n'avons pas beaucoup reparler des 
-autres formats dont nous avons parler hier, notamment les formats de publication
-du DAISY consortium.
-
-Le DAISY2 ou DAISY2.02 est le format le plus ancien et celui que nous distribuons a l'AVH.
-C'est le format historique du DAISY Consortium, pour lequel un grand nombre d'usager aveugles ou malvoyants possède du matériel compatible.
-Ce format pose cependant quelques problemes, qui sont pour une partie lié aux technologies utilisé par le format pour la structuration du contenu.
-Vous avez du coup des limitations sur certaines options de navigation, notamment pour le contenu dit "skipable" tel que les notes de bas de pages, qui
-sont généralement structurés au même niveau que le contenu
-
-Le DAISY3 corrige des probleme du DAISY2, surtout du point des éléments skipables, mais pour ça il utilise un format de contenu beacuoup plus contraint qui est le XML DTBook
 
 Si nous nous concentrons aujourd'hui sur l'EPUB3, c'est d'abord parceque le 
 format continue a évoluer, et le DAISY Consortium fait le pari que ce format
-sera plus facile a faire adopter aux fabricants de logiciels et de matériel spécialisé, celui-ci étant déjà répandu pour les publications numériques de nombreux éditeurs de par le monde.
+sera plus facile a faire adopter aux fabricants de logiciels et de matériel spécialisé, 
+celui-ci étant déjà répandu pour les publications numériques de nombreux éditeurs de par le monde.
 
 ---
 
@@ -349,14 +323,14 @@ Thorium Reader offre de nombreuses possibilités de personnalisation qui sont es
 ## EasyReader
 
 - 🌐 [yourdolphin.com](https://www.yourdolphin.com/)
-- Développé par Dolphin Computer Access
-- Conçu **spécifiquement** pour les personnes déficientes visuelles
+- Pour les personnes déficientes visuelles
 - Support EPUB et DAISY
 - Interface simplifiée et très accessible
 - Connexion aux bibliothèques numériques
 
 Notes:
-EasyReader est une application commerciale spécialement conçue pour les personnes déficientes visuelles. Son interface est simplifiée et son intégration avec les bibliothèques numériques comme Bookshare et la BNFA en fait un outil apprécié des usagers. Il est disponible sur Windows, macOS, iOS et Android. Il existe une version gratuite limitée et une version complète payante.
+EasyReader est une application spécialement conçue pour les personnes déficientes visuelles. 
+Son interface est simplifiée et son intégration avec les bibliothèques numériques comme Bookshare et la BNFA en fait un outil apprécié des usagers. Il est disponible sur Windows, macOS, iOS et Android. Il existe une version gratuite limitée et une version complète payante.
 
 ---
 
@@ -378,54 +352,42 @@ Calibre est un logiciel de gestion de bibliothèque numérique très complet et 
 
 **Codex** est l'éditeur EPUB intégré à Calibre :
 
-- Accessible depuis Calibre via **Modifier le livre**
+- Accessible depuis Calibre via **Éditer le livre**
 - Édition directe des fichiers XHTML, CSS, OPF
-- Vue arborescence des fichiers de l'EPUB
+- Vue triée par type des fichiers de l'EPUB
 - Aperçu en temps réel
 - Outils de nettoyage et validation
 
 Notes:
 L'éditeur Codex intégré à Calibre permet d'ouvrir et de modifier directement les fichiers internes d'un EPUB. C'est utile pour des corrections ciblées qu'il serait difficile de faire autrement : supprimer un style CSS problématique, corriger une métadonnée, ajouter un attribut d'accessibilité manquant. Il n'est pas recommandé pour créer un EPUB de zéro.
 
----
-
-## Calibre/Codex
-
 **Usage typique :**
 - Corrections mineures après conversion
 - Ajout/modification de métadonnées
 - Vérification de la structure interne
 
-Notes:
-L'éditeur Codex intégré à Calibre permet d'ouvrir et de modifier directement les fichiers internes d'un EPUB. C'est utile pour des corrections ciblées qu'il serait difficile de faire autrement : supprimer un style CSS problématique, corriger une métadonnée, ajouter un attribut d'accessibilité manquant. Il n'est pas recommandé pour créer un EPUB de zéro.
-
 ---
 
-## Sigil
+
+## Sigil + PageEdit
 
 - 🌐 [sigil-ebook.com](https://sigil-ebook.com/)
 - Éditeur EPUB libre et gratuit (Windows, macOS, Linux)
 - Spécialisé dans la **création et l'édition d'EPUBs**
-- Interface WYSIWYG + vue code
-- Gestion de la table des matières
+- Vue code dans SIGIL, liaison avec PageEdit pour WYSIWYG
+  - *SIGIL > Edition > Preferences > Paramètres généraux > Editeurs XHTML externe*
+  - *SIGIL > Lancer l'éditeur XHTML Externe*
+- Gestion de la table des matières + prévisualisation
 - Plugins pour l'accessibilité et la validation
+  - [ACE dans SIGIL](https://www.mobileread.com/forums/showthread.php?t=294678)
+  - [Access-Aide](https://www.mobileread.com/forums/showthread.php?t=294900)
 
 Notes:
-Sigil est un éditeur EPUB dédié, plus complet que Codex pour la création et l'édition avancée d'EPUBs. Il propose une interface WYSIWYG pour les non-techniciens et une vue code pour les corrections précises. Son système de plugins permet d'ajouter des fonctionnalités, notamment pour vérifier l'accessibilité ou automatiser des tâches répétitives.
+Sigil est un éditeur EPUB dédié, plus complet que Codex pour la création et l'édition avancée d'EPUBs.
+L'equipe de SIGIL a décider depuis peu de sortir leur éditeur WYSIWYG pour en faire une application externe, mais vous pouvez relier les 2 via les paramètres de SIGIL.
+(Si installation locale, PageEdit sera ici : `%LOCALAPPDATA%\Programs\PageEdit\PageEdit.exe`)
 
----
-
-## Sigil – Interface
-
-| Zone | Contenu |
-|------|---------|
-| **Panneau fichiers** | Structure interne de l'EPUB |
-| **Éditeur** | Vue WYSIWYG ou code source |
-| **Table des matières** | NCX/NAV éditables |
-| **Métadonnées** | Éditeur de propriétés Dublin Core |
-
-Notes:
-L'interface de Sigil est divisée en plusieurs zones. Le panneau de fichiers à gauche montre tous les fichiers composant l'EPUB (XHTML, CSS, images, polices). L'éditeur central peut basculer entre vue visuelle et vue code. La gestion de la table des matières permet de générer ou modifier le fichier NAV qui permet la navigation dans l'EPUB.
+L'affichage des fichiers dans SIGIL est un peu moins "clean" que celui de calibre mais vous avez accès à des compléments/plugins pour l'accessibilité.
 
 ---
 
@@ -434,14 +396,14 @@ L'interface de Sigil est divisée en plusieurs zones. Le panneau de fichiers à 
 | Logiciel | Lire | Produire | Convertir | Gratuit |
 |----------|------|----------|-----------|---------|
 | **Thorium Reader** | ✅ | ❌ | ❌ | ✅ |
-| **EasyReader** | ✅ | ❌ | ❌ | 💰 |
+| **EasyReader** | ✅ | ❌ | ❌ | ✅ (+💰premium) |
 | **Calibre** | ✅ | ⚠️ | ✅ | ✅ |
 | **Sigil** | ✅ | ✅ | ❌ | ✅ |
-| **DAISY Pipeline** | ❌ | ✅ | ✅ | ✅ |
-| **SaveAsDAISY** | ❌ | ✅ | ✅ | ✅ |
 
 Notes:
-Ce tableau récapitulatif vous aide à choisir le bon outil selon votre besoin. Pour la lecture et les tests, Thorium Reader est incontournable. Pour la production à partir de Word, SaveAsDAISY ou WordToEPUB sont recommandés. Pour les corrections ciblées sur un EPUB existant, Calibre/Codex ou Sigil sont adaptés.
+Ce tableau récapitulatif vous aide à choisir le bon outil selon votre besoin.
+Pour la lecture et les tests, Thorium Reader est incontournable. 
+Pour la production à partir de Word, SaveAsDAISY ou WordToEPUB sont recommandés. Pour les corrections ciblées sur un EPUB existant, Calibre/Codex ou Sigil sont adaptés.
 
 ---
 

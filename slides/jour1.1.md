@@ -893,15 +893,22 @@ De la sémantique dans le texte
 | Logiciel | Extension recommandée | Lien |
 |----------|-----------------------|------|
 | **Notepad++** | XML Tools | [notepad-plus-plus.org](https://notepad-plus-plus.org/) |
-| **Sublime Text** | Exalt | [sublimetext.com](https://www.sublimetext.com/) |
 | **Visual Studio Code** | XML (par RedHat) | [code.visualstudio.com](https://code.visualstudio.com/) |
 | **XML Copy Editor** | - | [xmlcopyeditor.sourceforge.net](http://xmlcopyeditor.sourceforge.net/) (gratuit) |
+| **Sublime Text** | Exalt | [sublimetext.com](https://www.sublimetext.com/) (payant) |
 | **XMLSpy** | - | [altova.com](https://www.altova.com/fr/xmlspy-xml-editor) (payant) |
 | **Oxygen XML Editor** | - | [oxygenxml.com](https://www.oxygenxml.com/) (payant) |
 
 
 Notes:
-Pour travailler avec des fichiers XML, plusieurs outils sont disponibles. Notepad++ est un bon point de départ sur Windows grâce à sa coloration syntaxique et ses plugins. Visual Studio Code est une alternative gratuite et puissante, disponible sur toutes les plateformes, avec des extensions dédiées au XML. Pour une utilisation professionnelle, oXygen XML Editor offre des fonctionnalités avancées comme la validation en temps réel et la transformation XSLT. Les navigateurs web peuvent afficher les fichiers XML mais sans validation ni édition.
+Pour travailler avec des fichiers XML, plusieurs outils sont disponibles. 
+Notepad++ est un bon point de départ sur Windows grâce à sa coloration syntaxique et ses plugins (mais il vous faudra les droits administrateur). 
+Visual Studio Code est une alternative gratuite et puissante, plus à destination des développeurs mais disponible sur toutes les plateformes, avec des extensions dédiées au XML dont une faite par Redhat. 
+
+Pour une utilisation professionnelle, oXygen XML Editor offre des fonctionnalités avancées comme la validation en temps réel et la transformation XSLT.
+
+Pour dépanner, les navigateurs web peuvent afficher les fichiers XML mais sans validation ni édition.
+*demo visualisation avec et sans PI xml-stylesheet*
 
 ---
 

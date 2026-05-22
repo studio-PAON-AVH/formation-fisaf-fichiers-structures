@@ -185,7 +185,7 @@ Le serveur hélène a été racheté par l'Association Valentin Haüy. Ses fichi
 
 ## 2.b – Convertir un DTBook en fichier Word
 
-**Via DAISY Pipeline App :**
+**Via DAISY Pipeline App :** *(demo live)*
 
 1. Lancer DAISY Pipeline App
 2. Choisir aux choix
@@ -197,20 +197,19 @@ Le serveur hélène a été racheté par l'Association Valentin Haüy. Ses fichi
 6. Ouvrir le fichier `.docx` généré dans Word
 
 Notes:
-La conversion DTBook vers Word via DAISY Pipeline préserve la structure sémantique du fichier : les éléments level1/h1 deviennent des Titres 1 Word, les level2/h2 des Titres 2, etc. Les listes, tableaux et images sont également convertis. Il peut subsister des ajustements à faire manuellement, notamment pour les mises en page complexes.
+La conversion DTBook vers Word via DAISY Pipeline préserve la structure sémantique du fichier : les éléments level1/h1 deviennent des Titres 1 Word, les level2/h2 des Titres 2, etc. Les listes, tableaux et images sont également convertis.
+Il peut subsister des ajustements à faire manuellement, notamment pour les mises en page complexes.
 
 ---
 
 ## 🛠️ Exercice 1
 
-**Convertir un fichier DTBook en Word**
+**À vous de jouer !**
 
-1. Ouvrir DAISY Pipeline App
-2. Charger le fichier [`exercice1.xml`](exercices/exercice1.xml) fourni
-3. Choisir le script de conversion DTBook → ODT ou RTF
-4. Exécuter la conversion
-5. Ouvrir le fichier Word résultant
-6. Observer la structure : styles, titres, paragraphes
+1. Convertissez en *ODT* le fichiers [`exercice1.xml`](exercices/exercice1.xml)
+  - cadeau : un [modèle OTT](exercices/dtbook-to-odt.ott)
+2. Convertissez en *RTF* le fichiers [`exercice1.xml`](exercices/exercice1.xml)
+3. Observer la structure des 2 résultats : styles, titres, paragraphes
 
 **Durée : 15 minutes**
 
@@ -224,7 +223,7 @@ Pour cet exercice, vous disposez d'un fichier DTBook préparé à l'avance. L'ob
 ## Structurer un document dans Word *(exercices)*
 
 Notes:
-La qualité d'un fichier DTBook ou EPUB dépend directement de la qualité de la structuration du document Word source. Cette partie est essentielle : une bonne structuration dès la saisie évite de nombreux problèmes lors de la conversion.
+La qualité d'un fichier DTBook (ou EPUB) dépend directement de la qualité de la structuration du document Word source. Cette partie est essentielle : une bonne structuration dès la saisie évite de nombreux problèmes lors de la conversion.
 
 ---
 
@@ -241,7 +240,9 @@ La qualité d'un fichier DTBook ou EPUB dépend directement de la qualité de la
 7. 📄 **Métadonnées** : titre, auteur, description
 
 Notes:
-Ces sept règles constituent la base de l'accessibilité d'un document Word. La plus importante est l'utilisation des styles de titres : sans eux, il n'y a pas de structure sémantique et la conversion ne peut pas produire un DTBook ou un EPUB de qualité. Le vérificateur d'accessibilité intégré à Word (Révision → Vérifier l'accessibilité) peut aider à identifier les problèmes.
+Ces sept règles constituent la base de l'accessibilité d'un document Word. 
+La plus importante est l'utilisation des styles de titres : sans eux, il n'y a pas de structure sémantique pour la navigation et la conversion ne peut pas produire un DTBook ou un EPUB de qualité.
+Le vérificateur d'accessibilité intégré à Word (Révision → Vérifier l'accessibilité) peut aider à identifier une partie de ses problèmes, mais pas ceux sur les niveaux de titres et les métadonnées.
 
 ---
 
@@ -261,46 +262,34 @@ Document Word
 **Important :** Ne pas sauter de niveau (pas de Titre 3 après Titre 1) !
 
 Notes:
-La hiérarchie des titres doit être respectée sans sauter de niveaux. Un Titre 3 doit toujours être précédé d'un Titre 2, lui-même précédé d'un Titre 1. Sauter des niveaux (par exemple passer directement de Titre 1 à Titre 3) crée des incohérences dans la structure qui seront répercutées dans le DTBook et l'EPUB, et peuvent nuire à la navigation.
+La hiérarchie des titres doit être respectée sans sauter de niveaux. 
+Un Titre 3 doit toujours être précédé d'un Titre 2, lui-même précédé d'un Titre 1. Sauter des niveaux (par exemple passer directement de Titre 1 à Titre 3) crée des incohérences dans la structure qui seront répercutées dans le DTBook et l'EPUB, et peuvent nuire à la navigation.
 
 ---
 
-## 3.b – Les styles SaveAsDAISY
+## Les styles SaveAsDAISY
 
-Ajouts de styles Word pour la structuration
+Styles complémentaires pour la structuration
 
-- Sections de contenues (sur paragraphe vide)
-  - *Frontmatter (DAISY)*, *Bodymatter (DAISY)*, *Rearmatter (DAISY)*
+> Finissant en *(DAISY)*
+
+> **Styles convertis en balises du DTBook correspondante**
+
+Exemples :
 - `covertitle` (titre de couverture) : *Covertitle (DAISY)*
 - `bridgehead` (intertitre) : *Bridgehead (DAISY)*
-- `dateline` (ligne de date) : *Dateline (DAISY)*
-- `cite` (citation) : *Citation (DAISY)*
-- `code` (élément de code) : *Code (DAISY)*
-- `prodnote` (note de production / transcription)
-  - *Prodnote - Optional (DAISY)*, *Prodnote - Required (DAISY)*
-- `dl dt dd` (liste des définitions)
-  - *Definition Term(DAISY)*, *Definition Data(DAISY)*
 - `pagenumber` (numéro original de la page dans l'imprimé) : *Page Number (DAISY)*
-- `epigraph` (épigraphe)
-  - *Epigraph - Author (DAISY)*, *Epigraph (DAISY)* 
-- `sidebar` (i.e texte en marge / apparté) :
-  - *Sidebar - Required (DAISY)*, *Sidebar - Optional (DAISY)*, *Sidebar header - Required (DAISY)*
-- `poem` (poème)
-  - *Poem - Author (DAISY)*, *Poem - Byline (DAISY)* ,*Poem - Heading (DAISY)* , *Poem - Title (DAISY)* ,*Poem (DAISY)*
 - `blockquote` (bloque de citation)
   - *Blockquote - Author (DAISY)*, *Blockquote (DAISY)*
-- `sidebar` (i.e texte en marge / apparté) :
-  - *Sidebar - Required (DAISY)*, *Sidebar - Optional (DAISY)*, *Sidebar header - Required (DAISY)*
-- Titre de liste : *List - Heading (DAISY)*
 
 Notes:
-Les styles DAISY étendent les possibilités de structuration de Word pour couvrir des éléments spécifiques à l'édition adaptée. Le style DAISY Prodnote est particulièrement important : il permet au transcripteur d'ajouter des informations qui ne figurent pas dans le texte original mais qui sont nécessaires pour l'accessibilité, comme la description d'une image complexe. Ces notes de production ne sont pas lues dans l'édition grand public.
+Les styles DAISY étendent les possibilités de structuration de Word pour couvrir des éléments spécifiques à l'édition adaptée. 
 
 ---
 
 ## 🛠️ Exercice 2
 
-**Structurer un document Word pour la conversion DTBook**
+**A vous de jouer/experimenter**
 
 1. Récupérer [`exercice2.docx`](exercices/exercice2.docx)
 2. Appliquer les **styles de titres** corrects (Titre 1, 2, 3…)
@@ -325,6 +314,7 @@ Titre en majuscule
 
 Votre objectif c'est d'avoir en sortie un document word structuré qui passe le vérificateur d'accessibilité.
 
+(exemple)
 
 ---
 
@@ -404,7 +394,7 @@ Pour cet exercice, utilisez le document que vous avez structuré lors de l'exerc
 - 📄 Le XML DTBook généré reflète fidèlement la structure du Word source
 
 Notes:
-Pour résumer cette après-midi : la qualité du fichier DTBook ou EPUB produit est directement proportionnelle à la qualité de la structuration du document Word source. Les outils ne peuvent pas compenser une mauvaise structuration. L'investissement dans la structuration dès la saisie est toujours rentable à long terme.
+Pour résumer cette après-midi : la qualité du fichier DTBook (ou EPUB) produit est directement proportionnelle à la qualité de la structuration du document Word source. Les outils ne peuvent pas compenser une mauvaise structuration. L'investissement dans la structuration dès la saisie est toujours rentable à long terme.
 
 ---
 

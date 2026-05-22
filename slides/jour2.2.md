@@ -20,6 +20,7 @@ Bienvenue dans cette dernière session de la formation. Cet après-midi est enti
    - Structuration et métadonnées
 3. Générer un EPUB accessible *(exercices)*
    - Via WordToEPUB
+   - Via DAISY Pipeline App
    - Via SaveAsDAISY
    - Créer un EPUB Media Overlay
 4. Contrôler et valider un EPUB
@@ -43,19 +44,22 @@ Cette première partie couvre la conversion dans le sens inverse : partir d'un E
 **Calibre** peut convertir un EPUB en DOCX :
 
 1. Ouvrir Calibre et importer le fichier EPUB
-2. Sélectionner le livre → **Convertir les livres**
-3. Choisir le **format de sortie : DOCX**
-4. Options de conversion :
-   - Conserver les styles
-   - Convertir les images
-   - Structure des chapitres
+2. Sélectionner le livre → *Convertir des livres*
+3. Choisir le *format de sortie* : **DOCX**
+4. Exemples d'options :
+   - ✅ *Ajouter du texte alt aux images*
+   - ✅ *Ne pas insérer la table des matières en tant que page au début du document*
 5. Lancer la conversion
 6. *Enregistrer sous un seul format* > *DOCX* > choisir le dossier de sortie
 
 ⚠️ La qualité dépend de la structure de l'EPUB source
 
 Notes:
-La conversion EPUB vers DOCX via Calibre fonctionne bien pour les EPUBs bien structurés. Le résultat peut nécessiter des ajustements, notamment pour les styles qui ne correspondent pas exactement aux styles Word natifs. Pour les EPUBs Fixed Layout ou avec des mises en page complexes, la conversion sera moins fidèle.
+La conversion EPUB vers DOCX via Calibre fonctionne bien pour les EPUBs bien structurés. 
+Le résultat peut nécessiter des ajustements, notamment pour les styles qui ne correspondent pas exactement aux styles Word natifs. 
+Calibre a de plus tendances a tenter de reproduire la mise en page de l'epub, là ou nous cherchons principalement à récupérer le contenu et la structure.
+Pour les EPUBs Fixed Layout ou avec des mises en page complexes, la conversion sera moins fidèle.
+
 
 ---
 
@@ -63,55 +67,36 @@ La conversion EPUB vers DOCX via Calibre fonctionne bien pour les EPUBs bien str
 
 **[WordToEPUB](https://daisy.org/wordtoepub)**, complément word du DAISY Consortium
 
-- Spécialisé dans la **conversion Word → EPUB 3 accessible**
+Spécialisé dans la **conversion Word → EPUB 3 accessible** MAIS
 
-> **Peut aussi reconvertir un EPUB en Word :**
+> **Peut aussi reconvertir un EPUB en Word avec`EPUBToWord.exe`**
 
-Outils `EPUBToWord.exe` *caché* dans `C:\Program Files (x86)\DAISY\WordToEPUB`
+Si pas dans votre liste d'applications, voir dossier:<br/>
+`C:\Program Files (x86)\DAISY\WordToEPUB`
 
-![outils caché EpubToWord](images/epubtoword.png)
+
+![outils EpubToWord](images/epubtoword.png)
 
 Notes:
-C'est un peu moins connu mais WordToEPUB, qui est d'abord un outil de génération d'epub accessible a partir de word, fournis aussi un outil "EPUBToWord" dans son répertoire d'installation.
+C'est un peu moins connu mais WordToEPUB, qui est d'abord un outil de génération d'epub accessible a partir de word, fournis aussi un outil "EPUBToWord" dans son installation.
 Selon vos objectifs, cette option peut s'avérer beaucoup plus rapide et pratique si vous n'avez pas besoin de toutes les options de conversions de styles.
+Attention toutefois : l'outils convertit les niveaux de titre "tel quel", donc si votre epub utilise des h3 pour ses titres de chapitres de premier niveau, vous devrez restyler les titres en sortie avec le style correspondant au bon niveau.
 
 ---
 
 ## 🛠️ Exercice 4
 
+**A vous de jouer !**
+
 1. Télécharger et installer [WordToEPUB](https://daisy.org/wordtoepub)
 2. Récupérer le fichier [`exercice4.epub`](exercices/exercice4.epub)
 3. Convertisser le fichier en docx
   - Via Calibre, en fichier `exercice4_calibre.docx`
-  - Via WordToEPUB, puis renommer le fichier en `exercice4_WordToEPUB.docx`
+  - Via EPUBToWord, puis renommer le fichier en `exercice4_WordToEPUB.docx`
 4. Ouvrez les fichiers et comparer les résultats.
 
 Notes:
-A vous de jouer !
 
----
-
-## Bonne pratique : conserver vos fichiers
-
-Hormis si le fichier est un manuscrit d'un éditeur
-
-<small>(protégé par le droit d'auteur)</small>
-
-> **Conserver votre fichier Word de travail**  
-> C'est la meilleure base pour toute modification ou reconversion.
-
-Flux de travail recommandé :
-
-```
-[Source Word structurée] → [EPUB accessible]
-         ↑                        ↓
-    Modifications          Validation / Corrections
-         ↑                        ↓
-    [Source Word mise à jour] ← [Retour si nécessaire]
-```
-
-Notes:
-La conservation du fichier Word source est une règle d'or de la production d'EPUBs. Toute modification ultérieure (correction d'erreur, mise à jour du contenu, reconversion dans un nouveau format) sera beaucoup plus simple et fiable à partir du Word structuré que depuis l'EPUB. Il est recommandé de versionner les fichiers sources et de les archiver systématiquement.
 
 ---
 
@@ -263,19 +248,42 @@ SaveAsDAISY produit également des EPUBs 3 accessibles directement depuis Word. 
 
 ---
 
-## Comparatif compléments Word | WordToEPUB vs SaveAsDAISY
+## Conversion via DAISY Pipeline App
 
-| Critère | WordToEPUB | SaveAsDAISY |
-|---------|------------|-------------|
-| **Métadonnées d'accessibilité** | ✅ Complet | ✅ Limité |
-| **EPUB Media Overlay** | ❌ | ✅ |
-| **Autres formats (XML,DAISY,MP3)** | ❌ | ✅ |
-| **Accessibilité EPUB** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
-| **Facilité d'utilisation** | ⭐⭐⭐⭐ | ⭐⭐⭐ |
+**Via l'application DAISY Pipeline**
+
+1. Ouvrez l'application et sélectionner le script **Word to EPUB3**
+2. Sélectionner votre fichier word.
+3. Remplissez le formulaire avec les éventuelles métadonnées manquantes.
+  - Désactiver l'option *Enable texte-to-speech* pour les essai
+6. Cliquez sur **run** pour lancer la conversion
 
 Notes:
-Le choix entre WordToEPUB et SaveAsDAISY dépend de vos besoins. WordToEPUB est plus simple et plus complet en terme de controle sur les métadonnées, ce qui en fait un bon point d'entrée *si vous n'avez besoin que d'un epub texte accessible*.
+La DAISY Pipeline app peut également permettre la production de ces epubs mais uniquement par conversion d'un fichier correctement structuré.
+
+Un avantage de SaveAsDAISY est la possibilité de sauvegarder les paramètres de configuration pour les réutiliser lors de conversions ultérieures.
+
+---
+
+## Comparatif - DAISY pour les EPUBs
+
+| Critère | WordToEPUB | SaveAsDAISY | DPApp |
+|---------|------------|-------------|-------| 
+| **Editions métadonnées** | ⭐⭐⭐ Complet | ⭐⭐ Limité |  ⭐ très Limité |
+| **EPUB Media Overlay** | ❌ | ✅ | ✅ |
+| **Autres formats (XML,DAISY,MP3)** | ❌ | ✅ | ✅ |
+| **Accessibilité EPUB produit** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| **Facilité/Rapidité** | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+
+Notes:
+Le choix entre WordToEPUB, SaveAsDAISY et l'application DAISY Pipeline dépend de vos besoins. WordToEPUB est plus simple et plus complet en terme de controle sur les métadonnées, ce qui en fait un bon point d'entrée *si vous n'avez besoin que d'un epub texte accessible*.
 SaveAsDAISY est moins à jour sur l'accessibilité des EPUB mais il peut générer des Media Overlays pour les livres audio structurés en plus d'autres format de publications ou dy XML DTBook.
+La DAISY Pipeline app quand a elle est surtout une application
+de conversion, avec quelques options de conversion permettant
+la mise à jour de métadonnée et qui peut également produire 
+des epubs mediaopverlay (avec plus d'options pour la synthèse vocale).
+L'application part cependant plutot du principe que les métadonnées ont été déjà définis via WordToEPUB ou SaveAsDAISY
+det sont enregistrées dans le document. 
 Le consortium à pour objectif à terme de réunir les 2 compléments en un seul via SaveAsDAISY pour reconcentrer les ressources en développements, mais aussi pour mettre plus en avant les epub Media Overlay avec audio embarqué.
 
 ---
@@ -292,7 +300,7 @@ Le consortium à pour objectif à terme de réunir les 2 compléments en un seul
 [Lecture synchronisée dans Thorium / EasyReader]
 ```
 
-**Usage :** livres audio structurés, ouvrages pour lecteurs avec difficultés de lecture
+**Usage :** livres audio structurés, ouvrages pour lecteurs avec difficultés de lecture textuelle
 
 Notes:
 
@@ -307,13 +315,14 @@ Le fichier SMIL (Synchronized Multimedia Integration Language) est le cœur du M
 
 ## Créer un EPUB Media Overlay 
 
+> Nécessite des voix de synthèse installée (Microsoft ou autre)
+
 Dans **SaveAsDAISY**, activer l'option *text-to-speech* :
 - *Exporter* / *EPUB3* / *Enable text-to-speech*
-- Nécessite des voix de synthèse installer (Microsoft ou autre)
 
 
-Dans **DAISY Pipeline app**, en repartant d'un dtbook XML
-- Script **DTBOOK to EPUB**
+Dans **DAISY Pipeline app**
+- Script **Word to EPUB**
 - Cocher l'option *Enable text-to-speech*
 - CLiquer sur **run** pour lancer la conversion
 
@@ -322,6 +331,8 @@ Dans **DAISY Pipeline app**, en repartant d'un dtbook XML
 Notes:
 
 Avec les outils utilisant le DAISY Pipeline, tel que SaveAsDAISY, il est possible de générer des epubs media overlay simplement en activant l'option dans le script approprié.
+A noter que SaveAsDAISY est en train d'évoluer pour pouvoir utiliser
+la DAISY Pipeline App et obtenir a terme des titres de meilleurs qualité.
 
 ---
 
@@ -339,7 +350,8 @@ Avec les outils utilisant le DAISY Pipeline, tel que SaveAsDAISY, il est possibl
 **Durée : 25 minutes**
 
 Notes:
-Après la génération de l'EPUB, testez la lecture synchronisée dans Thorium Reader : activez l'option de lecture audio et observez comment le texte est mis en surbrillance. Vérifiez également que la navigation par chapitre fonctionne avec la synchronisation audio.
+Après la génération de l'EPUB, testez la lecture synchronisée dans Thorium Reader : activez l'option de lecture audio et observez comment le texte est mis en surbrillance. 
+Vérifiez également que la navigation par chapitre fonctionne avec la synchronisation audio.
 
 ---
 
@@ -361,11 +373,14 @@ La production d'un EPUB ne s'arrête pas à la conversion. Il est indispensable 
 - Vérifie la **conformité technique** au standard EPUB
 - Détecte les erreurs de structure, de métadonnées, de liens…
 
-
 Notes:
-EPUBCheck est l'outil de référence pour la validation technique des EPUBs. Il est utilisé par les éditeurs, les bibliothèques et les distributeurs pour vérifier la conformité des fichiers avant publication. Un EPUB qui ne passe pas EPUBCheck sans erreur peut poser des problèmes dans certaines liseuses ou lors de la distribution. EPUBCheck ne vérifie pas l'accessibilité (c'est le rôle d'ACE), mais seulement la conformité technique au standard EPUB.
+*Demo en live*
 
-Nous ne le testeront pas ici, parceque je ne me sens pas de vous faire faire de la ligne de commande.
+EPUBCheck est l'outil de référence pour la validation technique des EPUBs. 
+Il est utilisé par les éditeurs, les bibliothèques et les distributeurs pour vérifier la conformité des fichiers avant publication. 
+Un EPUB qui ne passe pas EPUBCheck sans erreur peut poser des problèmes dans certaines liseuses ou lors de la distribution. 
+EPUBCheck ne vérifie pas l'accessibilité (c'est le rôle d'ACE), mais seulement la conformité technique au standard EPUB.
+
 
 ---
 
@@ -381,7 +396,10 @@ Nous ne le testeront pas ici, parceque je ne me sens pas de vous faire faire de 
 **Objectif :** 0 erreur, 0 avertissement (ou justifiés)
 
 Notes:
-Les erreurs fatales empêchent complètement la lecture de l'EPUB. Les erreurs signalent des non-conformités qui doivent être corrigées. Les avertissements indiquent des pratiques déconseillées qui peuvent poser problème sur certaines liseuses. L'objectif est d'obtenir un rapport EPUBCheck sans erreur ni avertissement, ou en pouvant justifier chaque avertissement restant.
+Les erreurs fatales empêchent complètement la lecture de l'EPUB. 
+Les erreurs signalent des non-conformités qui doivent être corrigées. 
+Les avertissements indiquent des pratiques déconseillées qui peuvent poser problème sur certaines liseuses. 
+L'objectif est d'obtenir un rapport EPUBCheck sans erreur ni avertissement, ou en pouvant justifier chaque avertissement restant.
 
 ---
 
@@ -390,7 +408,6 @@ Les erreurs fatales empêchent complètement la lecture de l'EPUB. Les erreurs s
 **ACE** (*Accessibility Checker for EPUB*) est l'outil d'audit d'accessibilité
 
 - 🌐 [daisy.org/ace](https://daisy.org/ace)
-- Développé par le DAISY Consortium
 - Vérifie la **conformité WCAG** et **EPUB Accessibility**
 - Génère un rapport HTML détaillé
 
@@ -512,6 +529,7 @@ Ces deux jours vous ont donné les bases théoriques et pratiques pour produire 
 | Ressource | URL |
 |-----------|-----|
 | **DAISY Consortium** | daisy.org |
+| **Inclusive Publishing** | daisy.org |
 | **WordToEPUB** | daisy.org/wordtoepub |
 | **Thorium Reader** | edrlab.org/thorium-reader |
 | **ACE** | daisy.org/ace |
@@ -528,7 +546,7 @@ Ces ressources vous permettront de continuer à approfondir vos connaissances ap
 
 _Questions ? [Contactez-moi](mailto:n.pavie@avh.asso.fr) !_
 
-> (La suite avec M. Chomel pour InDesign)
+> (La suite avec M. Chomel)
 
 Notes:
 Et ce sera tout pour moi sur cette sessions, j'espère vous avoir appris des choses utilises.
